@@ -3,9 +3,9 @@
 
 #include <stdio.h>
 
-extern FILE *LOG_FILE;
+//extern FILE *LOG_FILE;
 
-void closelog();
-void openlog(const char *filename);
+void closelog(FILE *lf);
+FILE* openlog(const char *filename);
 
 #endif // LOGFILE_H_INCLUDED

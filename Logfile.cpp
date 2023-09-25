@@ -4,24 +4,32 @@
 
 #include "Logfile.h"
 
-FILE *LOG_FILE = stderr;
-//char *EXTENSION = ".log";
+//const char *LOG_FILE = "Stackerrors";
 
-void closelog() {
-    fprintf(LOG_FILE, "Файл успешно закрыт\n");
-    fclose(LOG_FILE);
+//FILE *LOG_FILE = stderr;
+
+const char *EXTENSION = ".log";
+
+void closelog(FILE *lf) {
+    fprintf(lf, "--------------Файл успешно закрыт--------------\n\n\n");
+    fclose(lf);
 }
 
 
-void openlog(const char *filename) {
+FILE *openlog(const char *filename) {
 
     char *file_name = strdup(filename);
-    LOG_FILE = fopen(strcat(file_name, ".log"), "a");
+    FILE *logfile = fopen(strcat(file_name, EXTENSION), "a");
 
-    if (LOG_FILE == NULL) {
-        LOG_FILE = stderr;
+    if (logfile == NULL) {
+        logfile = stderr;
+        return logfile;
     }
 
-    atexit(closelog);
+    fprintf(logfile, "--------------Файл создан--------------\n");
+
+    return logfile;
+
+    //atexit(closelog(logfile));
 }
 

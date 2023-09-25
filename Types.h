@@ -3,12 +3,12 @@
 
 #include <stdio.h>
 
-#define ELEMF "%d"
+#define ELEMF "%lld"
 
-typedef long long elem_t;
+typedef long long int elem_t;
 
-typedef long long hash_t;
+typedef long long int hash_t;
 
-typedef unsigned long long canary_t;
+typedef unsigned long long int canary_t;
 
 #endif // TYPES_H_INCLUDED

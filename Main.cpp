@@ -2,15 +2,18 @@
 
 #include "Types.h"
 #include "Stack.h"
+#include "Logfile.h"
 
 
 int main() {
+
+    //fopen(LOG_FILE);
 
     struct Stack stk = {};
 
     stack_ctor(&stk, StackCapacity);
 
-    //PRINT_STACK(&stk);
+    PRINT_STACK(&stk);
 
 
     for (int i = 0; i < 8; i++) {
