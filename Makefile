@@ -17,6 +17,9 @@ Main.o: Main.cpp
 Stack.o: Stack.cpp
 	$(CC) $(CFLAGS) $< -c -o $@
 
+Logfile.o: Logfile.cpp
+	$(CC) $(CFLAGS) $< -c -o $@
+
 
 .PHONY: all clean
 

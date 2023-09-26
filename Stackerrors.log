@@ -307,3 +307,575 @@ data end canary = 3
 --------------Файл успешно закрыт--------------
 
 
+ERROR! size > capacity 
+
+ERROR! Value of canary has been changed
+
+ERROR! Value of hash has been changed
+
+stack_dump from file: stack.cpp line 210 function: print_errors
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+size = 5
+capacity = 3
+hash = 46
+
+data beginning canary = BADCAFE
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+*[4] = 4
+data end canary = 3
+
+
+ERROR! size > capacity 
+
+ERROR! Value of canary has been changed
+
+ERROR! Value of hash has been changed
+
+stack_dump from file: stack.cpp line 210 function: print_errors
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+size = 4
+capacity = 3
+hash = 13
+
+data beginning canary = BADCAFE
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+data end canary = 3
+
+
+ERROR! size > capacity 
+
+ERROR! Value of canary has been changed
+
+stack_dump from file: stack.cpp line 210 function: print_errors
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+size = 4
+capacity = 3
+hash = 13
+
+data beginning canary = BADCAFE
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+data end canary = 3
+
+
+--------------Файл успешно закрыт--------------
+
+
+ERROR! size > capacity 
+
+ERROR! Value of canary has been changed
+
+ERROR! Value of hash has been changed
+
+stack_dump from file: stack.cpp line 210 function: print_errors
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+size = 5
+capacity = 3
+hash = 46
+
+data beginning canary = BADCAFE
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+*[4] = 4
+data end canary = 3
+
+
+ERROR! size > capacity 
+
+ERROR! Value of canary has been changed
+
+ERROR! Value of hash has been changed
+
+stack_dump from file: stack.cpp line 210 function: print_errors
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+size = 4
+capacity = 3
+hash = 13
+
+data beginning canary = BADCAFE
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+data end canary = 3
+
+
+ERROR! size > capacity 
+
+ERROR! Value of canary has been changed
+
+stack_dump from file: stack.cpp line 210 function: print_errors
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+size = 4
+capacity = 3
+hash = 13
+
+data beginning canary = BADCAFE
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+data end canary = 3
+
+
+--------------Файл успешно закрыт--------------
+
+
+ERROR! size > capacity 
+
+ERROR! Value of canary has been changed
+
+ERROR! Value of hash has been changed
+
+stack_dump from file: stack.cpp line 210 function: print_errors
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+size = 5
+capacity = 3
+hash = 46
+
+data beginning canary = BADCAFE
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+*[4] = 4
+data end canary = 3
+
+
+ERROR! size > capacity 
+
+ERROR! Value of canary has been changed
+
+ERROR! Value of hash has been changed
+
+stack_dump from file: stack.cpp line 210 function: print_errors
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+size = 4
+capacity = 3
+hash = 13
+
+data beginning canary = BADCAFE
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+data end canary = 3
+
+
+ERROR! size > capacity 
+
+ERROR! Value of canary has been changed
+
+stack_dump from file: stack.cpp line 210 function: print_errors
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+size = 4
+capacity = 3
+hash = 13
+
+data beginning canary = BADCAFE
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+data end canary = 3
+
+
+--------------Файл успешно закрыт--------------
+
+
+ERROR! size > capacity 
+
+ERROR! Value of canary has been changed
+
+ERROR! Value of hash has been changed
+
+stack_dump from file: stack.cpp line 210 function: print_errors
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+size = 5
+capacity = 3
+hash = 46
+
+data beginning canary = BADCAFE
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+*[4] = 4
+data end canary = 3
+
+
+ERROR! size > capacity 
+
+ERROR! Value of canary has been changed
+
+ERROR! Value of hash has been changed
+
+stack_dump from file: stack.cpp line 210 function: print_errors
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+size = 4
+capacity = 3
+hash = 13
+
+data beginning canary = BADCAFE
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+data end canary = 3
+
+
+ERROR! size > capacity 
+
+ERROR! Value of canary has been changed
+
+stack_dump from file: stack.cpp line 210 function: print_errors
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+size = 4
+capacity = 3
+hash = 13
+
+data beginning canary = BADCAFE
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+data end canary = 3
+
+
+--------------Файл успешно закрыт--------------
+
+
+--------------Файл создан в 19:09:59--------------
+ERROR! size > capacity 
+
+ERROR! Value of canary has been changed
+
+ERROR! Value of hash has been changed
+
+stack_dump from file: stack.cpp line 210 function: print_errors
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+size = 5
+capacity = 3
+hash = 46
+
+data beginning canary = BADCAFE
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+*[4] = 4
+data end canary = 3
+
+
+ERROR! size > capacity 
+
+ERROR! Value of canary has been changed
+
+ERROR! Value of hash has been changed
+
+stack_dump from file: stack.cpp line 210 function: print_errors
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+size = 4
+capacity = 3
+hash = 13
+
+data beginning canary = BADCAFE
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+data end canary = 3
+
+
+ERROR! size > capacity 
+
+ERROR! Value of canary has been changed
+
+stack_dump from file: stack.cpp line 210 function: print_errors
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+size = 4
+capacity = 3
+hash = 13
+
+data beginning canary = BADCAFE
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+data end canary = 3
+
+
+--------------Файл успешно закрыт--------------
+
+
+--------------Файл создан в 19:19:16--------------
+ERROR! size > capacity 
+
+ERROR! Value of canary has been changed
+
+ERROR! Value of hash has been changed
+
+stack_dump from file: stack.cpp line 210 function: print_errors
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+size = 5
+capacity = 3
+hash = 46
+
+data beginning canary = BADCAFE
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+*[4] = 4
+data end canary = 3
+
+
+ERROR! size > capacity 
+
+ERROR! Value of canary has been changed
+
+ERROR! Value of hash has been changed
+
+stack_dump from file: stack.cpp line 210 function: print_errors
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+size = 4
+capacity = 3
+hash = 13
+
+data beginning canary = BADCAFE
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+data end canary = 3
+
+
+ERROR! size > capacity 
+
+ERROR! Value of canary has been changed
+
+stack_dump from file: stack.cpp line 210 function: print_errors
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+size = 4
+capacity = 3
+hash = 13
+
+data beginning canary = BADCAFE
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+data end canary = 3
+
+
+--------------Файл успешно закрыт--------------
+
+
+--------------Файл создан в 19:20:05--------------
+ERROR! size > capacity 
+
+ERROR! Value of canary has been changed
+
+ERROR! Value of hash has been changed
+
+stack_dump from file: stack.cpp line 210 function: print_errors
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+size = 5
+capacity = 3
+hash = 46
+
+data beginning canary = BADCAFE
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+*[4] = 4
+data end canary = 3
+
+
+ERROR! size > capacity 
+
+ERROR! Value of canary has been changed
+
+ERROR! Value of hash has been changed
+
+stack_dump from file: stack.cpp line 210 function: print_errors
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+size = 4
+capacity = 3
+hash = 13
+
+data beginning canary = BADCAFE
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+data end canary = 3
+
+
+ERROR! size > capacity 
+
+ERROR! Value of canary has been changed
+
+stack_dump from file: stack.cpp line 210 function: print_errors
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+size = 4
+capacity = 3
+hash = 13
+
+data beginning canary = BADCAFE
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+data end canary = 3
+
+
+--------------Файл успешно закрыт--------------
+
+
+--------------Файл создан в 19:37:38--------------
+ERROR! size > capacity 
+
+ERROR! Value of canary has been changed
+
+ERROR! Value of hash has been changed
+
+stack_dump from file: stack.cpp line 208 function: print_errors
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+size = 5
+capacity = 3
+hash = 46
+
+data beginning canary = BADCAFE
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+*[4] = 4
+data end canary = 3
+
+
+ERROR! size > capacity 
+
+ERROR! Value of canary has been changed
+
+ERROR! Value of hash has been changed
+
+stack_dump from file: stack.cpp line 208 function: print_errors
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+size = 4
+capacity = 3
+hash = 13
+
+data beginning canary = BADCAFE
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+data end canary = 3
+
+
+ERROR! size > capacity 
+
+ERROR! Value of canary has been changed
+
+stack_dump from file: stack.cpp line 208 function: print_errors
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+size = 4
+capacity = 3
+hash = 13
+
+data beginning canary = BADCAFE
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+data end canary = 3
+
+
+--------------Файл успешно закрыт--------------
+
+

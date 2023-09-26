@@ -11,6 +11,8 @@ var.var_name = #var; */
 
 int main() {
 
+    open_log("Stackerrors.log");
+
     //fopen(LOG_FILE);
 
     struct Stack stk = {};

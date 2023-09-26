@@ -5,8 +5,6 @@
 #define STACK_VERIFY(stk, err) {if (stack_verify(stk, err) > 0) { \
             print_errors(stk, err); }\
 }
-            //stack_dump((stk), __FILE__, __LINE__, __func__); }\
-}
 
 
 #include "Types.h"
@@ -29,7 +27,7 @@ int stack_ctor(Stack *stk, int capacity) {
         stk->capacity = capacity;
 
         stk->data[0] = CanaryBuf; // канарейка на начало буфера
-        stk->data[capacity + 1] = CanaryBuf; //канарейка на конец буфера         // stack->data == nullptr?
+        stk->data[capacity + 1] = CanaryBuf; //канарейка на конец буфера
 
         stk->hash = stack_calculate(stk);
     }
@@ -197,19 +195,19 @@ int stack_verify (const struct Stack *stk, struct Errors *err) {
 
 void print_errors(const struct Stack *stk, const struct Errors *err) {
 
-    FILE* fp = openlog("Stackerrors");
+    //FILE* fp = openlog("Stackerrors");
 
-    if (err->stack_null)        fprintf(fp, "ERROR! Pointer to stk is NULL\n\n");
-    if (err->data_null)         fprintf(fp, "ERROR! Pointer to stk.data is NULL\n\n");
-    if (err->negative_size)     fprintf(fp, "ERROR! size < 0\n\n");
-    if (err->negative_capacity) fprintf(fp, "ERROR! capacity < 0\n\n");
-    if (err->small_capacity)    fprintf(fp, "ERROR! size > capacity \n\n");
-    if (err->incorrect_canary)  fprintf(fp, "ERROR! Value of canary has been changed\n\n");
-    if (err->incorrect_hash)    fprintf(fp, "ERROR! Value of hash has been changed\n\n");
+    if (err->stack_null)        fprintf(LOG_FILE, "ERROR! Pointer to stk is NULL\n\n");
+    if (err->data_null)         fprintf(LOG_FILE, "ERROR! Pointer to stk.data is NULL\n\n");
+    if (err->negative_size)     fprintf(LOG_FILE, "ERROR! size < 0\n\n");
+    if (err->negative_capacity) fprintf(LOG_FILE, "ERROR! capacity < 0\n\n");
+    if (err->small_capacity)    fprintf(LOG_FILE, "ERROR! size > capacity \n\n");
+    if (err->incorrect_canary)  fprintf(LOG_FILE, "ERROR! Value of canary has been changed\n\n");
+    if (err->incorrect_hash)    fprintf(LOG_FILE, "ERROR! Value of hash has been changed\n\n");
 
-    stack_dump_err((stk), __FILE__, __LINE__, __func__, fp);
+    stack_dump_err((stk), __FILE__, __LINE__, __func__, LOG_FILE);
 
-    closelog(fp);
+    //closelog(fp);
 }
 
 //ошибки без лог файла
