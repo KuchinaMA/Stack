@@ -8,7 +8,7 @@ CFLAGS = -Wshadow -Winit-self -Wredundant-decls -Wcast-align -Wundef -Wfloat-equ
 
 all: StackRes.exe
 
-StackRes.exe: Main.o Stack.o
+StackRes.exe: Main.o Stack.o Logfile.o
 	$(CC) $(CFLAGS) $^ -o $@
 
 Main.o: Main.cpp 

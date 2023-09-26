@@ -2,15 +2,13 @@
 #include <stdlib.h>
 #include <assert.h>
 
-/*#define STACK_VERIFY(stk, err) {if (stack_verify(stk, err) > 0) { \
-            print_errors(stk, err); }\
-}*/
 
 #define CANARY_MODE
 #define HASH_MODE
 
 #define STACK_VERIFY(stk, err) {if (stack_verify(stk, err) > 0) { \
-            print_errors(stk, err); }\
+            print_errors(stk, err); \
+            stack_dump_err((stk), __FILE__, __LINE__, __func__, LOG_FILE); }\
 }
 
 #include "Types.h"
@@ -20,6 +18,7 @@
 int stack_ctor(Stack *stk, int capacity) {
 
     assert(stk != NULL);
+    assert(capacity > 0);
 
     #ifdef CANARY_MODE
     stk->canary1 = CanaryStack;
@@ -272,23 +271,9 @@ void print_errors(const struct Stack *stk, const struct Errors *err) {
     if (err->incorrect_hash)    fprintf(LOG_FILE, "ERROR! Value of hash has been changed\n\n");
     #endif
 
-    stack_dump_err((stk), __FILE__, __LINE__, __func__, LOG_FILE);
+    //stack_dump_err((stk), __FILE__, __LINE__, __func__, LOG_FILE);
 
 }
-
-//ошибки без лог файла
-
-/*void print_errors(const struct Errors *err) {
-
-    if (err->stack_null)        printf("ERROR! Pointer to stk is NULL\n\n");
-    if (err->data_null)         printf("ERROR! Pointer to stk.data is NULL\n\n");
-    if (err->negative_size)     printf("ERROR! size < 0\n\n");
-    if (err->negative_capacity) printf("ERROR! capacity < 0\n\n");
-    if (err->small_capacity)    printf("ERROR! size > capacity \n\n");
-    if (err->incorrect_canary)  printf("ERROR! Value of canary has been changed\n\n");
-    if (err->incorrect_hash)    printf("ERROR! Value of hash has been changed\n\n");
-}*/
-
 
 
 void stack_dump_err(const struct Stack *stk, const char *file, int line, const char *function, FILE* fp) {
