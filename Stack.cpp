@@ -131,10 +131,10 @@ void stack_realloc(Stack *stk, int newcapacity) {
     //elem_t temp_canary = stk->data[stk->capacity + 1];
 
     #ifdef CANARY_MODE
-    elem_t temp_canary = *(canary_t *)(stk->data + stk->capacity * sizeof(elem_t));
+    canary_t temp_canary = *(canary_t *)(stk->data + stk->capacity * sizeof(elem_t));
     *(canary_t *)(stk->data + stk->capacity * sizeof(elem_t)) = PoisonValue;
 
-    stk->data = (elem_t *)(stk->data - sizeof(canary_t));
+    stk->data = (elem_t *)((char *)stk->data - sizeof(canary_t));
     elem_t *temp_data = (elem_t *)realloc(stk->data, newcapacity * sizeof(elem_t) + 2 * sizeof(canary_t));
     #endif
 
@@ -147,7 +147,7 @@ void stack_realloc(Stack *stk, int newcapacity) {
         stk->capacity = newcapacity;
 
         #ifdef CANARY_MODE
-        stk->data = (elem_t *)(temp_data + sizeof(canary_t));
+        stk->data = (elem_t *)((char *)temp_data + sizeof(canary_t));
         *(canary_t *)(stk->data + stk->capacity * sizeof(elem_t)) = temp_canary;
         #endif
 
@@ -241,7 +241,7 @@ int stack_verify (const struct Stack *stk, struct Errors *err) {
     #ifdef CANARY_MODE
     if (stk->canary1 != CanaryStack || stk->canary2 != CanaryStack ||
         *(canary_t *)(stk->data - 1) != CanaryBuf ||
-        *(canary_t *)(stk->data + stk->capacity) != CanaryBuf) {
+        *(canary_t *)(stk->data + stk->capacity * sizeof(elem_t)) != CanaryBuf) {
         err->incorrect_canary = 1;
         ans ++;
     }

@@ -26,10 +26,15 @@ int main() {
         PRINT_STACK(&stk);
     }
 
+    elem_t x = 0;
+
+    for (int i = 0; i < 3; i++) {
+        x = stack_pop(&stk);
+        PRINT_STACK(&stk);
+    }
+
     stk.size = 5;
     stk.capacity = 3;
-
-    elem_t x = 0;
 
     for (int i = 0; i < 1; i++) {
         x = stack_pop(&stk);
