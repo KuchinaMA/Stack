@@ -6,6 +6,7 @@
 #define ELEMF "%lld"
 
 typedef long long int elem_t;
+const elem_t PoisonValue = -1;
 
 typedef long long int hash_t;
 

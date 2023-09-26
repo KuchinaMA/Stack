@@ -8,7 +8,7 @@
 
 //FILE *LOG_FILE = stderr;
 
-const char *EXTENSION = ".log";
+static const char *EXTENSION = ".log";
 
 void closelog(FILE *lf) {
     fprintf(lf, "--------------Файл успешно закрыт--------------\n\n\n");
@@ -18,7 +18,7 @@ void closelog(FILE *lf) {
 
 FILE *openlog(const char *filename) {
 
-    char *file_name = strdup(filename);
+    char *file_name = strdup(filename); // ?
     FILE *logfile = fopen(strcat(file_name, EXTENSION), "a");
 
     if (logfile == NULL) {
@@ -30,6 +30,6 @@ FILE *openlog(const char *filename) {
 
     return logfile;
 
-    //atexit(closelog(logfile));
+    //atexit(closelog);
 }
 

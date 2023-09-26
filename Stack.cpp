@@ -24,14 +24,15 @@ int stack_ctor(Stack *stk, int capacity) {
     if (stk->data == NULL) {
         printf("Sorry! Capacity is too big, there's no enough memory");
     }
-    stk->size = 0;
-    stk->capacity = capacity;
+    else {
+        stk->size = 0;
+        stk->capacity = capacity;
 
-    stk->data[0] = CanaryBuf; // канарейка на начало буфера
-    stk->data[capacity + 1] = CanaryBuf; //канарейка на конец буфера
+        stk->data[0] = CanaryBuf; // канарейка на начало буфера
+        stk->data[capacity + 1] = CanaryBuf; //канарейка на конец буфера         // stack->data == nullptr?
 
-    stk->hash = stack_calculate(stk);
-
+        stk->hash = stack_calculate(stk);
+    }
     assert(stk->data != NULL);
 
 }
@@ -80,7 +81,7 @@ elem_t stack_pop(Stack *stk) {
     STACK_VERIFY(stk, &err);
 
     stk->size --;
-    elem_t ans = stk->data[stk->size + 1];
+    elem_t ans = stk->data[stk->size + 1];    // implicit canary fix
     stk->data[stk->size + 1] = PoisonValue;
 
     stk->hash = stack_calculate(stk);
@@ -177,6 +178,7 @@ int stack_verify (const struct Stack *stk, struct Errors *err) {
         ans ++;
     }
     if (stk->capacity < stk->size) {
+        //ans = ans | err->small_capacity
         err->small_capacity = 1;
         ans ++;
     }

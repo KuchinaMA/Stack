@@ -14,19 +14,19 @@ struct Stack {
     canary_t canary2;
 };
 
-struct Errors {
+struct /*enum*/Errors {
     int stack_null;
     int data_null;
     int negative_size;
     int negative_capacity;
     int small_capacity;
     int incorrect_canary;
-    int incorrect_hash;
+    int incorrect_hash; // set value by bitshift
 };
 
 const int StackCapacity = 5;
 const int Coeff = 2;
-const elem_t PoisonValue = -1;
+//const elem_t PoisonValue = -1;
 
 const canary_t CanaryStack = 0xDEADBEEF;
 const elem_t CanaryBuf = 0xBADCAFE;

@@ -4,6 +4,10 @@
 #include "Stack.h"
 #include "Logfile.h"
 
+/*#define STACK_CONSTRUCT(var, elements_quantity) \
+struct Stack var = {};                          \
+stack_ctor(&var, elements_quantity);            \
+var.var_name = #var; */
 
 int main() {
 
@@ -12,6 +16,7 @@ int main() {
     struct Stack stk = {};
 
     stack_ctor(&stk, StackCapacity);
+    //stk.var_name = "stk";
 
     PRINT_STACK(&stk);
 
