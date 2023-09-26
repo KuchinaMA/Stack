@@ -28,7 +28,7 @@ int stack_ctor(Stack *stk, int capacity) {
 
     //stk->data = (elem_t *)calloc(capacity + 2, sizeof(elem_t));
     #ifdef CANARY_MODE
-    stk->data = (elem_t *) calloc(stk->capacity * sizeof(elem_t) + 2 * sizeof(canary_t), sizeof(char));
+    stk->data = (elem_t *) calloc(capacity * sizeof(elem_t) + 2 * sizeof(canary_t), sizeof(char));
 
     #endif
 
@@ -131,10 +131,10 @@ void stack_realloc(Stack *stk, int newcapacity) {
     //elem_t temp_canary = stk->data[stk->capacity + 1];
 
     #ifdef CANARY_MODE
-    elem_t temp_canary = *(canary_t *)(stk->data + stk->capacity);
-    *(canary_t *)(stk->data + stk->capacity) = PoisonValue;
+    elem_t temp_canary = *(canary_t *)(stk->data + stk->capacity * sizeof(elem_t));
+    *(canary_t *)(stk->data + stk->capacity * sizeof(elem_t)) = PoisonValue;
 
-    stk->data = (elem_t *)((canary_t *)stk->data - 1);
+    stk->data = (elem_t *)(stk->data - sizeof(canary_t));
     elem_t *temp_data = (elem_t *)realloc(stk->data, newcapacity * sizeof(elem_t) + 2 * sizeof(canary_t));
     #endif
 
@@ -147,8 +147,8 @@ void stack_realloc(Stack *stk, int newcapacity) {
         stk->capacity = newcapacity;
 
         #ifdef CANARY_MODE
-        stk->data = (elem_t *)((canary_t *)temp_data + 1);
-        *(canary_t *)(stk->data + stk->capacity) = temp_canary;
+        stk->data = (elem_t *)(temp_data + sizeof(canary_t));
+        *(canary_t *)(stk->data + stk->capacity * sizeof(elem_t)) = temp_canary;
         #endif
 
         #ifndef CANARY_MODE
