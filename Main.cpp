@@ -13,8 +13,6 @@ int main() {
 
     open_log("Stackerrors.log");
 
-    //fopen(LOG_FILE);
-
     struct Stack stk = {};
 
     stack_ctor(&stk, StackCapacity);

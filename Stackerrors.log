@@ -879,3 +879,1214 @@ data end canary = 3
 --------------Файл успешно закрыт--------------
 
 
+--------------Файл создан в 19:43:09--------------
+ERROR! size > capacity 
+
+ERROR! Value of canary has been changed
+
+ERROR! Value of hash has been changed
+
+stack_dump from file: stack.cpp line 206 function: print_errors
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+size = 5
+capacity = 3
+hash = 46
+
+data beginning canary = BADCAFE
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+*[4] = 4
+data end canary = 3
+
+
+ERROR! size > capacity 
+
+ERROR! Value of canary has been changed
+
+ERROR! Value of hash has been changed
+
+stack_dump from file: stack.cpp line 206 function: print_errors
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+size = 4
+capacity = 3
+hash = 13
+
+data beginning canary = BADCAFE
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+data end canary = 3
+
+
+ERROR! size > capacity 
+
+ERROR! Value of canary has been changed
+
+stack_dump from file: stack.cpp line 206 function: print_errors
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+size = 4
+capacity = 3
+hash = 13
+
+data beginning canary = BADCAFE
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+data end canary = 3
+
+
+--------------Файл успешно закрыт--------------
+
+
+--------------Файл создан в 21:11:01--------------
+ERROR! Value of canary has been changed
+
+ERROR! Value of hash has been changed
+
+stack_dump from file: stack.cpp line 265 function: print_errors
+
+size = 0
+capacity = 5
+[0] = POISONED
+[1] = POISONED
+[2] = POISONED
+[3] = POISONED
+[4] = POISONED
+[5] = POISONED
+ERROR! Value of canary has been changed
+
+ERROR! Value of hash has been changed
+
+stack_dump from file: stack.cpp line 265 function: print_errors
+
+size = 1
+capacity = 5
+*[0] = 0
+[1] = POISONED
+[2] = POISONED
+[3] = POISONED
+[4] = POISONED
+[5] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: stack.cpp line 265 function: print_errors
+
+size = 1
+capacity = 5
+*[0] = 0
+[1] = POISONED
+[2] = POISONED
+[3] = POISONED
+[4] = POISONED
+[5] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: stack.cpp line 265 function: print_errors
+
+size = 2
+capacity = 5
+*[0] = 0
+*[1] = 1
+[2] = POISONED
+[3] = POISONED
+[4] = POISONED
+[5] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: stack.cpp line 265 function: print_errors
+
+size = 2
+capacity = 5
+*[0] = 0
+*[1] = 1
+[2] = POISONED
+[3] = POISONED
+[4] = POISONED
+[5] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: stack.cpp line 265 function: print_errors
+
+size = 3
+capacity = 5
+*[0] = 0
+*[1] = 1
+*[2] = 2
+[3] = POISONED
+[4] = POISONED
+[5] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: stack.cpp line 265 function: print_errors
+
+size = 3
+capacity = 5
+*[0] = 0
+*[1] = 1
+*[2] = 2
+[3] = POISONED
+[4] = POISONED
+[5] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: stack.cpp line 265 function: print_errors
+
+size = 4
+capacity = 5
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+[4] = POISONED
+[5] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: stack.cpp line 265 function: print_errors
+
+size = 4
+capacity = 5
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+[4] = POISONED
+[5] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: stack.cpp line 265 function: print_errors
+
+size = 5
+capacity = 5
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+*[4] = 4
+[5] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: stack.cpp line 265 function: print_errors
+
+size = 5
+capacity = 5
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+*[4] = 4
+[5] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: stack.cpp line 265 function: print_errors
+
+size = 5
+capacity = 5
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+*[4] = 4
+[5] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: stack.cpp line 265 function: print_errors
+
+size = 6
+capacity = 10
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+*[4] = 4
+*[5] = 5
+[6] = POISONED
+[7] = POISONED
+[8] = POISONED
+[9] = POISONED
+[10] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: stack.cpp line 265 function: print_errors
+
+size = 6
+capacity = 10
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+*[4] = 4
+*[5] = 5
+[6] = POISONED
+[7] = POISONED
+[8] = POISONED
+[9] = POISONED
+[10] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: stack.cpp line 265 function: print_errors
+
+size = 7
+capacity = 10
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+*[4] = 4
+*[5] = 5
+*[6] = 6
+[7] = POISONED
+[8] = POISONED
+[9] = POISONED
+[10] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: stack.cpp line 265 function: print_errors
+
+size = 7
+capacity = 10
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+*[4] = 4
+*[5] = 5
+*[6] = 6
+[7] = POISONED
+[8] = POISONED
+[9] = POISONED
+[10] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: stack.cpp line 265 function: print_errors
+
+size = 8
+capacity = 10
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+*[4] = 4
+*[5] = 5
+*[6] = 6
+*[7] = 7
+[8] = POISONED
+[9] = POISONED
+[10] = POISONED
+ERROR! size > capacity 
+
+ERROR! Value of canary has been changed
+
+ERROR! Value of hash has been changed
+
+stack_dump from file: stack.cpp line 265 function: print_errors
+
+size = 5
+capacity = 3
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+*[4] = 4
+ERROR! size > capacity 
+
+ERROR! Value of canary has been changed
+
+ERROR! Value of hash has been changed
+
+stack_dump from file: stack.cpp line 265 function: print_errors
+
+size = 4
+capacity = 3
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+ERROR! size > capacity 
+
+ERROR! Value of canary has been changed
+
+stack_dump from file: stack.cpp line 265 function: print_errors
+
+size = 4
+capacity = 3
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+--------------Файл успешно закрыт--------------
+
+
+--------------Файл создан в 21:12:01--------------
+ERROR! Value of canary has been changed
+
+stack_dump from file: stack.cpp line 265 function: print_errors
+
+hash = 5
+
+size = 0
+capacity = 5
+[0] = POISONED
+[1] = POISONED
+[2] = POISONED
+[3] = POISONED
+[4] = POISONED
+[5] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: stack.cpp line 265 function: print_errors
+
+hash = 6
+
+size = 1
+capacity = 5
+*[0] = 0
+[1] = POISONED
+[2] = POISONED
+[3] = POISONED
+[4] = POISONED
+[5] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: stack.cpp line 265 function: print_errors
+
+hash = 6
+
+size = 1
+capacity = 5
+*[0] = 0
+[1] = POISONED
+[2] = POISONED
+[3] = POISONED
+[4] = POISONED
+[5] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: stack.cpp line 265 function: print_errors
+
+hash = 8
+
+size = 2
+capacity = 5
+*[0] = 0
+*[1] = 1
+[2] = POISONED
+[3] = POISONED
+[4] = POISONED
+[5] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: stack.cpp line 265 function: print_errors
+
+hash = 8
+
+size = 2
+capacity = 5
+*[0] = 0
+*[1] = 1
+[2] = POISONED
+[3] = POISONED
+[4] = POISONED
+[5] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: stack.cpp line 265 function: print_errors
+
+hash = 11
+
+size = 3
+capacity = 5
+*[0] = 0
+*[1] = 1
+*[2] = 2
+[3] = POISONED
+[4] = POISONED
+[5] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: stack.cpp line 265 function: print_errors
+
+hash = 11
+
+size = 3
+capacity = 5
+*[0] = 0
+*[1] = 1
+*[2] = 2
+[3] = POISONED
+[4] = POISONED
+[5] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: stack.cpp line 265 function: print_errors
+
+hash = 15
+
+size = 4
+capacity = 5
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+[4] = POISONED
+[5] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: stack.cpp line 265 function: print_errors
+
+hash = 15
+
+size = 4
+capacity = 5
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+[4] = POISONED
+[5] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: stack.cpp line 265 function: print_errors
+
+hash = 20
+
+size = 5
+capacity = 5
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+*[4] = 4
+[5] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: stack.cpp line 265 function: print_errors
+
+hash = 20
+
+size = 5
+capacity = 5
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+*[4] = 4
+[5] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: stack.cpp line 265 function: print_errors
+
+hash = 20
+
+size = 5
+capacity = 5
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+*[4] = 4
+[5] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: stack.cpp line 265 function: print_errors
+
+hash = 31
+
+size = 6
+capacity = 10
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+*[4] = 4
+*[5] = 5
+[6] = POISONED
+[7] = POISONED
+[8] = POISONED
+[9] = POISONED
+[10] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: stack.cpp line 265 function: print_errors
+
+hash = 31
+
+size = 6
+capacity = 10
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+*[4] = 4
+*[5] = 5
+[6] = POISONED
+[7] = POISONED
+[8] = POISONED
+[9] = POISONED
+[10] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: stack.cpp line 265 function: print_errors
+
+hash = 38
+
+size = 7
+capacity = 10
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+*[4] = 4
+*[5] = 5
+*[6] = 6
+[7] = POISONED
+[8] = POISONED
+[9] = POISONED
+[10] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: stack.cpp line 265 function: print_errors
+
+hash = 38
+
+size = 7
+capacity = 10
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+*[4] = 4
+*[5] = 5
+*[6] = 6
+[7] = POISONED
+[8] = POISONED
+[9] = POISONED
+[10] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: stack.cpp line 265 function: print_errors
+
+hash = 46
+
+size = 8
+capacity = 10
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+*[4] = 4
+*[5] = 5
+*[6] = 6
+*[7] = 7
+[8] = POISONED
+[9] = POISONED
+[10] = POISONED
+ERROR! size > capacity 
+
+ERROR! Value of canary has been changed
+
+ERROR! Value of hash has been changed
+
+stack_dump from file: stack.cpp line 265 function: print_errors
+
+hash = 46
+
+size = 5
+capacity = 3
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+*[4] = 4
+ERROR! size > capacity 
+
+ERROR! Value of canary has been changed
+
+ERROR! Value of hash has been changed
+
+stack_dump from file: stack.cpp line 265 function: print_errors
+
+hash = 13
+
+size = 4
+capacity = 3
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+ERROR! size > capacity 
+
+ERROR! Value of canary has been changed
+
+stack_dump from file: stack.cpp line 265 function: print_errors
+
+hash = 13
+
+size = 4
+capacity = 3
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+--------------Файл успешно закрыт--------------
+
+
+--------------Файл создан в 21:14:53--------------
+ERROR! size > capacity 
+
+ERROR! Value of hash has been changed
+
+stack_dump from file: stack.cpp line 275 function: print_errors
+
+hash = 46
+
+size = 5
+capacity = 3
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+*[4] = 4
+ERROR! size > capacity 
+
+ERROR! Value of hash has been changed
+
+stack_dump from file: stack.cpp line 275 function: print_errors
+
+hash = 13
+
+size = 4
+capacity = 3
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+ERROR! size > capacity 
+
+stack_dump from file: stack.cpp line 275 function: print_errors
+
+hash = 13
+
+size = 4
+capacity = 3
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+--------------Файл успешно закрыт--------------
+
+
+--------------Файл создан в 22:00:45--------------
+ERROR! size > capacity 
+
+ERROR! Value of hash has been changed
+
+stack_dump from file: stack.cpp line 275 function: print_errors
+
+hash = 46
+
+size = 5
+capacity = 3
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+*[4] = 4
+ERROR! size > capacity 
+
+ERROR! Value of hash has been changed
+
+stack_dump from file: stack.cpp line 275 function: print_errors
+
+hash = 13
+
+size = 4
+capacity = 3
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+ERROR! size > capacity 
+
+stack_dump from file: stack.cpp line 275 function: print_errors
+
+hash = 13
+
+size = 4
+capacity = 3
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+--------------Файл успешно закрыт--------------
+
+
+--------------Файл создан в 22:02:38--------------
+ERROR! Value of canary has been changed
+
+stack_dump from file: stack.cpp line 275 function: print_errors
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = BADCAFE
+data end canary = A0A3234
+
+
+hash = 5
+
+size = 0
+capacity = 5
+[0] = POISONED
+[1] = POISONED
+[2] = POISONED
+[3] = POISONED
+[4] = POISONED
+[5] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: stack.cpp line 275 function: print_errors
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = BADCAFE
+data end canary = A0A3234
+
+
+hash = 6
+
+size = 1
+capacity = 5
+*[0] = 0
+[1] = POISONED
+[2] = POISONED
+[3] = POISONED
+[4] = POISONED
+[5] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: stack.cpp line 275 function: print_errors
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = BADCAFE
+data end canary = A0A3234
+
+
+hash = 6
+
+size = 1
+capacity = 5
+*[0] = 0
+[1] = POISONED
+[2] = POISONED
+[3] = POISONED
+[4] = POISONED
+[5] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: stack.cpp line 275 function: print_errors
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = BADCAFE
+data end canary = A0A3234
+
+
+hash = 8
+
+size = 2
+capacity = 5
+*[0] = 0
+*[1] = 1
+[2] = POISONED
+[3] = POISONED
+[4] = POISONED
+[5] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: stack.cpp line 275 function: print_errors
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = BADCAFE
+data end canary = A0A3234
+
+
+hash = 8
+
+size = 2
+capacity = 5
+*[0] = 0
+*[1] = 1
+[2] = POISONED
+[3] = POISONED
+[4] = POISONED
+[5] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: stack.cpp line 275 function: print_errors
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = BADCAFE
+data end canary = A0A3234
+
+
+hash = 11
+
+size = 3
+capacity = 5
+*[0] = 0
+*[1] = 1
+*[2] = 2
+[3] = POISONED
+[4] = POISONED
+[5] = POISONED
+ERROR! Value of canary has been changed
+
+ERROR! Value of hash has been changed
+
+stack_dump from file: stack.cpp line 275 function: print_errors
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = BADCAFE
+data end canary = A0A3435
+
+
+hash = 11
+
+size = 3
+capacity = 5
+*[0] = 0
+*[1] = 1
+*[2] = 5715103374041232731
+[3] = POISONED
+[4] = POISONED
+[5] = POISONED
+ERROR! Value of canary has been changed
+
+ERROR! Value of hash has been changed
+
+stack_dump from file: stack.cpp line 275 function: print_errors
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = BADCAFE
+data end canary = A0A3435
+
+
+hash = 5715103374041232744
+
+size = 4
+capacity = 5
+*[0] = 0
+*[1] = 1
+*[2] = 5715103374041232731
+*[3] = 3
+[4] = POISONED
+[5] = POISONED
+ERROR! Value of canary has been changed
+
+ERROR! Value of hash has been changed
+
+stack_dump from file: stack.cpp line 275 function: print_errors
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = BADCAFE
+data end canary = A0A3536
+
+
+hash = 5715103374041232744
+
+size = 4
+capacity = 5
+*[0] = 0
+*[1] = 1
+*[2] = 5715103374041232731
+*[3] = 3461654328044901193
+[4] = POISONED
+[5] = POISONED
+ERROR! Value of canary has been changed
+
+ERROR! Value of hash has been changed
+
+stack_dump from file: stack.cpp line 275 function: print_errors
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = BADCAFE
+data end canary = A0A3536
+
+
+hash = 9176757702086133939
+
+size = 5
+capacity = 5
+*[0] = 0
+*[1] = 1
+*[2] = 5715103374041232731
+*[3] = 3461654328044901193
+*[4] = 4
+[5] = POISONED
+ERROR! Value of canary has been changed
+
+ERROR! Value of hash has been changed
+
+stack_dump from file: stack.cpp line 275 function: print_errors
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = BADCAFE
+data end canary = A0A3936
+
+
+hash = 9176757702086133939
+
+size = 5
+capacity = 5
+*[0] = 0
+*[1] = 1
+*[2] = 5715103374041232731
+*[3] = 3821942298234540873
+*[4] = 3834588816198808885
+[5] = POISONED
+ERROR! Value of canary has been changed
+
+ERROR! Value of hash has been changed
+
+stack_dump from file: stack.cpp line 275 function: print_errors
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = BADCAFE
+data end canary = A0A3936
+
+
+hash = 9176757702086133939
+
+size = 5
+capacity = 5
+*[0] = 0
+*[1] = 1
+*[2] = 5715103374041232731
+*[3] = 3821942298234540873
+*[4] = 3834588816198808885
+[5] = POISONED
+ERROR! size > capacity 
+
+ERROR! Value of canary has been changed
+
+ERROR! Value of hash has been changed
+
+stack_dump from file: stack.cpp line 275 function: print_errors
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = 64B1FD21
+data end canary = 5
+
+
+hash = -8909698401221061709
+
+size = 6
+capacity = 5
+*[0] = 195939070
+*[1] = 0
+*[2] = 16777217
+*[3] = 5715103374041232731
+*[4] = 3821942298234540873
+*[5] = 5
+ERROR! size > capacity 
+
+ERROR! Value of canary has been changed
+
+ERROR! Value of hash has been changed
+
+stack_dump from file: stack.cpp line 275 function: print_errors
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = 64B1FD21
+data end canary = 39373535
+
+
+hash = -8909698401221061709
+
+size = 6
+capacity = 5
+*[0] = 195939070
+*[1] = 0
+*[2] = 16777217
+*[3] = 3684011704401091370
+*[4] = 3833182536531719221
+*[5] = 3834588816198808885
+ERROR! size > capacity 
+
+ERROR! Value of canary has been changed
+
+ERROR! Value of hash has been changed
+
+stack_dump from file: stack.cpp line 275 function: print_errors
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = 64B1FD21
+data end canary = 39373535
+
+
+hash = -7094961016365215835
+
+size = 7
+capacity = 5
+*[0] = 195939070
+*[1] = 0
+*[2] = 16777217
+*[3] = 3684011704401091370
+*[4] = 3833182536531719221
+*[5] = 3834588816198808885
+*[6] = 6
+ERROR! size > capacity 
+
+ERROR! Value of canary has been changed
+
+ERROR! Value of hash has been changed
+
+stack_dump from file: stack.cpp line 275 function: print_errors
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = 64B1FD21
+data end canary = 32303636
+
+
+hash = -7094961016365215835
+
+size = 7
+capacity = 5
+*[0] = 195939070
+*[1] = 0
+*[2] = 16777217
+*[3] = 3684011704401156906
+*[4] = 3906362740531541045
+*[5] = 3834023675694167606
+*[6] = 3544970666602805301
+ERROR! size > capacity 
+
+ERROR! Value of canary has been changed
+
+ERROR! Value of hash has been changed
+
+stack_dump from file: stack.cpp line 275 function: print_errors
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = 64B1FD21
+data end canary = 32303636
+
+
+hash = -3477375286267164451
+
+size = 8
+capacity = 5
+*[0] = 195939070
+*[1] = 0
+*[2] = 16777217
+*[3] = 3684011704401156906
+*[4] = 3906362740531541045
+*[5] = 3834023675694167606
+*[6] = 3544970666602805301
+*[7] = 7
+ERROR! size > capacity 
+
+ERROR! Value of canary has been changed
+
+ERROR! Value of hash has been changed
+
+stack_dump from file: stack.cpp line 275 function: print_errors
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = 64B1FD21
+data end canary = 5D375B2A
+
+
+hash = -3477375286267164451
+
+size = 5
+capacity = 3
+*[0] = 195939070
+*[1] = 0
+*[2] = 16777217
+*[3] = 3972242080552934186
+*[4] = 4049634590304253235
+ERROR! size > capacity 
+
+ERROR! Value of canary has been changed
+
+ERROR! Value of hash has been changed
+
+stack_dump from file: stack.cpp line 275 function: print_errors
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = 64B1FD21
+data end canary = 5D375B2A
+
+
+hash = 3972242080765650480
+
+size = 4
+capacity = 3
+*[0] = 195939070
+*[1] = 0
+*[2] = 16777217
+*[3] = 3972242080552934186
+ERROR! size > capacity 
+
+ERROR! Value of canary has been changed
+
+ERROR! Value of hash has been changed
+
+stack_dump from file: stack.cpp line 275 function: print_errors
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = 64B1FD21
+data end canary = 5D335B2A
+
+
+hash = 3972242

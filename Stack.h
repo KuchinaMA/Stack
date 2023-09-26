@@ -37,7 +37,7 @@ int stack_dtor(Stack *stk);
 int stack_push(Stack *stk, elem_t value);
 elem_t stack_pop(Stack *stk);
 
-void stack_realloc(Stack *stk, int newsize);
+void stack_realloc(Stack *stk, int newcapacity);
 
 int stack_verify (const struct Stack *stk, struct Errors *err);
 void stack_dump(const struct Stack *stk, const char *file, int line, const char *function);

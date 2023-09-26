@@ -14,8 +14,6 @@ void close_log() {
 
 void open_log(const char *filename) {
 
-    char *file_name = strdup(filename);
-
     LOG_FILE = fopen(filename, "a");
 
     fprintf(LOG_FILE, "--------------װאיכ סמחהאם ג %s--------------\n", __TIME__);

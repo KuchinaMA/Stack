@@ -2,10 +2,16 @@
 #include <stdlib.h>
 #include <assert.h>
 
+/*#define STACK_VERIFY(stk, err) {if (stack_verify(stk, err) > 0) { \
+            print_errors(stk, err); }\
+}*/
+
+#define CANARY_MODE
+#define HASH_MODE
+
 #define STACK_VERIFY(stk, err) {if (stack_verify(stk, err) > 0) { \
             print_errors(stk, err); }\
 }
-
 
 #include "Types.h"
 #include "Stack.h"
@@ -15,22 +21,44 @@ int stack_ctor(Stack *stk, int capacity) {
 
     assert(stk != NULL);
 
+    #ifdef CANARY_MODE
     stk->canary1 = CanaryStack;
     stk->canary2 = CanaryStack;
+    #endif
 
-    stk->data = (elem_t *)calloc(capacity + 2, sizeof(elem_t));
+    //stk->data = (elem_t *)calloc(capacity + 2, sizeof(elem_t));
+    #ifdef CANARY_MODE
+    stk->data = (elem_t *) calloc(stk->capacity * sizeof(elem_t) + 2 * sizeof(canary_t), sizeof(char));
+
+    #endif
+
+    #ifndef CANARY_MODE
+    stk->data = (elem_t *)calloc(capacity, sizeof(elem_t));
+    #endif
+
+
     if (stk->data == NULL) {
         printf("Sorry! Capacity is too big, there's no enough memory");
     }
     else {
+
         stk->size = 0;
         stk->capacity = capacity;
 
-        stk->data[0] = CanaryBuf; // канарейка на начало буфера
-        stk->data[capacity + 1] = CanaryBuf; //канарейка на конец буфера
+        #ifdef CANARY_MODE
+        *(canary_t *) stk->data = CanaryBuf;
+        stk->data = (elem_t *)((canary_t *)stk->data + 1);
+        *(canary_t *)(stk->data + stk->capacity) = CanaryBuf;
+        #endif
 
+        //stk->data[0] = CanaryBuf; // канарейка на начало буфера
+        //stk->data[capacity + 1] = CanaryBuf; //канарейка на конец буфера
+
+        #ifdef HASH_MODE
         stk->hash = stack_calculate(stk);
+        #endif
     }
+
     assert(stk->data != NULL);
 
 }
@@ -42,7 +70,7 @@ int stack_dtor(Stack *stk) {
 
     STACK_VERIFY(stk, &err);
 
-    free(stk->data);
+    free((canary_t *)stk->data - 1);
     stk->size = PoisonValue;
     stk->capacity = PoisonValue;
     stk->hash = PoisonValue;
@@ -62,7 +90,7 @@ int stack_push(Stack *stk, elem_t value) {
         stack_realloc(stk, Coeff*stk->capacity);
     }
 
-    stk->data[stk->size + 1] = value;
+    stk->data[stk->size] = value;
     stk->size ++;
     stk->hash = stack_calculate(stk);
 
@@ -79,8 +107,8 @@ elem_t stack_pop(Stack *stk) {
     STACK_VERIFY(stk, &err);
 
     stk->size --;
-    elem_t ans = stk->data[stk->size + 1];    // implicit canary fix
-    stk->data[stk->size + 1] = PoisonValue;
+    elem_t ans = stk->data[stk->size];    // implicit canary fix
+    stk->data[stk->size] = PoisonValue;
 
     stk->hash = stack_calculate(stk);
 
@@ -94,22 +122,41 @@ elem_t stack_pop(Stack *stk) {
 }
 
 
-void stack_realloc(Stack *stk, int newsize) {
+void stack_realloc(Stack *stk, int newcapacity) {
 
     Errors err = {};
 
     STACK_VERIFY(stk, &err);
 
-    elem_t temp_canary = stk->data[stk->capacity + 1];
-    stk->data[stk->capacity + 1] = PoisonValue;
-    elem_t *temp_data = (elem_t *)realloc(stk->data, (newsize + 2)*sizeof(elem_t));
+    //elem_t temp_canary = stk->data[stk->capacity + 1];
+
+    #ifdef CANARY_MODE
+    elem_t temp_canary = *(canary_t *)(stk->data + stk->capacity);
+    *(canary_t *)(stk->data + stk->capacity) = PoisonValue;
+
+    stk->data = (elem_t *)((canary_t *)stk->data - 1);
+    elem_t *temp_data = (elem_t *)realloc(stk->data, newcapacity * sizeof(elem_t) + 2 * sizeof(canary_t));
+    #endif
+
+    #ifndef CANARY_MODE
+    elem_t *temp_data = (elem_t *)realloc(stk->data, newcapacity * sizeof(elem_t));
+    #endif
 
     if (temp_data != NULL) {
+
+        stk->capacity = newcapacity;
+
+        #ifdef CANARY_MODE
+        stk->data = (elem_t *)((canary_t *)temp_data + 1);
+        *(canary_t *)(stk->data + stk->capacity) = temp_canary;
+        #endif
+
+        #ifndef CANARY_MODE
         stk->data = temp_data;
-        stk->capacity = newsize;
+        #endif
     }
 
-    stk->data[stk->capacity + 1] = temp_canary;
+    //*(canary_t *)(stk->data + stk->capacity) = temp_canary;
 
 }
 
@@ -118,25 +165,36 @@ void stack_dump(const struct Stack *stk, const char *file, int line, const char 
 
     printf("stack_dump from file: %s line %d function: %s\n\n", file, line, function);
 
+    //printf("struct beginning canary = %X\n", stk->canary1);
+    //printf("struct end canary = %X\n\n", stk->canary2);
+
+    #ifdef CANARY_MODE
     printf("struct beginning canary = %X\n", stk->canary1);
     printf("struct end canary = %X\n\n", stk->canary2);
+    printf("data beginning canary = %X\n", *(canary_t *)(stk->data - 1));
+    printf("data end canary = %X\n\n\n", *(canary_t *)(stk->data + stk->capacity));
+    #endif
+
+    #ifdef HASH_MODE
+    printf("hash = " ELEMF "\n\n", stk->hash);
+    #endif
 
     printf("size = %d\n", stk->size);
     printf("capacity = %d\n", stk->capacity);
 
-    printf("hash = " ELEMF "\n\n", stk->hash);
+    //printf("hash = " ELEMF "\n\n", stk->hash);
 
-    printf("data beginning canary = %X\n", stk->data[0]);
+    //printf("data beginning canary = %X\n", *(canary_t *)(stk->data - ));
 
-    for (int i = 1; i <= stk->size; i++) {
-        printf("*[%d] = " ELEMF "\n", i - 1, stk->data[i]);
+    for (int i = 0; i < stk->size; i++) {
+        printf("*[%d] = " ELEMF "\n", i, stk->data[i]);
     }
 
-    for (int i = stk->size + 1; i <= stk->capacity + 1; i++) {
-        printf("[%d] = POISONED\n", i - 1);
+    for (int i = stk->size; i <= stk->capacity; i++) {
+        printf("[%d] = POISONED\n", i);
     }
 
-    printf("data end canary = %X\n\n\n", stk->data[stk->capacity + 1]);
+    //printf("data end canary = %X\n\n\n", *(canary_t *)(stk->data + stk->capacity));
 }
 
 
@@ -144,7 +202,7 @@ hash_t stack_calculate(const struct Stack *stk) {
 
     hash_t sum = 0;
 
-    for (int i = 1; i <= stk->size; i++) {
+    for (int i = 0; i < stk->size; i++) {
         sum += (hash_t)stk->data[i];
     }
 
@@ -180,34 +238,42 @@ int stack_verify (const struct Stack *stk, struct Errors *err) {
         err->small_capacity = 1;
         ans ++;
     }
+    #ifdef CANARY_MODE
     if (stk->canary1 != CanaryStack || stk->canary2 != CanaryStack ||
-        stk->data[0] != CanaryBuf || stk->data[stk->capacity + 1] != CanaryBuf) {
+        *(canary_t *)(stk->data - 1) != CanaryBuf ||
+        *(canary_t *)(stk->data + stk->capacity) != CanaryBuf) {
         err->incorrect_canary = 1;
         ans ++;
     }
+    #endif
+
+    #ifdef HASH_MODE
     if (stk->hash != stack_calculate(stk)) {
         err->incorrect_hash = 1;
         ans ++;
     }
+    #endif
+
     return ans;
 }
 
 
 void print_errors(const struct Stack *stk, const struct Errors *err) {
 
-    //FILE* fp = openlog("Stackerrors");
-
     if (err->stack_null)        fprintf(LOG_FILE, "ERROR! Pointer to stk is NULL\n\n");
     if (err->data_null)         fprintf(LOG_FILE, "ERROR! Pointer to stk.data is NULL\n\n");
     if (err->negative_size)     fprintf(LOG_FILE, "ERROR! size < 0\n\n");
     if (err->negative_capacity) fprintf(LOG_FILE, "ERROR! capacity < 0\n\n");
     if (err->small_capacity)    fprintf(LOG_FILE, "ERROR! size > capacity \n\n");
+    #ifdef CANARY_MODE
     if (err->incorrect_canary)  fprintf(LOG_FILE, "ERROR! Value of canary has been changed\n\n");
+    #endif
+    #ifdef HASH_MODE
     if (err->incorrect_hash)    fprintf(LOG_FILE, "ERROR! Value of hash has been changed\n\n");
+    #endif
 
     stack_dump_err((stk), __FILE__, __LINE__, __func__, LOG_FILE);
 
-    //closelog(fp);
 }
 
 //ошибки без лог файла
@@ -229,25 +295,34 @@ void stack_dump_err(const struct Stack *stk, const char *file, int line, const c
 
     fprintf(fp, "stack_dump from file: %s line %d function: %s\n\n", file, line, function);
 
+    #ifdef CANARY_MODE
     fprintf(fp, "struct beginning canary = %X\n", stk->canary1);
     fprintf(fp, "struct end canary = %X\n\n", stk->canary2);
+    fprintf(fp, "data beginning canary = %X\n", *(canary_t *)(stk->data - 1));
+    fprintf(fp, "data end canary = %X\n\n\n", *(canary_t *)(stk->data + stk->capacity));
+    #endif
+
+    #ifdef HASH_MODE
+    fprintf(fp, "hash = " ELEMF "\n\n", stk->hash);
+    #endif
 
     fprintf(fp, "size = %d\n", stk->size);
     fprintf(fp, "capacity = %d\n", stk->capacity);
 
-    fprintf(fp, "hash = " ELEMF "\n\n", stk->hash);
+    //fprintf(fp, "hash = " ELEMF "\n\n", stk->hash);
 
-    fprintf(fp, "data beginning canary = %X\n", stk->data[0]);
+    //fprintf(fp, "data beginning canary = %X\n", *(canary_t *)(stk->data - 1));
+    //fprintf(fp, "data end canary = %X\n\n\n", *(canary_t *)(stk->data + stk->capacity));
 
-    for (int i = 1; i <= stk->size; i++) {
-        fprintf(fp, "*[%d] = " ELEMF "\n", i - 1, stk->data[i]);
+    for (int i = 0; i < stk->size; i++) {
+        fprintf(fp, "*[%d] = " ELEMF "\n", i, stk->data[i]);
     }
 
-    for (int i = stk->size + 1; i <= stk->capacity + 1; i++) {
-        fprintf(fp, "[%d] = POISONED\n", i - 1);
+    for (int i = stk->size; i <= stk->capacity; i++) {
+        fprintf(fp, "[%d] = POISONED\n", i);
     }
 
-    fprintf(fp, "data end canary = %X\n\n\n", stk->data[stk->capacity + 1]);
+    //fprintf(fp, "data end canary = %X\n\n\n", *(canary_t *)(stk->data + stk->capacity));
 }
 
 
