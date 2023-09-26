@@ -48,7 +48,7 @@ int stack_ctor(Stack *stk, int capacity) {
         #ifdef CANARY_MODE
         *(canary_t *) stk->data = CanaryBuf;
         stk->data = (elem_t *)((canary_t *)stk->data + 1);
-        *(canary_t *)(stk->data + stk->capacity) = CanaryBuf;
+        *(canary_t *)(stk->data + stk->capacity * sizeof(elem_t)) = CanaryBuf;
         #endif
 
         //stk->data[0] = CanaryBuf; // канарейка на начало буфера
@@ -172,7 +172,7 @@ void stack_dump(const struct Stack *stk, const char *file, int line, const char 
     printf("struct beginning canary = %X\n", stk->canary1);
     printf("struct end canary = %X\n\n", stk->canary2);
     printf("data beginning canary = %X\n", *(canary_t *)(stk->data - 1));
-    printf("data end canary = %X\n\n\n", *(canary_t *)(stk->data + stk->capacity));
+    printf("data end canary = %X\n\n\n", *(canary_t *)(stk->data + stk->capacity * sizeof(elem_t)));
     #endif
 
     #ifdef HASH_MODE
@@ -299,7 +299,7 @@ void stack_dump_err(const struct Stack *stk, const char *file, int line, const c
     fprintf(fp, "struct beginning canary = %X\n", stk->canary1);
     fprintf(fp, "struct end canary = %X\n\n", stk->canary2);
     fprintf(fp, "data beginning canary = %X\n", *(canary_t *)(stk->data - 1));
-    fprintf(fp, "data end canary = %X\n\n\n", *(canary_t *)(stk->data + stk->capacity));
+    fprintf(fp, "data end canary = %X\n\n\n", *(canary_t *)(stk->data + stk->capacity * sizeof(elem_t)));
     #endif
 
     #ifdef HASH_MODE
