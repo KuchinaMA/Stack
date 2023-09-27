@@ -3,12 +3,17 @@
 
 #include <stdio.h>
 
-#define ELEMF "%lld"
+//#define ELEMF "%lld"
 
-typedef long long int elem_t;
+//typedef long long int elem_t;
+
+#define ELEMF "%lg"
+
+typedef double elem_t;
+
 const elem_t PoisonValue = -1;
 
-typedef long long int hash_t;
+typedef double hash_t;
 
 typedef unsigned long long int canary_t;
 

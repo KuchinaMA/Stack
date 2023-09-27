@@ -12,11 +12,11 @@ void close_log() {
 }
 
 
-void open_log(const char *filename) {
+void open_log(const char *filename, const char *time) {
 
     LOG_FILE = fopen(filename, "a");
 
-    fprintf(LOG_FILE, "--------------װאיכ סמחהאם ג %s--------------\n", __TIME__);
+    fprintf(LOG_FILE, "--------------װאיכ סמחהאם ג %s--------------\n", time);
 
     if (LOG_FILE == NULL) {
         LOG_FILE = stderr;

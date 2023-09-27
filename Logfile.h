@@ -6,6 +6,6 @@
 extern FILE *LOG_FILE;
 
 void close_log();
-void open_log(const char *filename);
+void open_log(const char *filename, const char *time);
 
 #endif // LOGFILE_H_INCLUDED
