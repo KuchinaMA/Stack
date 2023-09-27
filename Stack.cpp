@@ -20,7 +20,7 @@
 int stack_ctor(Stack *stk, int capacity) {
 
     assert(stk != NULL);
-    //assert(capacity > 0);
+    assert(capacity > 0);
 
     #ifdef CANARY_MODE
     stk->canary1 = CanaryStack;
@@ -171,7 +171,7 @@ void stack_dump(const struct Stack *stk, const char *file, int line, const char 
         printf("*[%d] = " ELEMF "\n", i, stk->data[i]);
     }
 
-    for (int i = stk->size; i <= stk->capacity; i++) {
+    for (int i = stk->size; i < stk->capacity; i++) {
         printf("[%d] = POISONED\n", i);
     }
 
@@ -265,7 +265,7 @@ void stack_dump_err(const struct Stack *stk, const char *file, int line, const c
         fprintf(fp, "*[%d] = " ELEMF "\n", i, stk->data[i]);
     }
 
-    for (int i = stk->size; i <= stk->capacity; i++) {
+    for (int i = stk->size; i < stk->capacity; i++) {
         fprintf(fp, "[%d] = POISONED\n", i);
     }
 

@@ -34,7 +34,7 @@ const int StackCapacity = 5;
 const int Coeff = 2;
 
 const canary_t CanaryStack = 0xDEADBEEF;
-const elem_t CanaryBuf = 0xBADCAFE;
+const canary_t CanaryBuf = 0xBADCAFE;
 
 
 int stack_ctor(Stack *stk, int capacity);

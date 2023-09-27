@@ -127,613 +127,6 @@ ERROR! size > capacity
 
 ERROR! Value of canary has been changed
 
-stack_dump from file: stack.cpp line 208 function: print_errors
-
-struct beginning canary = DEADBEEF
-struct end canary = DEADBEEF
-
-size = 4
-capacity = 3
-hash = 13
-
-data beginning canary = BADCAFE
-*[0] = 0
-*[1] = 1
-*[2] = 2
-*[3] = 3
-data end canary = 3
-
-
-Файл успешно закрыт
-
-
---------------Файл создан--------------
-ERROR! size > capacity 
-
-ERROR! Value of canary has been changed
-
-ERROR! Value of hash has been changed
-
-stack_dump from file: stack.cpp line 208 function: print_errors
-
-struct beginning canary = DEADBEEF
-struct end canary = DEADBEEF
-
-size = 5
-capacity = 3
-hash = 46
-
-data beginning canary = BADCAFE
-*[0] = 0
-*[1] = 1
-*[2] = 2
-*[3] = 3
-*[4] = 4
-data end canary = 3
-
-
---------------Файл успешно закрыт--------------
-
-
---------------Файл создан--------------
-ERROR! size > capacity 
-
-ERROR! Value of canary has been changed
-
-ERROR! Value of hash has been changed
-
-stack_dump from file: stack.cpp line 208 function: print_errors
-
-struct beginning canary = DEADBEEF
-struct end canary = DEADBEEF
-
-size = 4
-capacity = 3
-hash = 13
-
-data beginning canary = BADCAFE
-*[0] = 0
-*[1] = 1
-*[2] = 2
-*[3] = 3
-data end canary = 3
-
-
---------------Файл успешно закрыт--------------
-
-
---------------Файл создан--------------
-ERROR! size > capacity 
-
-ERROR! Value of canary has been changed
-
-stack_dump from file: stack.cpp line 208 function: print_errors
-
-struct beginning canary = DEADBEEF
-struct end canary = DEADBEEF
-
-size = 4
-capacity = 3
-hash = 13
-
-data beginning canary = BADCAFE
-*[0] = 0
-*[1] = 1
-*[2] = 2
-*[3] = 3
-data end canary = 3
-
-
---------------Файл успешно закрыт--------------
-
-
---------------Файл создан--------------
-ERROR! size > capacity 
-
-ERROR! Value of canary has been changed
-
-ERROR! Value of hash has been changed
-
-stack_dump from file: stack.cpp line 210 function: print_errors
-
-struct beginning canary = DEADBEEF
-struct end canary = DEADBEEF
-
-size = 5
-capacity = 3
-hash = 46
-
-data beginning canary = BADCAFE
-*[0] = 0
-*[1] = 1
-*[2] = 2
-*[3] = 3
-*[4] = 4
-data end canary = 3
-
-
---------------Файл успешно закрыт--------------
-
-
---------------Файл создан--------------
-ERROR! size > capacity 
-
-ERROR! Value of canary has been changed
-
-ERROR! Value of hash has been changed
-
-stack_dump from file: stack.cpp line 210 function: print_errors
-
-struct beginning canary = DEADBEEF
-struct end canary = DEADBEEF
-
-size = 4
-capacity = 3
-hash = 13
-
-data beginning canary = BADCAFE
-*[0] = 0
-*[1] = 1
-*[2] = 2
-*[3] = 3
-data end canary = 3
-
-
---------------Файл успешно закрыт--------------
-
-
---------------Файл создан--------------
-ERROR! size > capacity 
-
-ERROR! Value of canary has been changed
-
-stack_dump from file: stack.cpp line 210 function: print_errors
-
-struct beginning canary = DEADBEEF
-struct end canary = DEADBEEF
-
-size = 4
-capacity = 3
-hash = 13
-
-data beginning canary = BADCAFE
-*[0] = 0
-*[1] = 1
-*[2] = 2
-*[3] = 3
-data end canary = 3
-
-
---------------Файл успешно закрыт--------------
-
-
-ERROR! size > capacity 
-
-ERROR! Value of canary has been changed
-
-ERROR! Value of hash has been changed
-
-stack_dump from file: stack.cpp line 210 function: print_errors
-
-struct beginning canary = DEADBEEF
-struct end canary = DEADBEEF
-
-size = 5
-capacity = 3
-hash = 46
-
-data beginning canary = BADCAFE
-*[0] = 0
-*[1] = 1
-*[2] = 2
-*[3] = 3
-*[4] = 4
-data end canary = 3
-
-
-ERROR! size > capacity 
-
-ERROR! Value of canary has been changed
-
-ERROR! Value of hash has been changed
-
-stack_dump from file: stack.cpp line 210 function: print_errors
-
-struct beginning canary = DEADBEEF
-struct end canary = DEADBEEF
-
-size = 4
-capacity = 3
-hash = 13
-
-data beginning canary = BADCAFE
-*[0] = 0
-*[1] = 1
-*[2] = 2
-*[3] = 3
-data end canary = 3
-
-
-ERROR! size > capacity 
-
-ERROR! Value of canary has been changed
-
-stack_dump from file: stack.cpp line 210 function: print_errors
-
-struct beginning canary = DEADBEEF
-struct end canary = DEADBEEF
-
-size = 4
-capacity = 3
-hash = 13
-
-data beginning canary = BADCAFE
-*[0] = 0
-*[1] = 1
-*[2] = 2
-*[3] = 3
-data end canary = 3
-
-
---------------Файл успешно закрыт--------------
-
-
-ERROR! size > capacity 
-
-ERROR! Value of canary has been changed
-
-ERROR! Value of hash has been changed
-
-stack_dump from file: stack.cpp line 210 function: print_errors
-
-struct beginning canary = DEADBEEF
-struct end canary = DEADBEEF
-
-size = 5
-capacity = 3
-hash = 46
-
-data beginning canary = BADCAFE
-*[0] = 0
-*[1] = 1
-*[2] = 2
-*[3] = 3
-*[4] = 4
-data end canary = 3
-
-
-ERROR! size > capacity 
-
-ERROR! Value of canary has been changed
-
-ERROR! Value of hash has been changed
-
-stack_dump from file: stack.cpp line 210 function: print_errors
-
-struct beginning canary = DEADBEEF
-struct end canary = DEADBEEF
-
-size = 4
-capacity = 3
-hash = 13
-
-data beginning canary = BADCAFE
-*[0] = 0
-*[1] = 1
-*[2] = 2
-*[3] = 3
-data end canary = 3
-
-
-ERROR! size > capacity 
-
-ERROR! Value of canary has been changed
-
-stack_dump from file: stack.cpp line 210 function: print_errors
-
-struct beginning canary = DEADBEEF
-struct end canary = DEADBEEF
-
-size = 4
-capacity = 3
-hash = 13
-
-data beginning canary = BADCAFE
-*[0] = 0
-*[1] = 1
-*[2] = 2
-*[3] = 3
-data end canary = 3
-
-
---------------Файл успешно закрыт--------------
-
-
-ERROR! size > capacity 
-
-ERROR! Value of canary has been changed
-
-ERROR! Value of hash has been changed
-
-stack_dump from file: stack.cpp line 210 function: print_errors
-
-struct beginning canary = DEADBEEF
-struct end canary = DEADBEEF
-
-size = 5
-capacity = 3
-hash = 46
-
-data beginning canary = BADCAFE
-*[0] = 0
-*[1] = 1
-*[2] = 2
-*[3] = 3
-*[4] = 4
-data end canary = 3
-
-
-ERROR! size > capacity 
-
-ERROR! Value of canary has been changed
-
-ERROR! Value of hash has been changed
-
-stack_dump from file: stack.cpp line 210 function: print_errors
-
-struct beginning canary = DEADBEEF
-struct end canary = DEADBEEF
-
-size = 4
-capacity = 3
-hash = 13
-
-data beginning canary = BADCAFE
-*[0] = 0
-*[1] = 1
-*[2] = 2
-*[3] = 3
-data end canary = 3
-
-
-ERROR! size > capacity 
-
-ERROR! Value of canary has been changed
-
-stack_dump from file: stack.cpp line 210 function: print_errors
-
-struct beginning canary = DEADBEEF
-struct end canary = DEADBEEF
-
-size = 4
-capacity = 3
-hash = 13
-
-data beginning canary = BADCAFE
-*[0] = 0
-*[1] = 1
-*[2] = 2
-*[3] = 3
-data end canary = 3
-
-
---------------Файл успешно закрыт--------------
-
-
-ERROR! size > capacity 
-
-ERROR! Value of canary has been changed
-
-ERROR! Value of hash has been changed
-
-stack_dump from file: stack.cpp line 210 function: print_errors
-
-struct beginning canary = DEADBEEF
-struct end canary = DEADBEEF
-
-size = 5
-capacity = 3
-hash = 46
-
-data beginning canary = BADCAFE
-*[0] = 0
-*[1] = 1
-*[2] = 2
-*[3] = 3
-*[4] = 4
-data end canary = 3
-
-
-ERROR! size > capacity 
-
-ERROR! Value of canary has been changed
-
-ERROR! Value of hash has been changed
-
-stack_dump from file: stack.cpp line 210 function: print_errors
-
-struct beginning canary = DEADBEEF
-struct end canary = DEADBEEF
-
-size = 4
-capacity = 3
-hash = 13
-
-data beginning canary = BADCAFE
-*[0] = 0
-*[1] = 1
-*[2] = 2
-*[3] = 3
-data end canary = 3
-
-
-ERROR! size > capacity 
-
-ERROR! Value of canary has been changed
-
-stack_dump from file: stack.cpp line 210 function: print_errors
-
-struct beginning canary = DEADBEEF
-struct end canary = DEADBEEF
-
-size = 4
-capacity = 3
-hash = 13
-
-data beginning canary = BADCAFE
-*[0] = 0
-*[1] = 1
-*[2] = 2
-*[3] = 3
-data end canary = 3
-
-
---------------Файл успешно закрыт--------------
-
-
---------------Файл создан в 19:09:59--------------
-ERROR! size > capacity 
-
-ERROR! Value of canary has been changed
-
-ERROR! Value of hash has been changed
-
-stack_dump from file: stack.cpp line 210 function: print_errors
-
-struct beginning canary = DEADBEEF
-struct end canary = DEADBEEF
-
-size = 5
-capacity = 3
-hash = 46
-
-data beginning canary = BADCAFE
-*[0] = 0
-*[1] = 1
-*[2] = 2
-*[3] = 3
-*[4] = 4
-data end canary = 3
-
-
-ERROR! size > capacity 
-
-ERROR! Value of canary has been changed
-
-ERROR! Value of hash has been changed
-
-stack_dump from file: stack.cpp line 210 function: print_errors
-
-struct beginning canary = DEADBEEF
-struct end canary = DEADBEEF
-
-size = 4
-capacity = 3
-hash = 13
-
-data beginning canary = BADCAFE
-*[0] = 0
-*[1] = 1
-*[2] = 2
-*[3] = 3
-data end canary = 3
-
-
-ERROR! size > capacity 
-
-ERROR! Value of canary has been changed
-
-stack_dump from file: stack.cpp line 210 function: print_errors
-
-struct beginning canary = DEADBEEF
-struct end canary = DEADBEEF
-
-size = 4
-capacity = 3
-hash = 13
-
-data beginning canary = BADCAFE
-*[0] = 0
-*[1] = 1
-*[2] = 2
-*[3] = 3
-data end canary = 3
-
-
---------------Файл успешно закрыт--------------
-
-
---------------Файл создан в 19:19:16--------------
-ERROR! size > capacity 
-
-ERROR! Value of canary has been changed
-
-ERROR! Value of hash has been changed
-
-stack_dump from file: stack.cpp line 210 function: print_errors
-
-struct beginning canary = DEADBEEF
-struct end canary = DEADBEEF
-
-size = 5
-capacity = 3
-hash = 46
-
-data beginning canary = BADCAFE
-*[0] = 0
-*[1] = 1
-*[2] = 2
-*[3] = 3
-*[4] = 4
-data end canary = 3
-
-
-ERROR! size > capacity 
-
-ERROR! Value of canary has been changed
-
-ERROR! Value of hash has been changed
-
-stack_dump from file: stack.cpp line 210 function: print_errors
-
-struct beginning canary = DEADBEEF
-struct end canary = DEADBEEF
-
-size = 4
-capacity = 3
-hash = 13
-
-data beginning canary = BADCAFE
-*[0] = 0
-*[1] = 1
-*[2] = 2
-*[3] = 3
-data end canary = 3
-
-
-ERROR! size > capacity 
-
-ERROR! Value of canary has been changed
-
-stack_dump from file: stack.cpp line 210 function: print_errors
-
-struct beginning canary = DEADBEEF
-struct end canary = DEADBEEF
-
-size = 4
-capacity = 3
-hash = 13
-
-data beginning canary = BADCAFE
-*[0] = 0
-*[1] = 1
-*[2] = 2
-*[3] = 3
-data end canary = 3
-
-
---------------Файл успешно закрыт--------------
-
 
 --------------Файл создан в 19:20:05--------------
 ERROR! size > capacity 
@@ -16704,6 +16097,10209 @@ capacity = 3
 
 
 --------------Файл создан в 16:07:46--------------
+--------------Файл успешно закрыт--------------
+
+
+--------------Файл создан в 21:32:37--------------
+--------------Файл успешно закрыт--------------
+
+
+--------------Файл создан в 21:37:14--------------
+--------------Файл успешно закрыт--------------
+
+
+--------------Файл создан в 21:37:14--------------
+--------------Файл успешно закрыт--------------
+
+
+--------------Файл создан в 21:56:42--------------
+ERROR! capacity < 0
+
+ERROR! size > capacity 
+
+stack_dump from file: Stack.cpp line 80 function: stack_push stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = BADCAFE
+data end canary = BADCAFE
+
+
+hash = -1
+
+size = 0
+capacity = -1
+ERROR! capacity < 0
+
+ERROR! size > capacity 
+
+stack_dump from file: Stack.cpp line 90 function: stack_push stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = BADCAFE
+data end canary = BADCAFE
+
+
+hash = 0
+
+size = 1
+capacity = -1
+*[0] = 0
+ERROR! capacity < 0
+
+ERROR! size > capacity 
+
+stack_dump from file: Stack.cpp line 80 function: stack_push stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = BADCAFE
+data end canary = BADCAFE
+
+
+hash = 0
+
+size = 1
+capacity = -1
+*[0] = 0
+ERROR! capacity < 0
+
+ERROR! size > capacity 
+
+stack_dump from file: Stack.cpp line 90 function: stack_push stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = BADCAFE
+data end canary = BADCAFE
+
+
+hash = 2
+
+size = 2
+capacity = -1
+*[0] = 0
+*[1] = 1
+ERROR! capacity < 0
+
+ERROR! size > capacity 
+
+stack_dump from file: Stack.cpp line 80 function: stack_push stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = BADCAFE
+data end canary = BADCAFE
+
+
+hash = 2
+
+size = 2
+capacity = -1
+*[0] = 0
+*[1] = 1
+ERROR! capacity < 0
+
+ERROR! size > capacity 
+
+stack_dump from file: Stack.cpp line 90 function: stack_push stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = BADCAFE
+data end canary = BADCAFE
+
+
+hash = 5
+
+size = 3
+capacity = -1
+*[0] = 0
+*[1] = 1
+*[2] = 2
+ERROR! capacity < 0
+
+ERROR! size > capacity 
+
+stack_dump from file: Stack.cpp line 80 function: stack_push stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = BADCAFE
+data end canary = BADCAFE
+
+
+hash = 5
+
+size = 3
+capacity = -1
+*[0] = 0
+*[1] = 1
+*[2] = 2
+ERROR! capacity < 0
+
+ERROR! size > capacity 
+
+stack_dump from file: Stack.cpp line 90 function: stack_push stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = BADCAFE
+data end canary = BADCAFE
+
+
+hash = 9
+
+size = 4
+capacity = -1
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+ERROR! capacity < 0
+
+ERROR! size > capacity 
+
+stack_dump from file: Stack.cpp line 80 function: stack_push stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = BADCAFE
+data end canary = BADCAFE
+
+
+hash = 9
+
+size = 4
+capacity = -1
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+ERROR! capacity < 0
+
+ERROR! size > capacity 
+
+stack_dump from file: Stack.cpp line 90 function: stack_push stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = BADCAFE
+data end canary = BADCAFE
+
+
+hash = 14
+
+size = 5
+capacity = -1
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+*[4] = 4
+ERROR! capacity < 0
+
+ERROR! size > capacity 
+
+stack_dump from file: Stack.cpp line 80 function: stack_push stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = BADCAFE
+data end canary = BADCAFE
+
+
+hash = 14
+
+size = 5
+capacity = -1
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+*[4] = 4
+ERROR! capacity < 0
+
+ERROR! size > capacity 
+
+stack_dump from file: Stack.cpp line 90 function: stack_push stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = BADCAFE
+data end canary = BADCAFE
+
+
+hash = 20
+
+size = 6
+capacity = -1
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+*[4] = 4
+*[5] = 5
+ERROR! capacity < 0
+
+ERROR! size > capacity 
+
+ERROR! Value of hash has been changed
+
+stack_dump from file: Stack.cpp line 80 function: stack_push stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = BADCAFE
+data end canary = BADCAFE
+
+
+hash = 20
+
+size = 6
+capacity = -1
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+*[4] = 4
+*[5] = 4.59541e-072
+ERROR! capacity < 0
+
+ERROR! size > capacity 
+
+ERROR! Value of canary has been changed
+
+stack_dump from file: Stack.cpp line 90 function: stack_push stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = BADCAFE
+data end canary = 205D335B
+
+
+hash = 22
+
+size = 7
+capacity = -1
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+*[4] = 4
+*[5] = 4.59541e-072
+*[6] = 6
+ERROR! capacity < 0
+
+ERROR! size > capacity 
+
+ERROR! Value of canary has been changed
+
+ERROR! Value of hash has been changed
+
+stack_dump from file: Stack.cpp line 80 function: stack_push stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = BADCAFE
+data end canary = 205D335B
+
+
+hash = 22
+
+size = 7
+capacity = -1
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+*[4] = 4
+*[5] = 8.47704e-053
+*[6] = 1.26932e-076
+ERROR! capacity < 0
+
+ERROR! size > capacity 
+
+ERROR! Value of canary has been changed
+
+stack_dump from file: Stack.cpp line 90 function: stack_push stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = BADCAFE
+data end canary = 205D335B
+
+
+hash = 24
+
+size = 8
+capacity = -1
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+*[4] = 4
+*[5] = 8.47704e-053
+*[6] = 1.26932e-076
+*[7] = 7
+ERROR! capacity < 0
+
+ERROR! size > capacity 
+
+ERROR! Value of canary has been changed
+
+ERROR! Value of hash has been changed
+
+stack_dump from file: Stack.cpp line 98 function: stack_pop stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = BADCAFE
+data end canary = 205D335B
+
+
+hash = 24
+
+size = 8
+capacity = -1
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+*[4] = 4
+*[5] = 1.29349e-057
+*[6] = 5.20173e-090
+*[7] = 4.68341e-062
+ERROR! capacity < 0
+
+ERROR! size > capacity 
+
+ERROR! Value of canary has been changed
+
+stack_dump from file: Stack.cpp line 112 function: stack_pop stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = BADCAFE
+data end canary = 205D335B
+
+
+hash = 16
+
+size = 7
+capacity = -1
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+*[4] = 4
+*[5] = 1.29349e-057
+*[6] = 5.20173e-090
+ERROR! capacity < 0
+
+ERROR! size > capacity 
+
+ERROR! Value of canary has been changed
+
+stack_dump from file: Stack.cpp line 98 function: stack_pop stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = BADCAFE
+data end canary = 205D335B
+
+
+hash = 16
+
+size = 7
+capacity = -1
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+*[4] = 4
+*[5] = 8.47704e-053
+*[6] = 1.26932e-076
+ERROR! capacity < 0
+
+ERROR! size > capacity 
+
+ERROR! Value of canary has been changed
+
+stack_dump from file: Stack.cpp line 112 function: stack_pop stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = BADCAFE
+data end canary = 205D335B
+
+
+hash = 15
+
+size = 6
+capacity = -1
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+*[4] = 4
+*[5] = 8.47704e-053
+ERROR! capacity < 0
+
+ERROR! size > capacity 
+
+ERROR! Value of canary has been changed
+
+stack_dump from file: Stack.cpp line 98 function: stack_pop stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = BADCAFE
+data end canary = 205D335B
+
+
+hash = 15
+
+size = 6
+capacity = -1
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+*[4] = 4
+*[5] = 4.59541e-072
+ERROR! capacity < 0
+
+ERROR! size > capacity 
+
+ERROR! Value of canary has been changed
+
+stack_dump from file: Stack.cpp line 112 function: stack_pop stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = BADCAFE
+data end canary = 205D335B
+
+
+hash = 14
+
+size = 5
+capacity = -1
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+*[4] = 4
+ERROR! capacity < 0
+
+ERROR! size > capacity 
+
+ERROR! Value of canary has been changed
+
+stack_dump from file: Stack.cpp line 98 function: stack_pop stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = BADCAFE
+data end canary = 205D335B
+
+
+hash = 14
+
+size = 5
+capacity = -1
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+*[4] = 4
+ERROR! capacity < 0
+
+ERROR! size > capacity 
+
+ERROR! Value of canary has been changed--------------Файл создан в 22:00:48--------------
+ERROR! Value of canary has been changed
+
+stack_dump from file: Stack.cpp line 80 function: stack_push stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = BADCAFE
+data end canary = 0
+
+
+hash = 5
+
+size = 0
+capacity = 5
+[0] = POISONED
+[1] = POISONED
+[2] = POISONED
+[3] = POISONED
+[4] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: Stack.cpp line 90 function: stack_push stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = BADCAFE
+data end canary = 0
+
+
+hash = 6
+
+size = 1
+capacity = 5
+*[0] = 0
+[1] = POISONED
+[2] = POISONED
+[3] = POISONED
+[4] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: Stack.cpp line 80 function: stack_push stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = BADCAFE
+data end canary = 0
+
+
+hash = 6
+
+size = 1
+capacity = 5
+*[0] = 0
+[1] = POISONED
+[2] = POISONED
+[3] = POISONED
+[4] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: Stack.cpp line 90 function: stack_push stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = BADCAFE
+data end canary = 0
+
+
+hash = 8
+
+size = 2
+capacity = 5
+*[0] = 0
+*[1] = 1
+[2] = POISONED
+[3] = POISONED
+[4] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: Stack.cpp line 80 function: stack_push stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = BADCAFE
+data end canary = 0
+
+
+hash = 8
+
+size = 2
+capacity = 5
+*[0] = 0
+*[1] = 1
+[2] = POISONED
+[3] = POISONED
+[4] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: Stack.cpp line 90 function: stack_push stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = BADCAFE
+data end canary = 0
+
+
+hash = 11
+
+size = 3
+capacity = 5
+*[0] = 0
+*[1] = 1
+*[2] = 2
+[3] = POISONED
+[4] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: Stack.cpp line 80 function: stack_push stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = BADCAFE
+data end canary = 0
+
+
+hash = 11
+
+size = 3
+capacity = 5
+*[0] = 0
+*[1] = 1
+*[2] = 2
+[3] = POISONED
+[4] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: Stack.cpp line 90 function: stack_push stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = BADCAFE
+data end canary = 0
+
+
+hash = 15
+
+size = 4
+capacity = 5
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+[4] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: Stack.cpp line 80 function: stack_push stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = BADCAFE
+data end canary = 0
+
+
+hash = 15
+
+size = 4
+capacity = 5
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+[4] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: Stack.cpp line 90 function: stack_push stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = BADCAFE
+data end canary = 0
+
+
+hash = 20
+
+size = 5
+capacity = 5
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+*[4] = 4
+ERROR! Value of canary has been changed
+
+stack_dump from file: Stack.cpp line 80 function: stack_push stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = BADCAFE
+data end canary = 0
+
+
+hash = 20
+
+size = 5
+capacity = 5
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+*[4] = 4
+ERROR! Value of canary has been changed
+
+stack_dump from file: Stack.cpp line 120 function: stack_realloc stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = BADCAFE
+data end canary = 0
+
+
+hash = 20
+
+size = 5
+capacity = 5
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+*[4] = 4
+ERROR! Value of canary has been changed
+
+stack_dump from file: Stack.cpp line 90 function: stack_push stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = BADCAFE
+data end canary = 0
+
+
+hash = 31
+
+size = 6
+capacity = 10
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+*[4] = 4
+*[5] = 5
+[6] = POISONED
+[7] = POISONED
+[8] = POISONED
+[9] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: Stack.cpp line 80 function: stack_push stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = BADCAFE
+data end canary = 0
+
+
+hash = 31
+
+size = 6
+capacity = 10
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+*[4] = 4
+*[5] = 5
+[6] = POISONED
+[7] = POISONED
+[8] = POISONED
+[9] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: Stack.cpp line 90 function: stack_push stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = BADCAFE
+data end canary = 0
+
+
+hash = 38
+
+size = 7
+capacity = 10
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+*[4] = 4
+*[5] = 5
+*[6] = 6
+[7] = POISONED
+[8] = POISONED
+[9] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: Stack.cpp line 80 function: stack_push stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = BADCAFE
+data end canary = 0
+
+
+hash = 38
+
+size = 7
+capacity = 10
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+*[4] = 4
+*[5] = 5
+*[6] = 6
+[7] = POISONED
+[8] = POISONED
+[9] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: Stack.cpp line 90 function: stack_push stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = BADCAFE
+data end canary = 0
+
+
+hash = 46
+
+size = 8
+capacity = 10
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+*[4] = 4
+*[5] = 5
+*[6] = 6
+*[7] = 7
+[8] = POISONED
+[9] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: Stack.cpp line 98 function: stack_pop stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = BADCAFE
+data end canary = 0
+
+
+hash = 46
+
+size = 8
+capacity = 10
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+*[4] = 4
+*[5] = 5
+*[6] = 6
+*[7] = 7
+[8] = POISONED
+[9] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: Stack.cpp line 112 function: stack_pop stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = BADCAFE
+data end canary = 0
+
+
+hash = 38
+
+size = 7
+capacity = 10
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+*[4] = 4
+*[5] = 5
+*[6] = 6
+[7] = POISONED
+[8] = POISONED
+[9] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: Stack.cpp line 98 function: stack_pop stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = BADCAFE
+data end canary = 0
+
+
+hash = 38
+
+size = 7
+capacity = 10
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+*[4] = 4
+*[5] = 5
+*[6] = 6
+[7] = POISONED
+[8] = POISONED
+[9] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: Stack.cpp line 112 function: stack_pop stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = BADCAFE
+data end canary = 0
+
+
+hash = 31
+
+size = 6
+capacity = 10
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+*[4] = 4
+*[5] = 5
+[6] = POISONED
+[7] = POISONED
+[8] = POISONED
+[9] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: Stack.cpp line 98 function: stack_pop stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = BADCAFE
+data end canary = 0
+
+
+hash = 31
+
+size = 6
+capacity = 10
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+*[4] = 4
+*[5] = 5
+[6] = POISONED
+[7] = POISONED
+[8] = POISONED
+[9] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: Stack.cpp line 120 function: stack_realloc stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = BADCAFE
+data end canary = 0
+
+
+hash = 25
+
+size = 5
+capacity = 10
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+*[4] = 4
+[5] = POISONED
+[6] = POISONED
+[7] = POISONED
+[8] = POISONED
+[9] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: Stack.cpp line 112 function: stack_pop stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = BADCAFE
+data end canary = 0
+
+
+hash = 20
+
+size = 5
+capacity = 5
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+*[4] = 4
+ERROR! Value of canary has been changed
+
+stack_dump from file: Stack.cpp line 98 function: stack_pop stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = BADCAFE
+data end canary = 0
+
+
+hash = 20
+
+size = 5
+capacity = 5
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+*[4] = 4
+ERROR! Value of canary has been changed
+
+stack_dump from file: Stack.cpp line 112 function: stack_pop stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = BADCAFE
+data end canary = 0
+
+
+hash = 15
+
+size = 4
+capacity = 5
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+[4] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: Stack.cpp line 66 function: stack_dtor stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = BADCAFE
+data end canary = 0
+
+
+hash = 15
+
+size = 4
+capacity = 5
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+[4] = POISONED
+--------------Файл успешно закрыт--------------
+
+
+--------------Файл создан в 22:00:48--------------
+ERROR! Value of canary has been changed
+
+stack_dump from file: Stack.cpp line 80 function: stack_push stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = BADCAFE
+data end canary = 0
+
+
+hash = 5
+
+size = 0
+capacity = 5
+[0] = POISONED
+[1] = POISONED
+[2] = POISONED
+[3] = POISONED
+[4] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: Stack.cpp line 90 function: stack_push stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = BADCAFE
+data end canary = 0
+
+
+hash = 6
+
+size = 1
+capacity = 5
+*[0] = 0
+[1] = POISONED
+[2] = POISONED
+[3] = POISONED
+[4] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: Stack.cpp line 80 function: stack_push stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = BADCAFE
+data end canary = 0
+
+
+hash = 6
+
+size = 1
+capacity = 5
+*[0] = 0
+[1] = POISONED
+[2] = POISONED
+[3] = POISONED
+[4] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: Stack.cpp line 90 function: stack_push stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = BADCAFE
+data end canary = 0
+
+
+hash = 8
+
+size = 2
+capacity = 5
+*[0] = 0
+*[1] = 1
+[2] = POISONED
+[3] = POISONED
+[4] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: Stack.cpp line 80 function: stack_push stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = BADCAFE
+data end canary = 0
+
+
+hash = 8
+
+size = 2
+capacity = 5
+*[0] = 0
+*[1] = 1
+[2] = POISONED
+[3] = POISONED
+[4] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: Stack.cpp line 90 function: stack_push stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = BADCAFE
+data end canary = 0
+
+
+hash = 11
+
+size = 3
+capacity = 5
+*[0] = 0
+*[1] = 1
+*[2] = 2
+[3] = POISONED
+[4] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: Stack.cpp line 80 function: stack_push stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = BADCAFE
+data end canary = 0
+
+
+hash = 11
+
+size = 3
+capacity = 5
+*[0] = 0
+*[1] = 1
+*[2] = 2
+[3] = POISONED
+[4] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: Stack.cpp line 90 function: stack_push stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = BADCAFE
+data end canary = 0
+
+
+hash = 15
+
+size = 4
+capacity = 5
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+[4] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: Stack.cpp line 80 function: stack_push stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = BADCAFE
+data end canary = 0
+
+
+hash = 15
+
+size = 4
+capacity = 5
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+[4] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: Stack.cpp line 90 function: stack_push stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = BADCAFE
+data end canary = 0
+
+
+hash = 20
+
+size = 5
+capacity = 5
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+*[4] = 4
+ERROR! Value of canary has been changed
+
+stack_dump from file: Stack.cpp line 80 function: stack_push stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = BADCAFE
+data end canary = 0
+
+
+hash = 20
+
+size = 5
+capacity = 5
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+*[4] = 4
+ERROR! Value of canary has been changed
+
+stack_dump from file: Stack.cpp line 120 function: stack_realloc stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = BADCAFE
+data end canary = 0
+
+
+hash = 20
+
+size = 5
+capacity = 5
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+*[4] = 4
+ERROR! Value of canary has been changed
+
+stack_dump from file: Stack.cpp line 90 function: stack_push stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = BADCAFE
+data end canary = 0
+
+
+hash = 31
+
+size = 6
+capacity = 10
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+*[4] = 4
+*[5] = 5
+[6] = POISONED
+[7] = POISONED
+[8] = POISONED
+[9] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: Stack.cpp line 80 function: stack_push stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = BADCAFE
+data end canary = 0
+
+
+hash = 31
+
+size = 6
+capacity = 10
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+*[4] = 4
+*[5] = 5
+[6] = POISONED
+[7] = POISONED
+[8] = POISONED
+[9] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: Stack.cpp line 90 function: stack_push stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = BADCAFE
+data end canary = 0
+
+
+hash = 38
+
+size = 7
+capacity = 10
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+*[4] = 4
+*[5] = 5
+*[6] = 6
+[7] = POISONED
+[8] = POISONED
+[9] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: Stack.cpp line 80 function: stack_push stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = BADCAFE
+data end canary = 0
+
+
+hash = 38
+
+size = 7
+capacity = 10
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+*[4] = 4
+*[5] = 5
+*[6] = 6
+[7] = POISONED
+[8] = POISONED
+[9] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: Stack.cpp line 90 function: stack_push stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = BADCAFE
+data end canary = 0
+
+
+hash = 46
+
+size = 8
+capacity = 10
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+*[4] = 4
+*[5] = 5
+*[6] = 6
+*[7] = 7
+[8] = POISONED
+[9] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: Stack.cpp line 98 function: stack_pop stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = BADCAFE
+data end canary = 0
+
+
+hash = 46
+
+size = 8
+capacity = 10
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+*[4] = 4
+*[5] = 5
+*[6] = 6
+*[7] = 7
+[8] = POISONED
+[9] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: Stack.cpp line 112 function: stack_pop stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = BADCAFE
+data end canary = 0
+
+
+hash = 38
+
+size = 7
+capacity = 10
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+*[4] = 4
+*[5] = 5
+*[6] = 6
+[7] = POISONED
+[8] = POISONED
+[9] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: Stack.cpp line 98 function: stack_pop stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = BADCAFE
+data end canary = 0
+
+
+hash = 38
+
+size = 7
+capacity = 10
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+*[4] = 4
+*[5] = 5
+*[6] = 6
+[7] = POISONED
+[8] = POISONED
+[9] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: Stack.cpp line 112 function: stack_pop stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = BADCAFE
+data end canary = 0
+
+
+hash = 31
+
+size = 6
+capacity = 10
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+*[4] = 4
+*[5] = 5
+[6] = POISONED
+[7] = POISONED
+[8] = POISONED
+[9] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: Stack.cpp line 98 function: stack_pop stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = BADCAFE
+data end canary = 0
+
+
+hash = 31
+
+size = 6
+capacity = 10
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+*[4] = 4
+*[5] = 5
+[6] = POISONED
+[7] = POISONED
+[8] = POISONED
+[9] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: Stack.cpp line 120 function: stack_realloc stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = BADCAFE
+data end canary = 0
+
+
+hash = 25
+
+size = 5
+capacity = 10
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+*[4] = 4
+[5] = POISONED
+[6] = POISONED
+[7] = POISONED
+[8] = POISONED
+[9] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: Stack.cpp line 112 function: stack_pop stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = BADCAFE
+data end canary = 0
+
+
+hash = 20
+
+size = 5
+capacity = 5
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+*[4] = 4
+ERROR! Value of canary has been changed
+
+stack_dump from file: Stack.cpp line 98 function: stack_pop stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = BADCAFE
+data end canary = 0
+
+
+hash = 20
+
+size = 5
+capacity = 5
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+*[4] = 4
+ERROR! Value of canary has been changed
+
+stack_dump from file: Stack.cpp line 112 function: stack_pop stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = BADCAFE
+data end canary = 0
+
+
+hash = 15
+
+size = 4
+capacity = 5
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+[4] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: Stack.cpp line 66 function: stack_dtor stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = BADCAFE
+data end canary = 0
+
+
+hash = 15
+
+size = 4
+capacity = 5
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+[4] = POISONED
+--------------Файл успешно закрыт--------------
+
+
+--------------Файл создан в 22:00:48--------------
+ERROR! Value of canary has been changed
+
+stack_dump from file: Stack.cpp line 80 function: stack_push stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = BADCAFE
+data end canary = 0
+
+
+hash = 5
+
+size = 0
+capacity = 5
+[0] = POISONED
+[1] = POISONED
+[2] = POISONED
+[3] = POISONED
+[4] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: Stack.cpp line 90 function: stack_push stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = BADCAFE
+data end canary = 0
+
+
+hash = 6
+
+size = 1
+capacity = 5
+*[0] = 0
+[1] = POISONED
+[2] = POISONED
+[3] = POISONED
+[4] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: Stack.cpp line 80 function: stack_push stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = BADCAFE
+data end canary = 0
+
+
+hash = 6
+
+size = 1
+capacity = 5
+*[0] = 0
+[1] = POISONED
+[2] = POISONED
+[3] = POISONED
+[4] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: Stack.cpp line 90 function: stack_push stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = BADCAFE
+data end canary = 0
+
+
+hash = 8
+
+size = 2
+capacity = 5
+*[0] = 0
+*[1] = 1
+[2] = POISONED
+[3] = POISONED
+[4] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: Stack.cpp line 80 function: stack_push stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = BADCAFE
+data end canary = 0
+
+
+hash = 8
+
+size = 2
+capacity = 5
+*[0] = 0
+*[1] = 1
+[2] = POISONED
+[3] = POISONED
+[4] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: Stack.cpp line 90 function: stack_push stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = BADCAFE
+data end canary = 0
+
+
+hash = 11
+
+size = 3
+capacity = 5
+*[0] = 0
+*[1] = 1
+*[2] = 2
+[3] = POISONED
+[4] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: Stack.cpp line 80 function: stack_push stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = BADCAFE
+data end canary = 0
+
+
+hash = 11
+
+size = 3
+capacity = 5
+*[0] = 0
+*[1] = 1
+*[2] = 2
+[3] = POISONED
+[4] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: Stack.cpp line 90 function: stack_push stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = BADCAFE
+data end canary = 0
+
+
+hash = 15
+
+size = 4
+capacity = 5
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+[4] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: Stack.cpp line 80 function: stack_push stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = BADCAFE
+data end canary = 0
+
+
+hash = 15
+
+size = 4
+capacity = 5
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+[4] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: Stack.cpp line 90 function: stack_push stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = BADCAFE
+data end canary = 0
+
+
+hash = 20
+
+size = 5
+capacity = 5
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+*[4] = 4
+ERROR! Value of canary has been changed
+
+stack_dump from file: Stack.cpp line 80 function: stack_push stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = BADCAFE
+data end canary = 0
+
+
+hash = 20
+
+size = 5
+capacity = 5
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+*[4] = 4
+ERROR! Value of canary has been changed
+
+stack_dump from file: Stack.cpp line 120 function: stack_realloc stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = BADCAFE
+data end canary = 0
+
+
+hash = 20
+
+size = 5
+capacity = 5
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+*[4] = 4
+ERROR! Value of canary has been changed
+
+stack_dump from file: Stack.cpp line 90 function: stack_push stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = BADCAFE
+data end canary = 0
+
+
+hash = 31
+
+size = 6
+capacity = 10
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+*[4] = 4
+*[5] = 5
+[6] = POISONED
+[7] = POISONED
+[8] = POISONED
+[9] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: Stack.cpp line 80 function: stack_push stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = BADCAFE
+data end canary = 0
+
+
+hash = 31
+
+size = 6
+capacity = 10
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+*[4] = 4
+*[5] = 5
+[6] = POISONED
+[7] = POISONED
+[8] = POISONED
+[9] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: Stack.cpp line 90 function: stack_push stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = BADCAFE
+data end canary = 0
+
+
+hash = 38
+
+size = 7
+capacity = 10
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+*[4] = 4
+*[5] = 5
+*[6] = 6
+[7] = POISONED
+[8] = POISONED
+[9] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: Stack.cpp line 80 function: stack_push stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = BADCAFE
+data end canary = 0
+
+
+hash = 38
+
+size = 7
+capacity = 10
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+*[4] = 4
+*[5] = 5
+*[6] = 6
+[7] = POISONED
+[8] = POISONED
+[9] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: Stack.cpp line 90 function: stack_push stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = BADCAFE
+data end canary = 0
+
+
+hash = 46
+
+size = 8
+capacity = 10
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+*[4] = 4
+*[5] = 5
+*[6] = 6
+*[7] = 7
+[8] = POISONED
+[9] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: Stack.cpp line 98 function: stack_pop stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = BADCAFE
+data end canary = 0
+
+
+hash = 46
+
+size = 8
+capacity = 10
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+*[4] = 4
+*[5] = 5
+*[6] = 6
+*[7] = 7
+[8] = POISONED
+[9] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: Stack.cpp line 112 function: stack_pop stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = BADCAFE
+data end canary = 0
+
+
+hash = 38
+
+size = 7
+capacity = 10
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+*[4] = 4
+*[5] = 5
+*[6] = 6
+[7] = POISONED
+[8] = POISONED
+[9] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: Stack.cpp line 98 function: stack_pop stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = BADCAFE
+data end canary = 0
+
+
+hash = 38
+
+size = 7
+capacity = 10
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+*[4] = 4
+*[5] = 5
+*[6] = 6
+[7] = POISONED
+[8] = POISONED
+[9] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: Stack.cpp line 112 function: stack_pop stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = BADCAFE
+data end canary = 0
+
+
+hash = 31
+
+size = 6
+capacity = 10
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+*[4] = 4
+*[5] = 5
+[6] = POISONED
+[7] = POISONED
+[8] = POISONED
+[9] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: Stack.cpp line 98 function: stack_pop stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = BADCAFE
+data end canary = 0
+
+
+hash = 31
+
+size = 6
+capacity = 10
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+*[4] = 4
+*[5] = 5
+[6] = POISONED
+[7] = POISONED
+[8] = POISONED
+[9] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: Stack.cpp line 120 function: stack_realloc stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = BADCAFE
+data end canary = 0
+
+
+hash = 25
+
+size = 5
+capacity = 10
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+*[4] = 4
+[5] = POISONED
+[6] = POISONED
+[7] = POISONED
+[8] = POISONED
+[9] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: Stack.cpp line 112 function: stack_pop stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = BADCAFE
+data end canary = 0
+
+
+hash = 20
+
+size = 5
+capacity = 5
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+*[4] = 4
+ERROR! Value of canary has been changed
+
+stack_dump from file: Stack.cpp line 98 function: stack_pop stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = BADCAFE
+data end canary = 0
+
+
+hash = 20
+
+size = 5
+capacity = 5
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+*[4] = 4
+ERROR! Value of canary has been changed
+
+stack_dump from file: Stack.cpp line 112 function: stack_pop stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = BADCAFE
+data end canary = 0
+
+
+hash = 15
+
+size = 4
+capacity = 5
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+[4] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: Stack.cpp line 66 function: stack_dtor stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = BADCAFE
+data end canary = 0
+
+
+hash = 15
+
+size = 4
+capacity = 5
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+[4] = POISONED
+--------------Файл успешно закрыт--------------
+
+
+--------------Файл создан в 22:00:48--------------
+ERROR! Value of canary has been changed
+
+stack_dump from file: Stack.cpp line 80 function: stack_push stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = BADCAFE
+data end canary = 0
+
+
+hash = 5
+
+size = 0
+capacity = 5
+[0] = POISONED
+[1] = POISONED
+[2] = POISONED
+[3] = POISONED
+[4] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: Stack.cpp line 90 function: stack_push stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = BADCAFE
+data end canary = 0
+
+
+hash = 6
+
+size = 1
+capacity = 5
+*[0] = 0
+[1] = POISONED
+[2] = POISONED
+[3] = POISONED
+[4] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: Stack.cpp line 80 function: stack_push stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = BADCAFE
+data end canary = 0
+
+
+hash = 6
+
+size = 1
+capacity = 5
+*[0] = 0
+[1] = POISONED
+[2] = POISONED
+[3] = POISONED
+[4] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: Stack.cpp line 90 function: stack_push stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = BADCAFE
+data end canary = 0
+
+
+hash = 8
+
+size = 2
+capacity = 5
+*[0] = 0
+*[1] = 1
+[2] = POISONED
+[3] = POISONED
+[4] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: Stack.cpp line 80 function: stack_push stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = BADCAFE
+data end canary = 0
+
+
+hash = 8
+
+size = 2
+capacity = 5
+*[0] = 0
+*[1] = 1
+[2] = POISONED
+[3] = POISONED
+[4] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: Stack.cpp line 90 function: stack_push stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = BADCAFE
+data end canary = 0
+
+
+hash = 11
+
+size = 3
+capacity = 5
+*[0] = 0
+*[1] = 1
+*[2] = 2
+[3] = POISONED
+[4] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: Stack.cpp line 80 function: stack_push stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = BADCAFE
+data end canary = 0
+
+
+hash = 11
+
+size = 3
+capacity = 5
+*[0] = 0
+*[1] = 1
+*[2] = 2
+[3] = POISONED
+[4] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: Stack.cpp line 90 function: stack_push stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = BADCAFE
+data end canary = 0
+
+
+hash = 15
+
+size = 4
+capacity = 5
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+[4] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: Stack.cpp line 80 function: stack_push stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = BADCAFE
+data end canary = 0
+
+
+hash = 15
+
+size = 4
+capacity = 5
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+[4] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: Stack.cpp line 90 function: stack_push stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = BADCAFE
+data end canary = 0
+
+
+hash = 20
+
+size = 5
+capacity = 5
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+*[4] = 4
+ERROR! Value of canary has been changed
+
+stack_dump from file: Stack.cpp line 80 function: stack_push stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = BADCAFE
+data end canary = 0
+
+
+hash = 20
+
+size = 5
+capacity = 5
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+*[4] = 4
+ERROR! Value of canary has been changed
+
+stack_dump from file: Stack.cpp line 120 function: stack_realloc stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = BADCAFE
+data end canary = 0
+
+
+hash = 20
+
+size = 5
+capacity = 5
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+*[4] = 4
+ERROR! Value of canary has been changed
+
+stack_dump from file: Stack.cpp line 90 function: stack_push stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = BADCAFE
+data end canary = 0
+
+
+hash = 31
+
+size = 6
+capacity = 10
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+*[4] = 4
+*[5] = 5
+[6] = POISONED
+[7] = POISONED
+[8] = POISONED
+[9] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: Stack.cpp line 80 function: stack_push stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = BADCAFE
+data end canary = 0
+
+
+hash = 31
+
+size = 6
+capacity = 10
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+*[4] = 4
+*[5] = 5
+[6] = POISONED
+[7] = POISONED
+[8] = POISONED
+[9] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: Stack.cpp line 90 function: stack_push stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = BADCAFE
+data end canary = 0
+
+
+hash = 38
+
+size = 7
+capacity = 10
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+*[4] = 4
+*[5] = 5
+*[6] = 6
+[7] = POISONED
+[8] = POISONED
+[9] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: Stack.cpp line 80 function: stack_push stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = BADCAFE
+data end canary = 0
+
+
+hash = 38
+
+size = 7
+capacity = 10
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+*[4] = 4
+*[5] = 5
+*[6] = 6
+[7] = POISONED
+[8] = POISONED
+[9] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: Stack.cpp line 90 function: stack_push stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = BADCAFE
+data end canary = 0
+
+
+hash = 46
+
+size = 8
+capacity = 10
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+*[4] = 4
+*[5] = 5
+*[6] = 6
+*[7] = 7
+[8] = POISONED
+[9] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: Stack.cpp line 98 function: stack_pop stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = BADCAFE
+data end canary = 0
+
+
+hash = 46
+
+size = 8
+capacity = 10
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+*[4] = 4
+*[5] = 5
+*[6] = 6
+*[7] = 7
+[8] = POISONED
+[9] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: Stack.cpp line 112 function: stack_pop stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = BADCAFE
+data end canary = 0
+
+
+hash = 38
+
+size = 7
+capacity = 10
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+*[4] = 4
+*[5] = 5
+*[6] = 6
+[7] = POISONED
+[8] = POISONED
+[9] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: Stack.cpp line 98 function: stack_pop stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = BADCAFE
+data end canary = 0
+
+
+hash = 38
+
+size = 7
+capacity = 10
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+*[4] = 4
+*[5] = 5
+*[6] = 6
+[7] = POISONED
+[8] = POISONED
+[9] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: Stack.cpp line 112 function: stack_pop stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = BADCAFE
+data end canary = 0
+
+
+hash = 31
+
+size = 6
+capacity = 10
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+*[4] = 4
+*[5] = 5
+[6] = POISONED
+[7] = POISONED
+[8] = POISONED
+[9] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: Stack.cpp line 98 function: stack_pop stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = BADCAFE
+data end canary = 0
+
+
+hash = 31
+
+size = 6
+capacity = 10
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+*[4] = 4
+*[5] = 5
+[6] = POISONED
+[7] = POISONED
+[8] = POISONED
+[9] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: Stack.cpp line 120 function: stack_realloc stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = BADCAFE
+data end canary = 0
+
+
+hash = 25
+
+size = 5
+capacity = 10
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+*[4] = 4
+[5] = POISONED
+[6] = POISONED
+[7] = POISONED
+[8] = POISONED
+[9] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: Stack.cpp line 112 function: stack_pop stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = BADCAFE
+data end canary = 0
+
+
+hash = 20
+
+size = 5
+capacity = 5
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+*[4] = 4
+ERROR! Value of canary has been changed
+
+stack_dump from file: Stack.cpp line 98 function: stack_pop stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = BADCAFE
+data end canary = 0
+
+
+hash = 20
+
+size = 5
+capacity = 5
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+*[4] = 4
+ERROR! Value of canary has been changed
+
+stack_dump from file: Stack.cpp line 112 function: stack_pop stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = BADCAFE
+data end canary = 0
+
+
+hash = 15
+
+size = 4
+capacity = 5
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+[4] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: Stack.cpp line 66 function: stack_dtor stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = BADCAFE
+data end canary = 0
+
+
+hash = 15
+
+size = 4
+capacity = 5
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+[4] = POISONED
+--------------Файл успешно закрыт--------------
+
+
+--------------Файл создан в 22:04:04--------------
+ERROR! Value of canary has been changed
+
+stack_dump from file: stack.cpp line 80 function: stack_push stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = ADC0FFEE
+data end canary = 0
+
+
+hash = 5
+
+size = 0
+capacity = 5
+[0] = POISONED
+[1] = POISONED
+[2] = POISONED
+[3] = POISONED
+[4] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: stack.cpp line 90 function: stack_push stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = ADC0FFEE
+data end canary = 0
+
+
+hash = 6
+
+size = 1
+capacity = 5
+*[0] = 0
+[1] = POISONED
+[2] = POISONED
+[3] = POISONED
+[4] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: stack.cpp line 80 function: stack_push stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = ADC0FFEE
+data end canary = 0
+
+
+hash = 6
+
+size = 1
+capacity = 5
+*[0] = 0
+[1] = POISONED
+[2] = POISONED
+[3] = POISONED
+[4] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: stack.cpp line 90 function: stack_push stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = ADC0FFEE
+data end canary = 0
+
+
+hash = 8
+
+size = 2
+capacity = 5
+*[0] = 0
+*[1] = 1
+[2] = POISONED
+[3] = POISONED
+[4] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: stack.cpp line 80 function: stack_push stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = ADC0FFEE
+data end canary = 0
+
+
+hash = 8
+
+size = 2
+capacity = 5
+*[0] = 0
+*[1] = 1
+[2] = POISONED
+[3] = POISONED
+[4] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: stack.cpp line 90 function: stack_push stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = ADC0FFEE
+data end canary = 0
+
+
+hash = 11
+
+size = 3
+capacity = 5
+*[0] = 0
+*[1] = 1
+*[2] = 2
+[3] = POISONED
+[4] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: stack.cpp line 80 function: stack_push stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = ADC0FFEE
+data end canary = 0
+
+
+hash = 11
+
+size = 3
+capacity = 5
+*[0] = 0
+*[1] = 1
+*[2] = 2
+[3] = POISONED
+[4] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: stack.cpp line 90 function: stack_push stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = ADC0FFEE
+data end canary = 0
+
+
+hash = 15
+
+size = 4
+capacity = 5
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+[4] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: stack.cpp line 80 function: stack_push stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = ADC0FFEE
+data end canary = 0
+
+
+hash = 15
+
+size = 4
+capacity = 5
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+[4] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: stack.cpp line 90 function: stack_push stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = ADC0FFEE
+data end canary = 0
+
+
+hash = 20
+
+size = 5
+capacity = 5
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+*[4] = 4
+ERROR! Value of canary has been changed
+
+stack_dump from file: stack.cpp line 80 function: stack_push stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = ADC0FFEE
+data end canary = 0
+
+
+hash = 20
+
+size = 5
+capacity = 5
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+*[4] = 4
+ERROR! Value of canary has been changed
+
+stack_dump from file: stack.cpp line 120 function: stack_realloc stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = ADC0FFEE
+data end canary = 0
+
+
+hash = 20
+
+size = 5
+capacity = 5
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+*[4] = 4
+ERROR! Value of canary has been changed
+
+stack_dump from file: stack.cpp line 90 function: stack_push stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = ADC0FFEE
+data end canary = 0
+
+
+hash = 31
+
+size = 6
+capacity = 10
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+*[4] = 4
+*[5] = 5
+[6] = POISONED
+[7] = POISONED
+[8] = POISONED
+[9] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: stack.cpp line 80 function: stack_push stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = ADC0FFEE
+data end canary = 0
+
+
+hash = 31
+
+size = 6
+capacity = 10
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+*[4] = 4
+*[5] = 5
+[6] = POISONED
+[7] = POISONED
+[8] = POISONED
+[9] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: stack.cpp line 90 function: stack_push stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = ADC0FFEE
+data end canary = 0
+
+
+hash = 38
+
+size = 7
+capacity = 10
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+*[4] = 4
+*[5] = 5
+*[6] = 6
+[7] = POISONED
+[8] = POISONED
+[9] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: stack.cpp line 80 function: stack_push stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = ADC0FFEE
+data end canary = 0
+
+
+hash = 38
+
+size = 7
+capacity = 10
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+*[4] = 4
+*[5] = 5
+*[6] = 6
+[7] = POISONED
+[8] = POISONED
+[9] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: stack.cpp line 90 function: stack_push stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = ADC0FFEE
+data end canary = 0
+
+
+hash = 46
+
+size = 8
+capacity = 10
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+*[4] = 4
+*[5] = 5
+*[6] = 6
+*[7] = 7
+[8] = POISONED
+[9] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: stack.cpp line 98 function: stack_pop stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = ADC0FFEE
+data end canary = 0
+
+
+hash = 46
+
+size = 8
+capacity = 10
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+*[4] = 4
+*[5] = 5
+*[6] = 6
+*[7] = 7
+[8] = POISONED
+[9] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: stack.cpp line 112 function: stack_pop stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = ADC0FFEE
+data end canary = 0
+
+
+hash = 38
+
+size = 7
+capacity = 10
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+*[4] = 4
+*[5] = 5
+*[6] = 6
+[7] = POISONED
+[8] = POISONED
+[9] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: stack.cpp line 98 function: stack_pop stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = ADC0FFEE
+data end canary = 0
+
+
+hash = 38
+
+size = 7
+capacity = 10
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+*[4] = 4
+*[5] = 5
+*[6] = 6
+[7] = POISONED
+[8] = POISONED
+[9] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: stack.cpp line 112 function: stack_pop stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = ADC0FFEE
+data end canary = 0
+
+
+hash = 31
+
+size = 6
+capacity = 10
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+*[4] = 4
+*[5] = 5
+[6] = POISONED
+[7] = POISONED
+[8] = POISONED
+[9] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: stack.cpp line 98 function: stack_pop stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = ADC0FFEE
+data end canary = 0
+
+
+hash = 31
+
+size = 6
+capacity = 10
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+*[4] = 4
+*[5] = 5
+[6] = POISONED
+[7] = POISONED
+[8] = POISONED
+[9] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: stack.cpp line 120 function: stack_realloc stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = ADC0FFEE
+data end canary = 0
+
+
+hash = 25
+
+size = 5
+capacity = 10
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+*[4] = 4
+[5] = POISONED
+[6] = POISONED
+[7] = POISONED
+[8] = POISONED
+[9] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: stack.cpp line 112 function: stack_pop stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = ADC0FFEE
+data end canary = 0
+
+
+hash = 20
+
+size = 5
+capacity = 5
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+*[4] = 4
+ERROR! Value of canary has been changed
+
+stack_dump from file: stack.cpp line 98 function: stack_pop stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = ADC0FFEE
+data end canary = 0
+
+
+hash = 20
+
+size = 5
+capacity = 5
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+*[4] = 4
+ERROR! Value of canary has been changed
+
+stack_dump from file: stack.cpp line 112 function: stack_pop stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = ADC0FFEE
+data end canary = 0
+
+
+hash = 15
+
+size = 4
+capacity = 5
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+[4] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: stack.cpp line 66 function: stack_dtor stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = ADC0FFEE
+data end canary = 0
+
+
+hash = 15
+
+size = 4
+capacity = 5
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+[4] = POISONED
+--------------Файл успешно закрыт--------------
+
+
+--------------Файл создан в 22:04:37--------------
+ERROR! Value of canary has been changed
+
+stack_dump from file: stack.cpp line 80 function: stack_push stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = BADCAFE
+data end canary = 0
+
+
+hash = 5
+
+size = 0
+capacity = 5
+[0] = POISONED
+[1] = POISONED
+[2] = POISONED
+[3] = POISONED
+[4] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: stack.cpp line 90 function: stack_push stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = BADCAFE
+data end canary = 0
+
+
+hash = 6
+
+size = 1
+capacity = 5
+*[0] = 0
+[1] = POISONED
+[2] = POISONED
+[3] = POISONED
+[4] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: stack.cpp line 80 function: stack_push stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = BADCAFE
+data end canary = 0
+
+
+hash = 6
+
+size = 1
+capacity = 5
+*[0] = 0
+[1] = POISONED
+[2] = POISONED
+[3] = POISONED
+[4] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: stack.cpp line 90 function: stack_push stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = BADCAFE
+data end canary = 0
+
+
+hash = 8
+
+size = 2
+capacity = 5
+*[0] = 0
+*[1] = 1
+[2] = POISONED
+[3] = POISONED
+[4] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: stack.cpp line 80 function: stack_push stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = BADCAFE
+data end canary = 0
+
+
+hash = 8
+
+size = 2
+capacity = 5
+*[0] = 0
+*[1] = 1
+[2] = POISONED
+[3] = POISONED
+[4] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: stack.cpp line 90 function: stack_push stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = BADCAFE
+data end canary = 0
+
+
+hash = 11
+
+size = 3
+capacity = 5
+*[0] = 0
+*[1] = 1
+*[2] = 2
+[3] = POISONED
+[4] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: stack.cpp line 80 function: stack_push stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = BADCAFE
+data end canary = 0
+
+
+hash = 11
+
+size = 3
+capacity = 5
+*[0] = 0
+*[1] = 1
+*[2] = 2
+[3] = POISONED
+[4] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: stack.cpp line 90 function: stack_push stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = BADCAFE
+data end canary = 0
+
+
+hash = 15
+
+size = 4
+capacity = 5
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+[4] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: stack.cpp line 80 function: stack_push stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = BADCAFE
+data end canary = 0
+
+
+hash = 15
+
+size = 4
+capacity = 5
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+[4] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: stack.cpp line 90 function: stack_push stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = BADCAFE
+data end canary = 0
+
+
+hash = 20
+
+size = 5
+capacity = 5
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+*[4] = 4
+ERROR! Value of canary has been changed
+
+stack_dump from file: stack.cpp line 80 function: stack_push stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = BADCAFE
+data end canary = 0
+
+
+hash = 20
+
+size = 5
+capacity = 5
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+*[4] = 4
+ERROR! Value of canary has been changed
+
+stack_dump from file: stack.cpp line 120 function: stack_realloc stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = BADCAFE
+data end canary = 0
+
+
+hash = 20
+
+size = 5
+capacity = 5
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+*[4] = 4
+ERROR! Value of canary has been changed
+
+stack_dump from file: stack.cpp line 90 function: stack_push stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = BADCAFE
+data end canary = 0
+
+
+hash = 31
+
+size = 6
+capacity = 10
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+*[4] = 4
+*[5] = 5
+[6] = POISONED
+[7] = POISONED
+[8] = POISONED
+[9] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: stack.cpp line 80 function: stack_push stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = BADCAFE
+data end canary = 0
+
+
+hash = 31
+
+size = 6
+capacity = 10
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+*[4] = 4
+*[5] = 5
+[6] = POISONED
+[7] = POISONED
+[8] = POISONED
+[9] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: stack.cpp line 90 function: stack_push stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = BADCAFE
+data end canary = 0
+
+
+hash = 38
+
+size = 7
+capacity = 10
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+*[4] = 4
+*[5] = 5
+*[6] = 6
+[7] = POISONED
+[8] = POISONED
+[9] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: stack.cpp line 80 function: stack_push stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = BADCAFE
+data end canary = 0
+
+
+hash = 38
+
+size = 7
+capacity = 10
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+*[4] = 4
+*[5] = 5
+*[6] = 6
+[7] = POISONED
+[8] = POISONED
+[9] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: stack.cpp line 90 function: stack_push stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = BADCAFE
+data end canary = 0
+
+
+hash = 46
+
+size = 8
+capacity = 10
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+*[4] = 4
+*[5] = 5
+*[6] = 6
+*[7] = 7
+[8] = POISONED
+[9] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: stack.cpp line 98 function: stack_pop stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = BADCAFE
+data end canary = 0
+
+
+hash = 46
+
+size = 8
+capacity = 10
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+*[4] = 4
+*[5] = 5
+*[6] = 6
+*[7] = 7
+[8] = POISONED
+[9] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: stack.cpp line 112 function: stack_pop stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = BADCAFE
+data end canary = 0
+
+
+hash = 38
+
+size = 7
+capacity = 10
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+*[4] = 4
+*[5] = 5
+*[6] = 6
+[7] = POISONED
+[8] = POISONED
+[9] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: stack.cpp line 98 function: stack_pop stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = BADCAFE
+data end canary = 0
+
+
+hash = 38
+
+size = 7
+capacity = 10
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+*[4] = 4
+*[5] = 5
+*[6] = 6
+[7] = POISONED
+[8] = POISONED
+[9] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: stack.cpp line 112 function: stack_pop stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = BADCAFE
+data end canary = 0
+
+
+hash = 31
+
+size = 6
+capacity = 10
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+*[4] = 4
+*[5] = 5
+[6] = POISONED
+[7] = POISONED
+[8] = POISONED
+[9] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: stack.cpp line 98 function: stack_pop stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = BADCAFE
+data end canary = 0
+
+
+hash = 31
+
+size = 6
+capacity = 10
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+*[4] = 4
+*[5] = 5
+[6] = POISONED
+[7] = POISONED
+[8] = POISONED
+[9] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: stack.cpp line 120 function: stack_realloc stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = BADCAFE
+data end canary = 0
+
+
+hash = 25
+
+size = 5
+capacity = 10
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+*[4] = 4
+[5] = POISONED
+[6] = POISONED
+[7] = POISONED
+[8] = POISONED
+[9] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: stack.cpp line 112 function: stack_pop stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = BADCAFE
+data end canary = 0
+
+
+hash = 20
+
+size = 5
+capacity = 5
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+*[4] = 4
+ERROR! Value of canary has been changed
+
+stack_dump from file: stack.cpp line 98 function: stack_pop stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = BADCAFE
+data end canary = 0
+
+
+hash = 20
+
+size = 5
+capacity = 5
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+*[4] = 4
+ERROR! Value of canary has been changed
+
+stack_dump from file: stack.cpp line 112 function: stack_pop stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = BADCAFE
+data end canary = 0
+
+
+hash = 15
+
+size = 4
+capacity = 5
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+[4] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: stack.cpp line 66 function: stack_dtor stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = BADCAFE
+data end canary = 0
+
+
+hash = 15
+
+size = 4
+capacity = 5
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+[4] = POISONED
+--------------Файл успешно закрыт--------------
+
+
+--------------Файл создан в 22:05:05--------------
+ERROR! Value of canary has been changed
+
+stack_dump from file: stack.cpp line 80 function: stack_push stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = BADCAFE
+data end canary = 0
+
+
+hash = 5
+
+size = 0
+capacity = 5
+[0] = POISONED
+[1] = POISONED
+[2] = POISONED
+[3] = POISONED
+[4] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: stack.cpp line 90 function: stack_push stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = BADCAFE
+data end canary = 0
+
+
+hash = 6
+
+size = 1
+capacity = 5
+*[0] = 0
+[1] = POISONED
+[2] = POISONED
+[3] = POISONED
+[4] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: stack.cpp line 80 function: stack_push stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = BADCAFE
+data end canary = 0
+
+
+hash = 6
+
+size = 1
+capacity = 5
+*[0] = 0
+[1] = POISONED
+[2] = POISONED
+[3] = POISONED
+[4] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: stack.cpp line 90 function: stack_push stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = BADCAFE
+data end canary = 0
+
+
+hash = 8
+
+size = 2
+capacity = 5
+*[0] = 0
+*[1] = 1
+[2] = POISONED
+[3] = POISONED
+[4] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: stack.cpp line 80 function: stack_push stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = BADCAFE
+data end canary = 0
+
+
+hash = 8
+
+size = 2
+capacity = 5
+*[0] = 0
+*[1] = 1
+[2] = POISONED
+[3] = POISONED
+[4] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: stack.cpp line 90 function: stack_push stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = BADCAFE
+data end canary = 0
+
+
+hash = 11
+
+size = 3
+capacity = 5
+*[0] = 0
+*[1] = 1
+*[2] = 2
+[3] = POISONED
+[4] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: stack.cpp line 80 function: stack_push stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = BADCAFE
+data end canary = 0
+
+
+hash = 11
+
+size = 3
+capacity = 5
+*[0] = 0
+*[1] = 1
+*[2] = 2
+[3] = POISONED
+[4] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: stack.cpp line 90 function: stack_push stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = BADCAFE
+data end canary = 0
+
+
+hash = 15
+
+size = 4
+capacity = 5
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+[4] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: stack.cpp line 80 function: stack_push stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = BADCAFE
+data end canary = 0
+
+
+hash = 15
+
+size = 4
+capacity = 5
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+[4] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: stack.cpp line 90 function: stack_push stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = BADCAFE
+data end canary = 0
+
+
+hash = 20
+
+size = 5
+capacity = 5
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+*[4] = 4
+ERROR! Value of canary has been changed
+
+stack_dump from file: stack.cpp line 80 function: stack_push stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = BADCAFE
+data end canary = 0
+
+
+hash = 20
+
+size = 5
+capacity = 5
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+*[4] = 4
+ERROR! Value of canary has been changed
+
+stack_dump from file: stack.cpp line 120 function: stack_realloc stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = BADCAFE
+data end canary = 0
+
+
+hash = 20
+
+size = 5
+capacity = 5
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+*[4] = 4
+ERROR! Value of canary has been changed
+
+stack_dump from file: stack.cpp line 90 function: stack_push stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = BADCAFE
+data end canary = 0
+
+
+hash = 31
+
+size = 6
+capacity = 10
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+*[4] = 4
+*[5] = 5
+[6] = POISONED
+[7] = POISONED
+[8] = POISONED
+[9] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: stack.cpp line 80 function: stack_push stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = BADCAFE
+data end canary = 0
+
+
+hash = 31
+
+size = 6
+capacity = 10
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+*[4] = 4
+*[5] = 5
+[6] = POISONED
+[7] = POISONED
+[8] = POISONED
+[9] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: stack.cpp line 90 function: stack_push stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = BADCAFE
+data end canary = 0
+
+
+hash = 38
+
+size = 7
+capacity = 10
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+*[4] = 4
+*[5] = 5
+*[6] = 6
+[7] = POISONED
+[8] = POISONED
+[9] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: stack.cpp line 80 function: stack_push stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = BADCAFE
+data end canary = 0
+
+
+hash = 38
+
+size = 7
+capacity = 10
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+*[4] = 4
+*[5] = 5
+*[6] = 6
+[7] = POISONED
+[8] = POISONED
+[9] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: stack.cpp line 90 function: stack_push stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = BADCAFE
+data end canary = 0
+
+
+hash = 46
+
+size = 8
+capacity = 10
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+*[4] = 4
+*[5] = 5
+*[6] = 6
+*[7] = 7
+[8] = POISONED
+[9] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: stack.cpp line 98 function: stack_pop stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = BADCAFE
+data end canary = 0
+
+
+hash = 46
+
+size = 8
+capacity = 10
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+*[4] = 4
+*[5] = 5
+*[6] = 6
+*[7] = 7
+[8] = POISONED
+[9] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: stack.cpp line 112 function: stack_pop stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = BADCAFE
+data end canary = 0
+
+
+hash = 38
+
+size = 7
+capacity = 10
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+*[4] = 4
+*[5] = 5
+*[6] = 6
+[7] = POISONED
+[8] = POISONED
+[9] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: stack.cpp line 98 function: stack_pop stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = BADCAFE
+data end canary = 0
+
+
+hash = 38
+
+size = 7
+capacity = 10
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+*[4] = 4
+*[5] = 5
+*[6] = 6
+[7] = POISONED
+[8] = POISONED
+[9] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: stack.cpp line 112 function: stack_pop stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = BADCAFE
+data end canary = 0
+
+
+hash = 31
+
+size = 6
+capacity = 10
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+*[4] = 4
+*[5] = 5
+[6] = POISONED
+[7] = POISONED
+[8] = POISONED
+[9] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: stack.cpp line 98 function: stack_pop stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = BADCAFE
+data end canary = 0
+
+
+hash = 31
+
+size = 6
+capacity = 10
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+*[4] = 4
+*[5] = 5
+[6] = POISONED
+[7] = POISONED
+[8] = POISONED
+[9] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: stack.cpp line 120 function: stack_realloc stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = BADCAFE
+data end canary = 0
+
+
+hash = 25
+
+size = 5
+capacity = 10
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+*[4] = 4
+[5] = POISONED
+[6] = POISONED
+[7] = POISONED
+[8] = POISONED
+[9] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: stack.cpp line 112 function: stack_pop stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = BADCAFE
+data end canary = 0
+
+
+hash = 20
+
+size = 5
+capacity = 5
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+*[4] = 4
+ERROR! Value of canary has been changed
+
+stack_dump from file: stack.cpp line 98 function: stack_pop stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = BADCAFE
+data end canary = 0
+
+
+hash = 20
+
+size = 5
+capacity = 5
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+*[4] = 4
+ERROR! Value of canary has been changed
+
+stack_dump from file: stack.cpp line 112 function: stack_pop stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = BADCAFE
+data end canary = 0
+
+
+hash = 15
+
+size = 4
+capacity = 5
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+[4] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: stack.cpp line 66 function: stack_dtor stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = BADCAFE
+data end canary = 0
+
+
+hash = 15
+
+size = 4
+capacity = 5
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+[4] = POISONED
+--------------Файл успешно закрыт--------------
+
+
+--------------Файл создан в 22:07:04--------------
+ERROR! Value of canary has been changed
+
+stack_dump from file: stack.cpp line 80 function: stack_push stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = BADCAFE
+data end canary = 0
+
+
+hash = 5
+
+size = 0
+capacity = 5
+[0] = POISONED
+[1] = POISONED
+[2] = POISONED
+[3] = POISONED
+[4] = POISONED
+[5] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: stack.cpp line 90 function: stack_push stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = BADCAFE
+data end canary = 0
+
+
+hash = 6
+
+size = 1
+capacity = 5
+*[0] = 0
+[1] = POISONED
+[2] = POISONED
+[3] = POISONED
+[4] = POISONED
+[5] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: stack.cpp line 80 function: stack_push stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = BADCAFE
+data end canary = 0
+
+
+hash = 6
+
+size = 1
+capacity = 5
+*[0] = 0
+[1] = POISONED
+[2] = POISONED
+[3] = POISONED
+[4] = POISONED
+[5] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: stack.cpp line 90 function: stack_push stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = BADCAFE
+data end canary = 0
+
+
+hash = 8
+
+size = 2
+capacity = 5
+*[0] = 0
+*[1] = 1
+[2] = POISONED
+[3] = POISONED
+[4] = POISONED
+[5] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: stack.cpp line 80 function: stack_push stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = BADCAFE
+data end canary = 0
+
+
+hash = 8
+
+size = 2
+capacity = 5
+*[0] = 0
+*[1] = 1
+[2] = POISONED
+[3] = POISONED
+[4] = POISONED
+[5] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: stack.cpp line 90 function: stack_push stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = BADCAFE
+data end canary = 0
+
+
+hash = 11
+
+size = 3
+capacity = 5
+*[0] = 0
+*[1] = 1
+*[2] = 2
+[3] = POISONED
+[4] = POISONED
+[5] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: stack.cpp line 80 function: stack_push stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = BADCAFE
+data end canary = 0
+
+
+hash = 11
+
+size = 3
+capacity = 5
+*[0] = 0
+*[1] = 1
+*[2] = 2
+[3] = POISONED
+[4] = POISONED
+[5] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: stack.cpp line 90 function: stack_push stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = BADCAFE
+data end canary = 0
+
+
+hash = 15
+
+size = 4
+capacity = 5
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+[4] = POISONED
+[5] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: stack.cpp line 80 function: stack_push stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = BADCAFE
+data end canary = 0
+
+
+hash = 15
+
+size = 4
+capacity = 5
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+[4] = POISONED
+[5] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: stack.cpp line 90 function: stack_push stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = BADCAFE
+data end canary = 0
+
+
+hash = 20
+
+size = 5
+capacity = 5
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+*[4] = 4
+[5] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: stack.cpp line 80 function: stack_push stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = BADCAFE
+data end canary = 0
+
+
+hash = 20
+
+size = 5
+capacity = 5
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+*[4] = 4
+[5] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: stack.cpp line 120 function: stack_realloc stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = BADCAFE
+data end canary = 0
+
+
+hash = 20
+
+size = 5
+capacity = 5
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+*[4] = 4
+[5] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: stack.cpp line 90 function: stack_push stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = BADCAFE
+data end canary = 0
+
+
+hash = 31
+
+size = 6
+capacity = 10
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+*[4] = 4
+*[5] = 5
+[6] = POISONED
+[7] = POISONED
+[8] = POISONED
+[9] = POISONED
+[10] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: stack.cpp line 80 function: stack_push stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = BADCAFE
+data end canary = 0
+
+
+hash = 31
+
+size = 6
+capacity = 10
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+*[4] = 4
+*[5] = 5
+[6] = POISONED
+[7] = POISONED
+[8] = POISONED
+[9] = POISONED
+[10] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: stack.cpp line 90 function: stack_push stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = BADCAFE
+data end canary = 0
+
+
+hash = 38
+
+size = 7
+capacity = 10
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+*[4] = 4
+*[5] = 5
+*[6] = 6
+[7] = POISONED
+[8] = POISONED
+[9] = POISONED
+[10] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: stack.cpp line 80 function: stack_push stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = BADCAFE
+data end canary = 0
+
+
+hash = 38
+
+size = 7
+capacity = 10
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+*[4] = 4
+*[5] = 5
+*[6] = 6
+[7] = POISONED
+[8] = POISONED
+[9] = POISONED
+[10] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: stack.cpp line 90 function: stack_push stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = BADCAFE
+data end canary = 0
+
+
+hash = 46
+
+size = 8
+capacity = 10
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+*[4] = 4
+*[5] = 5
+*[6] = 6
+*[7] = 7
+[8] = POISONED
+[9] = POISONED
+[10] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: stack.cpp line 98 function: stack_pop stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = BADCAFE
+data end canary = 0
+
+
+hash = 46
+
+size = 8
+capacity = 10
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+*[4] = 4
+*[5] = 5
+*[6] = 6
+*[7] = 7
+[8] = POISONED
+[9] = POISONED
+[10] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: stack.cpp line 112 function: stack_pop stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = BADCAFE
+data end canary = 0
+
+
+hash = 38
+
+size = 7
+capacity = 10
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+*[4] = 4
+*[5] = 5
+*[6] = 6
+[7] = POISONED
+[8] = POISONED
+[9] = POISONED
+[10] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: stack.cpp line 98 function: stack_pop stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = BADCAFE
+data end canary = 0
+
+
+hash = 38
+
+size = 7
+capacity = 10
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+*[4] = 4
+*[5] = 5
+*[6] = 6
+[7] = POISONED
+[8] = POISONED
+[9] = POISONED
+[10] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: stack.cpp line 112 function: stack_pop stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = BADCAFE
+data end canary = 0
+
+
+hash = 31
+
+size = 6
+capacity = 10
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+*[4] = 4
+*[5] = 5
+[6] = POISONED
+[7] = POISONED
+[8] = POISONED
+[9] = POISONED
+[10] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: stack.cpp line 98 function: stack_pop stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = BADCAFE
+data end canary = 0
+
+
+hash = 31
+
+size = 6
+capacity = 10
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+*[4] = 4
+*[5] = 5
+[6] = POISONED
+[7] = POISONED
+[8] = POISONED
+[9] = POISONED
+[10] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: stack.cpp line 120 function: stack_realloc stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = BADCAFE
+data end canary = 0
+
+
+hash = 25
+
+size = 5
+capacity = 10
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+*[4] = 4
+[5] = POISONED
+[6] = POISONED
+[7] = POISONED
+[8] = POISONED
+[9] = POISONED
+[10] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: stack.cpp line 112 function: stack_pop stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = BADCAFE
+data end canary = 0
+
+
+hash = 20
+
+size = 5
+capacity = 5
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+*[4] = 4
+[5] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: stack.cpp line 98 function: stack_pop stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = BADCAFE
+data end canary = 0
+
+
+hash = 20
+
+size = 5
+capacity = 5
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+*[4] = 4
+[5] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: stack.cpp line 112 function: stack_pop stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = BADCAFE
+data end canary = 0
+
+
+hash = 15
+
+size = 4
+capacity = 5
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+[4] = POISONED
+[5] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: stack.cpp line 66 function: stack_dtor stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = BADCAFE
+data end canary = 0
+
+
+hash = 15
+
+size = 4
+capacity = 5
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+[4] = POISONED
+[5] = POISONED
+--------------Файл успешно закрыт--------------
+
+
+--------------Файл создан в 22:00:48--------------
+--------------Файл успешно закрыт--------------
+
+
+--------------Файл создан в 22:00:48--------------
+--------------Файл успешно закрыт--------------
+
+
+--------------Файл создан в 22:00:48--------------
+--------------Файл успешно закрыт--------------
+
+
+--------------Файл создан в 22:00:48--------------
+--------------Файл успешно закрыт--------------
+
+
+--------------Файл создан в 22:00:48--------------
+--------------Файл успешно закрыт--------------
+
+
+--------------Файл создан в 22:28:44--------------
+--------------Файл успешно закрыт--------------
+
+
+--------------Файл создан в 22:29:08--------------
+--------------Файл успешно закрыт--------------
+
+
+--------------Файл создан в 22:41:57--------------
+--------------Файл успешно закрыт--------------
+
+
+--------------Файл создан в 22:42:59--------------
+ERROR! Value of canary has been changed
+
+stack_dump from file: Stack.cpp line 80 function: stack_push stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = DEADBEEF
+data end canary = BADCAFE
+
+
+hash = 5
+
+size = 0
+capacity = 5
+[0] = POISONED
+[1] = POISONED
+[2] = POISONED
+[3] = POISONED
+[4] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: Stack.cpp line 90 function: stack_push stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = DEADBEEF
+data end canary = BADCAFE
+
+
+hash = 6
+
+size = 1
+capacity = 5
+*[0] = 0
+[1] = POISONED
+[2] = POISONED
+[3] = POISONED
+[4] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: Stack.cpp line 80 function: stack_push stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = DEADBEEF
+data end canary = BADCAFE
+
+
+hash = 6
+
+size = 1
+capacity = 5
+*[0] = 0
+[1] = POISONED
+[2] = POISONED
+[3] = POISONED
+[4] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: Stack.cpp line 90 function: stack_push stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = DEADBEEF
+data end canary = BADCAFE
+
+
+hash = 8
+
+size = 2
+capacity = 5
+*[0] = 0
+*[1] = 1
+[2] = POISONED
+[3] = POISONED
+[4] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: Stack.cpp line 80 function: stack_push stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = DEADBEEF
+data end canary = BADCAFE
+
+
+hash = 8
+
+size = 2
+capacity = 5
+*[0] = 0
+*[1] = 1
+[2] = POISONED
+[3] = POISONED
+[4] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: Stack.cpp line 90 function: stack_push stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = DEADBEEF
+data end canary = BADCAFE
+
+
+hash = 11
+
+size = 3
+capacity = 5
+*[0] = 0
+*[1] = 1
+*[2] = 2
+[3] = POISONED
+[4] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: Stack.cpp line 80 function: stack_push stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = DEADBEEF
+data end canary = BADCAFE
+
+
+hash = 11
+
+size = 3
+capacity = 5
+*[0] = 0
+*[1] = 1
+*[2] = 2
+[3] = POISONED
+[4] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: Stack.cpp line 90 function: stack_push stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = DEADBEEF
+data end canary = BADCAFE
+
+
+hash = 15
+
+size = 4
+capacity = 5
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+[4] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: Stack.cpp line 80 function: stack_push stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = DEADBEEF
+data end canary = BADCAFE
+
+
+hash = 15
+
+size = 4
+capacity = 5
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+[4] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: Stack.cpp line 90 function: stack_push stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = DEADBEEF
+data end canary = BADCAFE
+
+
+hash = 20
+
+size = 5
+capacity = 5
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+*[4] = 4
+ERROR! Value of canary has been changed
+
+stack_dump from file: Stack.cpp line 80 function: stack_push stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = DEADBEEF
+data end canary = BADCAFE
+
+
+hash = 20
+
+size = 5
+capacity = 5
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+*[4] = 4
+ERROR! Value of canary has been changed
+
+stack_dump from file: Stack.cpp line 120 function: stack_realloc stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = DEADBEEF
+data end canary = BADCAFE
+
+
+hash = 20
+
+size = 5
+capacity = 5
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+*[4] = 4
+ERROR! Value of canary has been changed
+
+stack_dump from file: Stack.cpp line 90 function: stack_push stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = DEADBEEF
+data end canary = BADCAFE
+
+
+hash = 31
+
+size = 6
+capacity = 10
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+*[4] = 4
+*[5] = 5
+[6] = POISONED
+[7] = POISONED
+[8] = POISONED
+[9] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: Stack.cpp line 80 function: stack_push stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = DEADBEEF
+data end canary = BADCAFE
+
+
+hash = 31
+
+size = 6
+capacity = 10
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+*[4] = 4
+*[5] = 5
+[6] = POISONED
+[7] = POISONED
+[8] = POISONED
+[9] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: Stack.cpp line 90 function: stack_push stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = DEADBEEF
+data end canary = BADCAFE
+
+
+hash = 38
+
+size = 7
+capacity = 10
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+*[4] = 4
+*[5] = 5
+*[6] = 6
+[7] = POISONED
+[8] = POISONED
+[9] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: Stack.cpp line 80 function: stack_push stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = DEADBEEF
+data end canary = BADCAFE
+
+
+hash = 38
+
+size = 7
+capacity = 10
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+*[4] = 4
+*[5] = 5
+*[6] = 6
+[7] = POISONED
+[8] = POISONED
+[9] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: Stack.cpp line 90 function: stack_push stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = DEADBEEF
+data end canary = BADCAFE
+
+
+hash = 46
+
+size = 8
+capacity = 10
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+*[4] = 4
+*[5] = 5
+*[6] = 6
+*[7] = 7
+[8] = POISONED
+[9] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: Stack.cpp line 98 function: stack_pop stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = DEADBEEF
+data end canary = BADCAFE
+
+
+hash = 46
+
+size = 8
+capacity = 10
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+*[4] = 4
+*[5] = 5
+*[6] = 6
+*[7] = 7
+[8] = POISONED
+[9] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: Stack.cpp line 112 function: stack_pop stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = DEADBEEF
+data end canary = BADCAFE
+
+
+hash = 38
+
+size = 7
+capacity = 10
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+*[4] = 4
+*[5] = 5
+*[6] = 6
+[7] = POISONED
+[8] = POISONED
+[9] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: Stack.cpp line 98 function: stack_pop stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = DEADBEEF
+data end canary = BADCAFE
+
+
+hash = 38
+
+size = 7
+capacity = 10
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+*[4] = 4
+*[5] = 5
+*[6] = 6
+[7] = POISONED
+[8] = POISONED
+[9] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: Stack.cpp line 112 function: stack_pop stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = DEADBEEF
+data end canary = BADCAFE
+
+
+hash = 31
+
+size = 6
+capacity = 10
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+*[4] = 4
+*[5] = 5
+[6] = POISONED
+[7] = POISONED
+[8] = POISONED
+[9] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: Stack.cpp line 98 function: stack_pop stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = DEADBEEF
+data end canary = BADCAFE
+
+
+hash = 31
+
+size = 6
+capacity = 10
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+*[4] = 4
+*[5] = 5
+[6] = POISONED
+[7] = POISONED
+[8] = POISONED
+[9] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: Stack.cpp line 120 function: stack_realloc stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = DEADBEEF
+data end canary = BADCAFE
+
+
+hash = 25
+
+size = 5
+capacity = 10
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+*[4] = 4
+[5] = POISONED
+[6] = POISONED
+[7] = POISONED
+[8] = POISONED
+[9] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: Stack.cpp line 112 function: stack_pop stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = DEADBEEF
+data end canary = BADCAFE
+
+
+hash = 20
+
+size = 5
+capacity = 5
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+*[4] = 4
+ERROR! Value of canary has been changed
+
+stack_dump from file: Stack.cpp line 98 function: stack_pop stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = DEADBEEF
+data end canary = BADCAFE
+
+
+hash = 20
+
+size = 5
+capacity = 5
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+*[4] = 4
+ERROR! Value of canary has been changed
+
+stack_dump from file: Stack.cpp line 112 function: stack_pop stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = DEADBEEF
+data end canary = BADCAFE
+
+
+hash = 15
+
+size = 4
+capacity = 5
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+[4] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: Stack.cpp line 66 function: stack_dtor stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = DEADBEEF
+data end canary = BADCAFE
+
+
+hash = 15
+
+size = 4
+capacity = 5
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+[4] = POISONED
+--------------Файл успешно закрыт--------------
+
+
+--------------Файл создан в 22:43:14--------------
+--------------Файл успешно закрыт--------------
+
+
+--------------Файл создан в 22:43:33--------------
+--------------Файл успешно закрыт--------------
+
+
+--------------Файл создан в 22:43:14--------------
+--------------Файл успешно закрыт--------------
+
+
+--------------Файл создан в 22:45:21--------------
+ERROR! Value of canary has been changed
+
+stack_dump from file: Stack.cpp line 98 function: stack_pop stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = C0FFEE
+data end canary = C0FFEE
+
+
+hash = 20
+
+size = 5
+capacity = 5
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+*[4] = 4
+ERROR! Value of canary has been changed
+
+stack_dump from file: Stack.cpp line 112 function: stack_pop stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = C0FFEE
+data end canary = C0FFEE
+
+
+hash = 15
+
+size = 4
+capacity = 5
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+[4] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: Stack.cpp line 66 function: stack_dtor stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = C0FFEE
+data end canary = C0FFEE
+
+
+hash = 15
+
+size = 4
+capacity = 5
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+[4] = POISONED
+--------------Файл успешно закрыт--------------
+
+
+--------------Файл создан в 22:48:17--------------
+--------------Файл успешно закрыт--------------
+
+
+--------------Файл создан в 22:51:23--------------
+ERROR! Value of canary has been changed
+
+stack_dump from file: Stack.cpp line 98 function: stack_pop stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = C0FFEE
+data end canary = C0FFEE
+
+
+hash = 20
+
+size = 5
+capacity = 5
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+*[4] = 4
+ERROR! Value of canary has been changed
+
+stack_dump from file: Stack.cpp line 112 function: stack_pop stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = C0FFEE
+data end canary = C0FFEE
+
+
+hash = 15
+
+size = 4
+capacity = 5
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+[4] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: Stack.cpp line 66 function: stack_dtor stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = C0FFEE
+data end canary = C0FFEE
+
+
+hash = 15
+
+size = 4
+capacity = 5
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+[4] = POISONED
+--------------Файл успешно закрыт--------------
+
+
+--------------Файл создан в 22:52:25--------------
+--------------Файл успешно закрыт--------------
+
+
+--------------Файл создан в 22:58:38--------------
+ERROR! Value of canary has been changed
+
+stack_dump from file: Stack.cpp line 98 function: stack_pop stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = C0FFEE
+data end canary = C0FFEE
+
+
+hash = 20
+
+size = 5
+capacity = 5
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+*[4] = 4
+ERROR! Value of canary has been changed
+
+stack_dump from file: Stack.cpp line 112 function: stack_pop stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = C0FFEE
+data end canary = C0FFEE
+
+
+hash = 15
+
+size = 4
+capacity = 5
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+[4] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: Stack.cpp line 66 function: stack_dtor stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = C0FFEE
+data end canary = C0FFEE
+
+
+hash = 15
+
+size = 4
+capacity = 5
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+[4] = POISONED
+--------------Файл успешно закрыт--------------
+
+
+--------------Файл создан в 23:04:32--------------
+ERROR! Value of canary has been changed
+
+stack_dump from file: Stack.cpp line 98 function: stack_pop stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = C0FFEE
+data end canary = C0FFEE
+
+
+hash = 20
+
+size = 5
+capacity = 5
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+*[4] = 4
+ERROR! Value of canary has been changed
+
+stack_dump from file: Stack.cpp line 112 function: stack_pop stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = C0FFEE
+data end canary = C0FFEE
+
+
+hash = 15
+
+size = 4
+capacity = 5
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+[4] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: Stack.cpp line 66 function: stack_dtor stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = C0FFEE
+data end canary = C0FFEE
+
+
+hash = 15
+
+size = 4
+capacity = 5
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+[4] = POISONED
+--------------Файл успешно закрыт--------------
+
+
+--------------Файл создан в 23:10:30--------------
+ERROR! Value of canary has been changed
+
+stack_dump from file: Stack.cpp line 98 function: stack_pop stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = C0FFEE
+data end canary = C0FFEE
+
+
+hash = 20
+
+size = 5
+capacity = 5
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+*[4] = 4
+ERROR! Value of canary has been changed
+
+stack_dump from file: Stack.cpp line 112 function: stack_pop stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = C0FFEE
+data end canary = C0FFEE
+
+
+hash = 15
+
+size = 4
+capacity = 5
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+[4] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: Stack.cpp line 66 function: stack_dtor stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = C0FFEE
+data end canary = C0FFEE
+
+
+hash = 15
+
+size = 4
+capacity = 5
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+[4] = POISONED
+--------------Файл успешно закрыт--------------
+
+
+--------------Файл создан в 23:10:30--------------
+ERROR! Value of canary has been changed
+
+stack_dump from file: Stack.cpp line 98 function: stack_pop stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = C0FFEE
+data end canary = C0FFEE
+
+
+hash = 20
+
+size = 5
+capacity = 5
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+*[4] = 4
+ERROR! Value of canary has been changed
+
+stack_dump from file: Stack.cpp line 112 function: stack_pop stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = C0FFEE
+data end canary = C0FFEE
+
+
+hash = 15
+
+size = 4
+capacity = 5
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+[4] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: Stack.cpp line 66 function: stack_dtor stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = C0FFEE
+data end canary = C0FFEE
+
+
+hash = 15
+
+size = 4
+capacity = 5
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+[4] = POISONED
+--------------Файл успешно закрыт--------------
+
+
+--------------Файл создан в 23:20:44--------------
+--------------Файл успешно закрыт--------------
+
+
+--------------Файл создан в 23:21:46--------------
+ERROR! Value of canary has been changed
+
+stack_dump from file: Stack.cpp line 98 function: stack_pop stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = C0FFEE
+data end canary = C0FFEE
+
+
+hash = 20
+
+size = 5
+capacity = 5
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+*[4] = 4
+ERROR! Value of canary has been changed
+
+stack_dump from file: Stack.cpp line 112 function: stack_pop stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = C0FFEE
+data end canary = C0FFEE
+
+
+hash = 15
+
+size = 4
+capacity = 5
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+[4] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: Stack.cpp line 66 function: stack_dtor stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = C0FFEE
+data end canary = C0FFEE
+
+
+hash = 15
+
+size = 4
+capacity = 5
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+[4] = POISONED
+--------------Файл успешно закрыт--------------
+
+
+--------------Файл создан в 23:23:02--------------
+ERROR! Value of canary has been changed
+
+stack_dump from file: stack.cpp line 98 function: stack_pop stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = C0FFEE
+data end canary = C0FFEE
+
+
+hash = 20
+
+size = 5
+capacity = 5
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+*[4] = 4
+ERROR! Value of canary has been changed
+
+stack_dump from file: stack.cpp line 112 function: stack_pop stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = C0FFEE
+data end canary = C0FFEE
+
+
+hash = 15
+
+size = 4
+capacity = 5
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+[4] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: stack.cpp line 66 function: stack_dtor stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = C0FFEE
+data end canary = C0FFEE
+
+
+hash = 15
+
+size = 4
+capacity = 5
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+[4] = POISONED
+--------------Файл успешно закрыт--------------
+
+
+--------------Файл создан в 23:25:10--------------
+ERROR! Value of canary has been changed
+
+stack_dump from file: Stack.cpp line 98 function: stack_pop stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = C0FFEE
+data end canary = FFFFFFFF
+
+
+hash = 20
+
+size = 5
+capacity = 5
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+*[4] = 4
+ERROR! Value of canary has been changed
+
+stack_dump from file: Stack.cpp line 112 function: stack_pop stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = C0FFEE
+data end canary = FFFFFFFF
+
+
+hash = 15
+
+size = 4
+capacity = 5
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+[4] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: Stack.cpp line 66 function: stack_dtor stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = C0FFEE
+data end canary = FFFFFFFF
+
+
+hash = 15
+
+size = 4
+capacity = 5
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+[4] = POISONED
+--------------Файл успешно закрыт--------------
+
+
+--------------Файл создан в 23:26:26--------------
+--------------Файл успешно закрыт--------------
+
+
+--------------Файл создан в 23:27:47--------------
+--------------Файл успешно закрыт--------------
+
+
+--------------Файл создан в 23:29:26--------------
+--------------Файл успешно закрыт--------------
+
+
+--------------Файл создан в 23:30:01--------------
+--------------Файл успешно закрыт--------------
+
+
+--------------Файл создан в 23:31:48--------------
+--------------Файл успешно закрыт--------------
+
+
+--------------Файл создан в 23:33:51--------------
+ERROR! Value of canary has been changed
+
+stack_dump from file: Stack.cpp line 98 function: stack_pop stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = C0FFEE
+data end canary = C0FFEE
+
+
+hash = 20
+
+size = 5
+capacity = 5
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+*[4] = 4
+ERROR! Value of canary has been changed
+
+stack_dump from file: Stack.cpp line 112 function: stack_pop stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = C0FFEE
+data end canary = C0FFEE
+
+
+hash = 15
+
+size = 4
+capacity = 5
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+[4] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: Stack.cpp line 66 function: stack_dtor stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = C0FFEE
+data end canary = C0FFEE
+
+
+hash = 15
+
+size = 4
+capacity = 5
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+[4] = POISONED
+--------------Файл успешно закрыт--------------
+
+
+--------------Файл создан в 23:38:54--------------
+ERROR! Value of canary has been changed
+
+stack_dump from file: Stack.cpp line 80 function: stack_push stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = DEADBEEF
+data end canary = C0FFEE
+
+
+hash = 5
+
+size = 0
+capacity = 5
+[0] = POISONED
+[1] = POISONED
+[2] = POISONED
+[3] = POISONED
+[4] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: Stack.cpp line 90 function: stack_push stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = DEADBEEF
+data end canary = C0FFEE
+
+
+hash = 6
+
+size = 1
+capacity = 5
+*[0] = 0
+[1] = POISONED
+[2] = POISONED
+[3] = POISONED
+[4] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: Stack.cpp line 80 function: stack_push stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = DEADBEEF
+data end canary = C0FFEE
+
+
+hash = 6
+
+size = 1
+capacity = 5
+*[0] = 0
+[1] = POISONED
+[2] = POISONED
+[3] = POISONED
+[4] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: Stack.cpp line 90 function: stack_push stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = DEADBEEF
+data end canary = C0FFEE
+
+
+hash = 8
+
+size = 2
+capacity = 5
+*[0] = 0
+*[1] = 1
+[2] = POISONED
+[3] = POISONED
+[4] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: Stack.cpp line 80 function: stack_push stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = DEADBEEF
+data end canary = C0FFEE
+
+
+hash = 8
+
+size = 2
+capacity = 5
+*[0] = 0
+*[1] = 1
+[2] = POISONED
+[3] = POISONED
+[4] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: Stack.cpp line 90 function: stack_push stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = DEADBEEF
+data end canary = C0FFEE
+
+
+hash = 11
+
+size = 3
+capacity = 5
+*[0] = 0
+*[1] = 1
+*[2] = 2
+[3] = POISONED
+[4] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: Stack.cpp line 80 function: stack_push stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = DEADBEEF
+data end canary = C0FFEE
+
+
+hash = 11
+
+size = 3
+capacity = 5
+*[0] = 0
+*[1] = 1
+*[2] = 2
+[3] = POISONED
+[4] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: Stack.cpp line 90 function: stack_push stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = DEADBEEF
+data end canary = C0FFEE
+
+
+hash = 15
+
+size = 4
+capacity = 5
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+[4] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: Stack.cpp line 80 function: stack_push stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = DEADBEEF
+data end canary = C0FFEE
+
+
+hash = 15
+
+size = 4
+capacity = 5
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+[4] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: Stack.cpp line 90 function: stack_push stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = DEADBEEF
+data end canary = C0FFEE
+
+
+hash = 20
+
+size = 5
+capacity = 5
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+*[4] = 4
+ERROR! Value of canary has been changed
+
+stack_dump from file: Stack.cpp line 80 function: stack_push stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = DEADBEEF
+data end canary = C0FFEE
+
+
+hash = 20
+
+size = 5
+capacity = 5
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+*[4] = 4
+ERROR! Value of canary has been changed
+
+stack_dump from file: Stack.cpp line 120 function: stack_realloc stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = DEADBEEF
+data end canary = C0FFEE
+
+
+hash = 20
+
+size = 5
+capacity = 5
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+*[4] = 4
+ERROR! Value of canary has been changed
+
+stack_dump from file: Stack.cpp line 90 function: stack_push stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = DEADBEEF
+data end canary = C0FFEE
+
+
+hash = 31
+
+size = 6
+capacity = 10
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+*[4] = 4
+*[5] = 5
+[6] = POISONED
+[7] = POISONED
+[8] = POISONED
+[9] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: Stack.cpp line 80 function: stack_push stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = DEADBEEF
+data end canary = C0FFEE
+
+
+hash = 31
+
+size = 6
+capacity = 10
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+*[4] = 4
+*[5] = 5
+[6] = POISONED
+[7] = POISONED
+[8] = POISONED
+[9] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: Stack.cpp line 90 function: stack_push stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = DEADBEEF
+data end canary = C0FFEE
+
+
+hash = 38
+
+size = 7
+capacity = 10
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+*[4] = 4
+*[5] = 5
+*[6] = 6
+[7] = POISONED
+[8] = POISONED
+[9] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: Stack.cpp line 80 function: stack_push stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = DEADBEEF
+data end canary = C0FFEE
+
+
+hash = 38
+
+size = 7
+capacity = 10
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+*[4] = 4
+*[5] = 5
+*[6] = 6
+[7] = POISONED
+[8] = POISONED
+[9] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: Stack.cpp line 90 function: stack_push stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = DEADBEEF
+data end canary = C0FFEE
+
+
+hash = 46
+
+size = 8
+capacity = 10
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+*[4] = 4
+*[5] = 5
+*[6] = 6
+*[7] = 7
+[8] = POISONED
+[9] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: Stack.cpp line 98 function: stack_pop stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = DEADBEEF
+data end canary = C0FFEE
+
+
+hash = 46
+
+size = 8
+capacity = 10
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+*[4] = 4
+*[5] = 5
+*[6] = 6
+*[7] = 7
+[8] = POISONED
+[9] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: Stack.cpp line 112 function: stack_pop stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = DEADBEEF
+data end canary = C0FFEE
+
+
+hash = 38
+
+size = 7
+capacity = 10
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+*[4] = 4
+*[5] = 5
+*[6] = 6
+[7] = POISONED
+[8] = POISONED
+[9] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: Stack.cpp line 98 function: stack_pop stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = DEADBEEF
+data end canary = C0FFEE
+
+
+hash = 38
+
+size = 7
+capacity = 10
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+*[4] = 4
+*[5] = 5
+*[6] = 6
+[7] = POISONED
+[8] = POISONED
+[9] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: Stack.cpp line 112 function: stack_pop stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = DEADBEEF
+data end canary = C0FFEE
+
+
+hash = 31
+
+size = 6
+capacity = 10
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+*[4] = 4
+*[5] = 5
+[6] = POISONED
+[7] = POISONED
+[8] = POISONED
+[9] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: Stack.cpp line 98 function: stack_pop stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = DEADBEEF
+data end canary = C0FFEE
+
+
+hash = 31
+
+size = 6
+capacity = 10
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+*[4] = 4
+*[5] = 5
+[6] = POISONED
+[7] = POISONED
+[8] = POISONED
+[9] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: Stack.cpp line 120 function: stack_realloc stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = DEADBEEF
+data end canary = C0FFEE
+
+
+hash = 25
+
+size = 5
+capacity = 10
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+*[4] = 4
+[5] = POISONED
+[6] = POISONED
+[7] = POISONED
+[8] = POISONED
+[9] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: Stack.cpp line 112 function: stack_pop stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = DEADBEEF
+data end canary = C0FFEE
+
+
+hash = 20
+
+size = 5
+capacity = 5
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+*[4] = 4
+ERROR! Value of canary has been changed
+
+stack_dump from file: Stack.cpp line 98 function: stack_pop stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = DEADBEEF
+data end canary = C0FFEE
+
+
+hash = 20
+
+size = 5
+capacity = 5
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+*[4] = 4
+ERROR! Value of canary has been changed
+
+stack_dump from file: Stack.cpp line 112 function: stack_pop stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = DEADBEEF
+data end canary = C0FFEE
+
+
+hash = 15
+
+size = 4
+capacity = 5
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+[4] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: Stack.cpp line 66 function: stack_dtor stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = DEADBEEF
+data end canary = C0FFEE
+
+
+hash = 15
+
+size = 4
+capacity = 5
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+[4] = POISONED
+--------------Файл успешно закрыт--------------
+
+
+--------------Файл создан в 23:42:38--------------
+ERROR! Value of canary has been changed
+
+stack_dump from file: Stack.cpp line 80 function: stack_push stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = F27E82E2
+data end canary = 0
+
+
+hash = 5
+
+size = 0
+capacity = 5
+[0] = POISONED
+[1] = POISONED
+[2] = POISONED
+[3] = POISONED
+[4] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: Stack.cpp line 90 function: stack_push stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = F27E82E2
+data end canary = 0
+
+
+hash = 6
+
+size = 1
+capacity = 5
+*[0] = 0
+[1] = POISONED
+[2] = POISONED
+[3] = POISONED
+[4] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: Stack.cpp line 80 function: stack_push stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = F27E82E2
+data end canary = 0
+
+
+hash = 6
+
+size = 1
+capacity = 5
+*[0] = 0
+[1] = POISONED
+[2] = POISONED
+[3] = POISONED
+[4] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: Stack.cpp line 90 function: stack_push stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = F27E82E2
+data end canary = 0
+
+
+hash = 8
+
+size = 2
+capacity = 5
+*[0] = 0
+*[1] = 1
+[2] = POISONED
+[3] = POISONED
+[4] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: Stack.cpp line 80 function: stack_push stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = F27E82E2
+data end canary = 0
+
+
+hash = 8
+
+size = 2
+capacity = 5
+*[0] = 0
+*[1] = 1
+[2] = POISONED
+[3] = POISONED
+[4] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: Stack.cpp line 90 function: stack_push stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = F27E82E2
+data end canary = 0
+
+
+hash = 11
+
+size = 3
+capacity = 5
+*[0] = 0
+*[1] = 1
+*[2] = 2
+[3] = POISONED
+[4] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: Stack.cpp line 80 function: stack_push stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = F27E82E2
+data end canary = 0
+
+
+hash = 11
+
+size = 3
+capacity = 5
+*[0] = 0
+*[1] = 1
+*[2] = 2
+[3] = POISONED
+[4] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: Stack.cpp line 90 function: stack_push stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = F27E82E2
+data end canary = 0
+
+
+hash = 15
+
+size = 4
+capacity = 5
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+[4] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: Stack.cpp line 80 function: stack_push stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = F27E82E2
+data end canary = 0
+
+
+hash = 15
+
+size = 4
+capacity = 5
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+[4] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: Stack.cpp line 90 function: stack_push stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = F27E82E2
+data end canary = 0
+
+
+hash = 20
+
+size = 5
+capacity = 5
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+*[4] = 4
+ERROR! Value of canary has been changed
+
+stack_dump from file: Stack.cpp line 80 function: stack_push stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = F27E82E2
+data end canary = 0
+
+
+hash = 20
+
+size = 5
+capacity = 5
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+*[4] = 4
+ERROR! Value of canary has been changed
+
+stack_dump from file: Stack.cpp line 120 function: stack_realloc stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = F27E82E2
+data end canary = 0
+
+
+hash = 20
+
+size = 5
+capacity = 5
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+*[4] = 4
+ERROR! Value of canary has been changed
+
+stack_dump from file: Stack.cpp line 90 function: stack_push stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = F27E82E2
+data end canary = 0
+
+
+hash = 31
+
+size = 6
+capacity = 10
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+*[4] = 4
+*[5] = 5
+[6] = POISONED
+[7] = POISONED
+[8] = POISONED
+[9] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: Stack.cpp line 80 function: stack_push stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = F27E82E2
+data end canary = 0
+
+
+hash = 31
+
+size = 6
+capacity = 10
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+*[4] = 4
+*[5] = 5
+[6] = POISONED
+[7] = POISONED
+[8] = POISONED
+[9] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: Stack.cpp line 90 function: stack_push stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = F27E82E2
+data end canary = 0
+
+
+hash = 38
+
+size = 7
+capacity = 10
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+*[4] = 4
+*[5] = 5
+*[6] = 6
+[7] = POISONED
+[8] = POISONED
+[9] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: Stack.cpp line 80 function: stack_push stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = F27E82E2
+data end canary = 0
+
+
+hash = 38
+
+size = 7
+capacity = 10
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+*[4] = 4
+*[5] = 5
+*[6] = 6
+[7] = POISONED
+[8] = POISONED
+[9] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: Stack.cpp line 90 function: stack_push stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = F27E82E2
+data end canary = 0
+
+
+hash = 46
+
+size = 8
+capacity = 10
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+*[4] = 4
+*[5] = 5
+*[6] = 6
+*[7] = 7
+[8] = POISONED
+[9] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: Stack.cpp line 98 function: stack_pop stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = F27E82E2
+data end canary = 0
+
+
+hash = 46
+
+size = 8
+capacity = 10
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+*[4] = 4
+*[5] = 5
+*[6] = 6
+*[7] = 7
+[8] = POISONED
+[9] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: Stack.cpp line 112 function: stack_pop stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = F27E82E2
+data end canary = 0
+
+
+hash = 38
+
+size = 7
+capacity = 10
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+*[4] = 4
+*[5] = 5
+*[6] = 6
+[7] = POISONED
+[8] = POISONED
+[9] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: Stack.cpp line 98 function: stack_pop stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = F27E82E2
+data end canary = 0
+
+
+hash = 38
+
+size = 7
+capacity = 10
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+*[4] = 4
+*[5] = 5
+*[6] = 6
+[7] = POISONED
+[8] = POISONED
+[9] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: Stack.cpp line 112 function: stack_pop stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = F27E82E2
+data end canary = 0
+
+
+hash = 31
+
+size = 6
+capacity = 10
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+*[4] = 4
+*[5] = 5
+[6] = POISONED
+[7] = POISONED
+[8] = POISONED
+[9] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: Stack.cpp line 98 function: stack_pop stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = F27E82E2
+data end canary = 0
+
+
+hash = 31
+
+size = 6
+capacity = 10
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+*[4] = 4
+*[5] = 5
+[6] = POISONED
+[7] = POISONED
+[8] = POISONED
+[9] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: Stack.cpp line 120 function: stack_realloc stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = F27E82E2
+data end canary = 0
+
+
+hash = 25
+
+size = 5
+capacity = 10
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+*[4] = 4
+[5] = POISONED
+[6] = POISONED
+[7] = POISONED
+[8] = POISONED
+[9] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: Stack.cpp line 112 function: stack_pop stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = F27E82E2
+data end canary = 0
+
+
+hash = 20
+
+size = 5
+capacity = 5
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+*[4] = 4
+ERROR! Value of canary has been changed
+
+stack_dump from file: Stack.cpp line 98 function: stack_pop stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = F27E82E2
+data end canary = 0
+
+
+hash = 20
+
+size = 5
+capacity = 5
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+*[4] = 4
+ERROR! Value of canary has been changed
+
+stack_dump from file: Stack.cpp line 112 function: stack_pop stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = F27E82E2
+data end canary = 0
+
+
+hash = 15
+
+size = 4
+capacity = 5
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+[4] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: Stack.cpp line 66 function: stack_dtor stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = F27E82E2
+data end canary = 0
+
+
+hash = 15
+
+size = 4
+capacity = 5
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+[4] = POISONED
+--------------Файл успешно закрыт--------------
+
+
+--------------Файл создан в 23:43:07--------------
+ERROR! Value of canary has been changed
+
+stack_dump from file: Stack.cpp line 80 function: stack_push stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = C0FFEE
+data end canary = 0
+
+
+hash = 5
+
+size = 0
+capacity = 5
+[0] = POISONED
+[1] = POISONED
+[2] = POISONED
+[3] = POISONED
+[4] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: Stack.cpp line 90 function: stack_push stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = C0FFEE
+data end canary = 0
+
+
+hash = 6
+
+size = 1
+capacity = 5
+*[0] = 0
+[1] = POISONED
+[2] = POISONED
+[3] = POISONED
+[4] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: Stack.cpp line 80 function: stack_push stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = C0FFEE
+data end canary = 0
+
+
+hash = 6
+
+size = 1
+capacity = 5
+*[0] = 0
+[1] = POISONED
+[2] = POISONED
+[3] = POISONED
+[4] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: Stack.cpp line 90 function: stack_push stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = C0FFEE
+data end canary = 0
+
+
+hash = 8
+
+size = 2
+capacity = 5
+*[0] = 0
+*[1] = 1
+[2] = POISONED
+[3] = POISONED
+[4] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: Stack.cpp line 80 function: stack_push stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = C0FFEE
+data end canary = 0
+
+
+hash = 8
+
+size = 2
+capacity = 5
+*[0] = 0
+*[1] = 1
+[2] = POISONED
+[3] = POISONED
+[4] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: Stack.cpp line 90 function: stack_push stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = C0FFEE
+data end canary = 0
+
+
+hash = 11
+
+size = 3
+capacity = 5
+*[0] = 0
+*[1] = 1
+*[2] = 2
+[3] = POISONED
+[4] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: Stack.cpp line 80 function: stack_push stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = C0FFEE
+data end canary = 0
+
+
+hash = 11
+
+size = 3
+capacity = 5
+*[0] = 0
+*[1] = 1
+*[2] = 2
+[3] = POISONED
+[4] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: Stack.cpp line 90 function: stack_push stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = C0FFEE
+data end canary = 0
+
+
+hash = 15
+
+size = 4
+capacity = 5
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+[4] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: Stack.cpp line 80 function: stack_push stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = C0FFEE
+data end canary = 0
+
+
+hash = 15
+
+size = 4
+capacity = 5
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+[4] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: Stack.cpp line 90 function: stack_push stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = C0FFEE
+data end canary = 0
+
+
+hash = 20
+
+size = 5
+capacity = 5
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+*[4] = 4
+ERROR! Value of canary has been changed
+
+stack_dump from file: Stack.cpp line 80 function: stack_push stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = C0FFEE
+data end canary = 0
+
+
+hash = 20
+
+size = 5
+capacity = 5
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+*[4] = 4
+ERROR! Value of canary has been changed
+
+stack_dump from file: Stack.cpp line 120 function: stack_realloc stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = C0FFEE
+data end canary = 0
+
+
+hash = 20
+
+size = 5
+capacity = 5
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+*[4] = 4
+ERROR! Value of canary has been changed
+
+stack_dump from file: Stack.cpp line 90 function: stack_push stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = C0FFEE
+data end canary = 0
+
+
+hash = 31
+
+size = 6
+capacity = 10
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+*[4] = 4
+*[5] = 5
+[6] = POISONED
+[7] = POISONED
+[8] = POISONED
+[9] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: Stack.cpp line 80 function: stack_push stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = C0FFEE
+data end canary = 0
+
+
+hash = 31
+
+size = 6
+capacity = 10
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+*[4] = 4
+*[5] = 5
+[6] = POISONED
+[7] = POISONED
+[8] = POISONED
+[9] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: Stack.cpp line 90 function: stack_push stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = C0FFEE
+data end canary = 0
+
+
+hash = 38
+
+size = 7
+capacity = 10
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+*[4] = 4
+*[5] = 5
+*[6] = 6
+[7] = POISONED
+[8] = POISONED
+[9] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: Stack.cpp line 80 function: stack_push stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = C0FFEE
+data end canary = 0
+
+
+hash = 38
+
+size = 7
+capacity = 10
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+*[4] = 4
+*[5] = 5
+*[6] = 6
+[7] = POISONED
+[8] = POISONED
+[9] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: Stack.cpp line 90 function: stack_push stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = C0FFEE
+data end canary = 0
+
+
+hash = 46
+
+size = 8
+capacity = 10
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+*[4] = 4
+*[5] = 5
+*[6] = 6
+*[7] = 7
+[8] = POISONED
+[9] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: Stack.cpp line 98 function: stack_pop stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = C0FFEE
+data end canary = 0
+
+
+hash = 46
+
+size = 8
+capacity = 10
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+*[4] = 4
+*[5] = 5
+*[6] = 6
+*[7] = 7
+[8] = POISONED
+[9] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: Stack.cpp line 112 function: stack_pop stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = C0FFEE
+data end canary = 0
+
+
+hash = 38
+
+size = 7
+capacity = 10
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+*[4] = 4
+*[5] = 5
+*[6] = 6
+[7] = POISONED
+[8] = POISONED
+[9] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: Stack.cpp line 98 function: stack_pop stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = C0FFEE
+data end canary = 0
+
+
+hash = 38
+
+size = 7
+capacity = 10
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+*[4] = 4
+*[5] = 5
+*[6] = 6
+[7] = POISONED
+[8] = POISONED
+[9] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: Stack.cpp line 112 function: stack_pop stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = C0FFEE
+data end canary = 0
+
+
+hash = 31
+
+size = 6
+capacity = 10
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+*[4] = 4
+*[5] = 5
+[6] = POISONED
+[7] = POISONED
+[8] = POISONED
+[9] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: Stack.cpp line 98 function: stack_pop stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = C0FFEE
+data end canary = 0
+
+
+hash = 31
+
+size = 6
+capacity = 10
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+*[4] = 4
+*[5] = 5
+[6] = POISONED
+[7] = POISONED
+[8] = POISONED
+[9] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: Stack.cpp line 120 function: stack_realloc stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = C0FFEE
+data end canary = 0
+
+
+hash = 25
+
+size = 5
+capacity = 10
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+*[4] = 4
+[5] = POISONED
+[6] = POISONED
+[7] = POISONED
+[8] = POISONED
+[9] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: Stack.cpp line 112 function: stack_pop stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = C0FFEE
+data end canary = 0
+
+
+hash = 20
+
+size = 5
+capacity = 5
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+*[4] = 4
+ERROR! Value of canary has been changed
+
+stack_dump from file: Stack.cpp line 98 function: stack_pop stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = C0FFEE
+data end canary = 0
+
+
+hash = 20
+
+size = 5
+capacity = 5
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+*[4] = 4
+ERROR! Value of canary has been changed
+
+stack_dump from file: Stack.cpp line 112 function: stack_pop stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = C0FFEE
+data end canary = 0
+
+
+hash = 15
+
+size = 4
+capacity = 5
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+[4] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: Stack.cpp line 66 function: stack_dtor stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = C0FFEE
+data end canary = 0
+
+
+hash = 15
+
+size = 4
+capacity = 5
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+[4] = POISONED
+--------------Файл успешно закрыт--------------
+
+
+--------------Файл создан в 23:43:07--------------
+ERROR! Value of canary has been changed
+
+stack_dump from file: Stack.cpp line 80 function: stack_push stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = C0FFEE
+data end canary = 0
+
+
+hash = 5
+
+size = 0
+capacity = 5
+[0] = POISONED
+[1] = POISONED
+[2] = POISONED
+[3] = POISONED
+[4] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: Stack.cpp line 90 function: stack_push stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = C0FFEE
+data end canary = 0
+
+
+hash = 6
+
+size = 1
+capacity = 5
+*[0] = 0
+[1] = POISONED
+[2] = POISONED
+[3] = POISONED
+[4] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: Stack.cpp line 80 function: stack_push stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = C0FFEE
+data end canary = 0
+
+
+hash = 6
+
+size = 1
+capacity = 5
+*[0] = 0
+[1] = POISONED
+[2] = POISONED
+[3] = POISONED
+[4] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: Stack.cpp line 90 function: stack_push stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = C0FFEE
+data end canary = 0
+
+
+hash = 8
+
+size = 2
+capacity = 5
+*[0] = 0
+*[1] = 1
+[2] = POISONED
+[3] = POISONED
+[4] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: Stack.cpp line 80 function: stack_push stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = C0FFEE
+data end canary = 0
+
+
+hash = 8
+
+size = 2
+capacity = 5
+*[0] = 0
+*[1] = 1
+[2] = POISONED
+[3] = POISONED
+[4] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: Stack.cpp line 90 function: stack_push stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = C0FFEE
+data end canary = 0
+
+
+hash = 11
+
+size = 3
+capacity = 5
+*[0] = 0
+*[1] = 1
+*[2] = 2
+[3] = POISONED
+[4] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: Stack.cpp line 80 function: stack_push stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = C0FFEE
+data end canary = 0
+
+
+hash = 11
+
+size = 3
+capacity = 5
+*[0] = 0
+*[1] = 1
+*[2] = 2
+[3] = POISONED
+[4] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: Stack.cpp line 90 function: stack_push stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = C0FFEE
+data end canary = 0
+
+
+hash = 15
+
+size = 4
+capacity = 5
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+[4] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: Stack.cpp line 80 function: stack_push stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = C0FFEE
+data end canary = 0
+
+
+hash = 15
+
+size = 4
+capacity = 5
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+[4] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: Stack.cpp line 90 function: stack_push stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = C0FFEE
+data end canary = 0
+
+
+hash = 20
+
+size = 5
+capacity = 5
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+*[4] = 4
+ERROR! Value of canary has been changed
+
+stack_dump from file: Stack.cpp line 80 function: stack_push stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = C0FFEE
+data end canary = 0
+
+
+hash = 20
+
+size = 5
+capacity = 5
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+*[4] = 4
+ERROR! Value of canary has been changed
+
+stack_dump from file: Stack.cpp line 120 function: stack_realloc stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = C0FFEE
+data end canary = 0
+
+
+hash = 20
+
+size = 5
+capacity = 5
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+*[4] = 4
+ERROR! Value of canary has been changed
+
+stack_dump from file: Stack.cpp line 90 function: stack_push stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = C0FFEE
+data end canary = 0
+
+
+hash = 31
+
+size = 6
+capacity = 10
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+*[4] = 4
+*[5] = 5
+[6] = POISONED
+[7] = POISONED
+[8] = POISONED
+[9] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: Stack.cpp line 80 function: stack_push stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = C0FFEE
+data end canary = 0
+
+
+hash = 31
+
+size = 6
+capacity = 10
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+*[4] = 4
+*[5] = 5
+[6] = POISONED
+[7] = POISONED
+[8] = POISONED
+[9] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: Stack.cpp line 90 function: stack_push stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = C0FFEE
+data end canary = 0
+
+
+hash = 38
+
+size = 7
+capacity = 10
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+*[4] = 4
+*[5] = 5
+*[6] = 6
+[7] = POISONED
+[8] = POISONED
+[9] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: Stack.cpp line 80 function: stack_push stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = C0FFEE
+data end canary = 0
+
+
+hash = 38
+
+size = 7
+capacity = 10
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+*[4] = 4
+*[5] = 5
+*[6] = 6
+[7] = POISONED
+[8] = POISONED
+[9] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: Stack.cpp line 90 function: stack_push stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = C0FFEE
+data end canary = 0
+
+
+hash = 46
+
+size = 8
+capacity = 10
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+*[4] = 4
+*[5] = 5
+*[6] = 6
+*[7] = 7
+[8] = POISONED
+[9] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: Stack.cpp line 98 function: stack_pop stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = C0FFEE
+data end canary = 0
+
+
+hash = 46
+
+size = 8
+capacity = 10
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+*[4] = 4
+*[5] = 5
+*[6] = 6
+*[7] = 7
+[8] = POISONED
+[9] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: Stack.cpp line 112 function: stack_pop stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = C0FFEE
+data end canary = 0
+
+
+hash = 38
+
+size = 7
+capacity = 10
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+*[4] = 4
+*[5] = 5
+*[6] = 6
+[7] = POISONED
+[8] = POISONED
+[9] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: Stack.cpp line 98 function: stack_pop stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = C0FFEE
+data end canary = 0
+
+
+hash = 38
+
+size = 7
+capacity = 10
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+*[4] = 4
+*[5] = 5
+*[6] = 6
+[7] = POISONED
+[8] = POISONED
+[9] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: Stack.cpp line 112 function: stack_pop stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = C0FFEE
+data end canary = 0
+
+
+hash = 31
+
+size = 6
+capacity = 10
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+*[4] = 4
+*[5] = 5
+[6] = POISONED
+[7] = POISONED
+[8] = POISONED
+[9] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: Stack.cpp line 98 function: stack_pop stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = C0FFEE
+data end canary = 0
+
+
+hash = 31
+
+size = 6
+capacity = 10
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+*[4] = 4
+*[5] = 5
+[6] = POISONED
+[7] = POISONED
+[8] = POISONED
+[9] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: Stack.cpp line 120 function: stack_realloc stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = C0FFEE
+data end canary = 0
+
+
+hash = 25
+
+size = 5
+capacity = 10
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+*[4] = 4
+[5] = POISONED
+[6] = POISONED
+[7] = POISONED
+[8] = POISONED
+[9] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: Stack.cpp line 112 function: stack_pop stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = C0FFEE
+data end canary = 0
+
+
+hash = 20
+
+size = 5
+capacity = 5
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+*[4] = 4
+ERROR! Value of canary has been changed
+
+stack_dump from file: Stack.cpp line 98 function: stack_pop stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = C0FFEE
+data end canary = 0
+
+
+hash = 20
+
+size = 5
+capacity = 5
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+*[4] = 4
+ERROR! Value of canary has been changed
+
+stack_dump from file: Stack.cpp line 112 function: stack_pop stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = C0FFEE
+data end canary = 0
+
+
+hash = 15
+
+size = 4
+capacity = 5
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+[4] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: Stack.cpp line 66 function: stack_dtor stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = C0FFEE
+data end canary = 0
+
+
+hash = 15
+
+size = 4
+capacity = 5
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+[4] = POISONED
+--------------Файл успешно закрыт--------------
+
+
+--------------Файл создан в 23:44:12--------------
+ERROR! Value of canary has been changed
+
+stack_dump from file: Stack.cpp line 80 function: stack_push stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = DEADBEEF
+data end canary = 0
+
+
+hash = 5
+
+size = 0
+capacity = 5
+[0] = POISONED
+[1] = POISONED
+[2] = POISONED
+[3] = POISONED
+[4] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: Stack.cpp line 90 function: stack_push stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = DEADBEEF
+data end canary = 0
+
+
+hash = 6
+
+size = 1
+capacity = 5
+*[0] = 0
+[1] = POISONED
+[2] = POISONED
+[3] = POISONED
+[4] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: Stack.cpp line 80 function: stack_push stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = DEADBEEF
+data end canary = 0
+
+
+hash = 6
+
+size = 1
+capacity = 5
+*[0] = 0
+[1] = POISONED
+[2] = POISONED
+[3] = POISONED
+[4] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: Stack.cpp line 90 function: stack_push stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = DEADBEEF
+data end canary = 0
+
+
+hash = 8
+
+size = 2
+capacity = 5
+*[0] = 0
+*[1] = 1
+[2] = POISONED
+[3] = POISONED
+[4] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: Stack.cpp line 80 function: stack_push stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = DEADBEEF
+data end canary = 0
+
+
+hash = 8
+
+size = 2
+capacity = 5
+*[0] = 0
+*[1] = 1
+[2] = POISONED
+[3] = POISONED
+[4] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: Stack.cpp line 90 function: stack_push stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = DEADBEEF
+data end canary = 0
+
+
+hash = 11
+
+size = 3
+capacity = 5
+*[0] = 0
+*[1] = 1
+*[2] = 2
+[3] = POISONED
+[4] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: Stack.cpp line 80 function: stack_push stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = DEADBEEF
+data end canary = 0
+
+
+hash = 11
+
+size = 3
+capacity = 5
+*[0] = 0
+*[1] = 1
+*[2] = 2
+[3] = POISONED
+[4] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: Stack.cpp line 90 function: stack_push stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = DEADBEEF
+data end canary = 0
+
+
+hash = 15
+
+size = 4
+capacity = 5
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+[4] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: Stack.cpp line 80 function: stack_push stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = DEADBEEF
+data end canary = 0
+
+
+hash = 15
+
+size = 4
+capacity = 5
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+[4] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: Stack.cpp line 90 function: stack_push stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = DEADBEEF
+data end canary = 0
+
+
+hash = 20
+
+size = 5
+capacity = 5
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+*[4] = 4
+ERROR! Value of canary has been changed
+
+stack_dump from file: Stack.cpp line 80 function: stack_push stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = DEADBEEF
+data end canary = 0
+
+
+hash = 20
+
+size = 5
+capacity = 5
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+*[4] = 4
+ERROR! Value of canary has been changed
+
+stack_dump from file: Stack.cpp line 120 function: stack_realloc stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = DEADBEEF
+data end canary = 0
+
+
+hash = 20
+
+size = 5
+capacity = 5
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+*[4] = 4
+ERROR! Value of canary has been changed
+
+stack_dump from file: Stack.cpp line 90 function: stack_push stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = DEADBEEF
+data end canary = 0
+
+
+hash = 31
+
+size = 6
+capacity = 10
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+*[4] = 4
+*[5] = 5
+[6] = POISONED
+[7] = POISONED
+[8] = POISONED
+[9] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: Stack.cpp line 80 function: stack_push stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = DEADBEEF
+data end canary = 0
+
+
+hash = 31
+
+size = 6
+capacity = 10
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+*[4] = 4
+*[5] = 5
+[6] = POISONED
+[7] = POISONED
+[8] = POISONED
+[9] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: Stack.cpp line 90 function: stack_push stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = DEADBEEF
+data end canary = 0
+
+
+hash = 38
+
+size = 7
+capacity = 10
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+*[4] = 4
+*[5] = 5
+*[6] = 6
+[7] = POISONED
+[8] = POISONED
+[9] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: Stack.cpp line 80 function: stack_push stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = DEADBEEF
+data end canary = 0
+
+
+hash = 38
+
+size = 7
+capacity = 10
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+*[4] = 4
+*[5] = 5
+*[6] = 6
+[7] = POISONED
+[8] = POISONED
+[9] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: Stack.cpp line 90 function: stack_push stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = DEADBEEF
+data end canary = 0
+
+
+hash = 46
+
+size = 8
+capacity = 10
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+*[4] = 4
+*[5] = 5
+*[6] = 6
+*[7] = 7
+[8] = POISONED
+[9] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: Stack.cpp line 98 function: stack_pop stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = DEADBEEF
+data end canary = 0
+
+
+hash = 46
+
+size = 8
+capacity = 10
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+*[4] = 4
+*[5] = 5
+*[6] = 6
+*[7] = 7
+[8] = POISONED
+[9] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: Stack.cpp line 112 function: stack_pop stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = DEADBEEF
+data end canary = 0
+
+
+hash = 38
+
+size = 7
+capacity = 10
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+*[4] = 4
+*[5] = 5
+*[6] = 6
+[7] = POISONED
+[8] = POISONED
+[9] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: Stack.cpp line 98 function: stack_pop stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = DEADBEEF
+data end canary = 0
+
+
+hash = 38
+
+size = 7
+capacity = 10
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+*[4] = 4
+*[5] = 5
+*[6] = 6
+[7] = POISONED
+[8] = POISONED
+[9] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: Stack.cpp line 112 function: stack_pop stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = DEADBEEF
+data end canary = 0
+
+
+hash = 31
+
+size = 6
+capacity = 10
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+*[4] = 4
+*[5] = 5
+[6] = POISONED
+[7] = POISONED
+[8] = POISONED
+[9] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: Stack.cpp line 98 function: stack_pop stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = DEADBEEF
+data end canary = 0
+
+
+hash = 31
+
+size = 6
+capacity = 10
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+*[4] = 4
+*[5] = 5
+[6] = POISONED
+[7] = POISONED
+[8] = POISONED
+[9] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: Stack.cpp line 120 function: stack_realloc stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = DEADBEEF
+data end canary = 0
+
+
+hash = 25
+
+size = 5
+capacity = 10
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+*[4] = 4
+[5] = POISONED
+[6] = POISONED
+[7] = POISONED
+[8] = POISONED
+[9] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: Stack.cpp line 112 function: stack_pop stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = DEADBEEF
+data end canary = 0
+
+
+hash = 20
+
+size = 5
+capacity = 5
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+*[4] = 4
+ERROR! Value of canary has been changed
+
+stack_dump from file: Stack.cpp line 98 function: stack_pop stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = DEADBEEF
+data end canary = 0
+
+
+hash = 20
+
+size = 5
+capacity = 5
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+*[4] = 4
+ERROR! Value of canary has been changed
+
+stack_dump from file: Stack.cpp line 112 function: stack_pop stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = DEADBEEF
+data end canary = 0
+
+
+hash = 15
+
+size = 4
+capacity = 5
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+[4] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: Stack.cpp line 66 function: stack_dtor stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = DEADBEEF
+data end canary = 0
+
+
+hash = 15
+
+size = 4
+capacity = 5
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+[4] = POISONED
+--------------Файл успешно закрыт--------------
+
+
+--------------Файл создан в 23:46:25--------------
+ERROR! Value of canary has been changed
+
+stack_dump from file: Stack.cpp line 80 function: stack_push stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = C0FFEE
+data end canary = 0
+
+
+hash = 5
+
+size = 0
+capacity = 5
+[0] = POISONED
+[1] = POISONED
+[2] = POISONED
+[3] = POISONED
+[4] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: Stack.cpp line 90 function: stack_push stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = C0FFEE
+data end canary = 0
+
+
+hash = 6
+
+size = 1
+capacity = 5
+*[0] = 0
+[1] = POISONED
+[2] = POISONED
+[3] = POISONED
+[4] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: Stack.cpp line 80 function: stack_push stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = C0FFEE
+data end canary = 0
+
+
+hash = 6
+
+size = 1
+capacity = 5
+*[0] = 0
+[1] = POISONED
+[2] = POISONED
+[3] = POISONED
+[4] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: Stack.cpp line 90 function: stack_push stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = C0FFEE
+data end canary = 0
+
+
+hash = 8
+
+size = 2
+capacity = 5
+*[0] = 0
+*[1] = 1
+[2] = POISONED
+[3] = POISONED
+[4] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: Stack.cpp line 80 function: stack_push stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = C0FFEE
+data end canary = 0
+
+
+hash = 8
+
+size = 2
+capacity = 5
+*[0] = 0
+*[1] = 1
+[2] = POISONED
+[3] = POISONED
+[4] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: Stack.cpp line 90 function: stack_push stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = C0FFEE
+data end canary = 0
+
+
+hash = 11
+
+size = 3
+capacity = 5
+*[0] = 0
+*[1] = 1
+*[2] = 2
+[3] = POISONED
+[4] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: Stack.cpp line 80 function: stack_push stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = C0FFEE
+data end canary = 0
+
+
+hash = 11
+
+size = 3
+capacity = 5
+*[0] = 0
+*[1] = 1
+*[2] = 2
+[3] = POISONED
+[4] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: Stack.cpp line 90 function: stack_push stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = C0FFEE
+data end canary = 0
+
+
+hash = 15
+
+size = 4
+capacity = 5
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+[4] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: Stack.cpp line 80 function: stack_push stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = C0FFEE
+data end canary = 0
+
+
+hash = 15
+
+size = 4
+capacity = 5
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+[4] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: Stack.cpp line 90 function: stack_push stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = C0FFEE
+data end canary = 0
+
+
+hash = 20
+
+size = 5
+capacity = 5
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+*[4] = 4
+ERROR! Value of canary has been changed
+
+stack_dump from file: Stack.cpp line 80 function: stack_push stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = C0FFEE
+data end canary = 0
+
+
+hash = 20
+
+size = 5
+capacity = 5
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+*[4] = 4
+ERROR! Value of canary has been changed
+
+stack_dump from file: Stack.cpp line 120 function: stack_realloc stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = C0FFEE
+data end canary = 0
+
+
+hash = 20
+
+size = 5
+capacity = 5
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+*[4] = 4
+ERROR! Value of canary has been changed
+
+stack_dump from file: Stack.cpp line 90 function: stack_push stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = C0FFEE
+data end canary = 0
+
+
+hash = 31
+
+size = 6
+capacity = 10
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+*[4] = 4
+*[5] = 5
+[6] = POISONED
+[7] = POISONED
+[8] = POISONED
+[9] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: Stack.cpp line 80 function: stack_push stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = C0FFEE
+data end canary = 0
+
+
+hash = 31
+
+size = 6
+capacity = 10
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+*[4] = 4
+*[5] = 5
+[6] = POISONED
+[7] = POISONED
+[8] = POISONED
+[9] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: Stack.cpp line 90 function: stack_push stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = C0FFEE
+data end canary = 0
+
+
+hash = 38
+
+size = 7
+capacity = 10
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+*[4] = 4
+*[5] = 5
+*[6] = 6
+[7] = POISONED
+[8] = POISONED
+[9] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: Stack.cpp line 80 function: stack_push stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = C0FFEE
+data end canary = 0
+
+
+hash = 38
+
+size = 7
+capacity = 10
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+*[4] = 4
+*[5] = 5
+*[6] = 6
+[7] = POISONED
+[8] = POISONED
+[9] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: Stack.cpp line 90 function: stack_push stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = C0FFEE
+data end canary = 0
+
+
+hash = 46
+
+size = 8
+capacity = 10
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+*[4] = 4
+*[5] = 5
+*[6] = 6
+*[7] = 7
+[8] = POISONED
+[9] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: Stack.cpp line 98 function: stack_pop stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = C0FFEE
+data end canary = 0
+
+
+hash = 46
+
+size = 8
+capacity = 10
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+*[4] = 4
+*[5] = 5
+*[6] = 6
+*[7] = 7
+[8] = POISONED
+[9] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: Stack.cpp line 112 function: stack_pop stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = C0FFEE
+data end canary = 0
+
+
+hash = 38
+
+size = 7
+capacity = 10
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+*[4] = 4
+*[5] = 5
+*[6] = 6
+[7] = POISONED
+[8] = POISONED
+[9] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: Stack.cpp line 98 function: stack_pop stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = C0FFEE
+data end canary = 0
+
+
+hash = 38
+
+size = 7
+capacity = 10
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+*[4] = 4
+*[5] = 5
+*[6] = 6
+[7] = POISONED
+[8] = POISONED
+[9] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: Stack.cpp line 112 function: stack_pop stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = C0FFEE
+data end canary = 0
+
+
+hash = 31
+
+size = 6
+capacity = 10
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+*[4] = 4
+*[5] = 5
+[6] = POISONED
+[7] = POISONED
+[8] = POISONED
+[9] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: Stack.cpp line 98 function: stack_pop stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = C0FFEE
+data end canary = 0
+
+
+hash = 31
+
+size = 6
+capacity = 10
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+*[4] = 4
+*[5] = 5
+[6] = POISONED
+[7] = POISONED
+[8] = POISONED
+[9] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: Stack.cpp line 120 function: stack_realloc stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = C0FFEE
+data end canary = 0
+
+
+hash = 25
+
+size = 5
+capacity = 10
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+*[4] = 4
+[5] = POISONED
+[6] = POISONED
+[7] = POISONED
+[8] = POISONED
+[9] = POISONED
+ERROR! Value of canary has been changed
+
+stack_dump from file: Stack.cpp line 112 function: stack_pop stack: stk
+
+struct beginning ca--------------Файл создан в 00:50:43--------------
+--------------Файл успешно закрыт--------------
+
+
+--------------Файл создан в 00:51:05--------------
+--------------Файл успешно закрыт--------------
+
+
+--------------Файл создан в 00:53:23--------------
 --------------Файл успешно закрыт--------------
 
 

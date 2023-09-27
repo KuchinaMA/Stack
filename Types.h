@@ -15,6 +15,6 @@ const elem_t PoisonValue = -1;
 
 typedef double hash_t;
 
-typedef unsigned long long int canary_t;
+typedef unsigned long long canary_t;
 
 #endif // TYPES_H_INCLUDED

@@ -11,13 +11,13 @@ all: StackRes.exe
 StackRes.exe: Main.o Stack.o Logfile.o
 	$(CC) $(CFLAGS) $^ -o $@
 
-Main.o: Main.cpp 
+Main.o: Main.cpp Stack.h Types.h Logfile.h 
 	$(CC) $(CFLAGS) $< -c -o $@
 
-Stack.o: Stack.cpp
+Stack.o: Stack.cpp Stack.h Types.h Logfile.h
 	$(CC) $(CFLAGS) $< -c -o $@
 
-Logfile.o: Logfile.cpp
+Logfile.o: Logfile.cpp Logfile.h
 	$(CC) $(CFLAGS) $< -c -o $@
 
 
