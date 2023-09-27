@@ -17,13 +17,17 @@ int main() {
         PRINT_STACK(&stk);
     }
 
-    /*elem_t x = 0;
+    printf(ELEMF"\n", stk.data[0]);
+
+    stk.data[0] = 1;
+
+    elem_t x = 0;
 
     for (int i = 0; i < 3; i++) {
         x = stack_pop(&stk);
         PRINT_STACK(&stk);
     }
-        */
+
     //stk.size = 5;
     //stk.capacity = 3;
 

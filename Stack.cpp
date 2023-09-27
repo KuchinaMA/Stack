@@ -20,7 +20,7 @@
 int stack_ctor(Stack *stk, int capacity) {
 
     assert(stk != NULL);
-    assert(capacity > 0);
+    //assert(capacity > 0);
 
     #ifdef CANARY_MODE
     stk->canary1 = CanaryStack;
@@ -182,7 +182,7 @@ hash_t stack_calculate(const struct Stack *stk) {
 
     hash_t sum = 0;
 
-    for (int i = 0; i < stk->size; i++) {
+    for (int i = 1; i <= stk->size; i++) {  //because of canary
         sum += (hash_t)stk->data[i];
     }
 
