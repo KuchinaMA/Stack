@@ -7,7 +7,7 @@
 FILE *LOG_FILE = stderr;
 
 void close_log() {
-    fprintf(LOG_FILE, "--------------Файл успешно закрыт--------------\n\n\n");
+    fprintf(LOG_FILE, "--------------File was cosed successfully--------------\n\n\n");
     fclose(LOG_FILE);
 }
 
@@ -16,7 +16,7 @@ void open_log(const char *filename, const char *time) {
 
     LOG_FILE = fopen(filename, "a");
 
-    fprintf(LOG_FILE, "--------------Файл создан в %s--------------\n", time);
+    fprintf(LOG_FILE, "--------------File was opened at %s--------------\n", time);
 
     if (LOG_FILE == NULL) {
         LOG_FILE = stderr;

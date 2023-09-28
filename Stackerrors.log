@@ -1,131 +1,3 @@
-Файл создан
-ERROR! size > capacity 
-
-ERROR! Value of canary has been changed
-
-ERROR! Value of hash has been changed
-
-Файл успешно закрыт
-Файл создан
-ERROR! size > capacity 
-
-ERROR! Value of canary has been changed
-
-ERROR! Value of hash has been changed
-
-Файл успешно закрыт
-Файл создан
-ERROR! size > capacity 
-
-ERROR! Value of canary has been changed
-
-Файл успешно закрыт
-Файл создан
-ERROR! size > capacity 
-
-ERROR! Value of canary has been changed
-
-ERROR! Value of hash has been changed
-
-Файл создан
-ERROR! size > capacity 
-
-ERROR! Value of canary has been changed
-
-ERROR! Value of hash has been changed
-
-Файл создан
-ERROR! size > capacity 
-
-ERROR! Value of canary has been changed
-
-Файл создан
-ERROR! size > capacity 
-
-ERROR! Value of canary has been changed
-
-ERROR! Value of hash has been changed
-
-Файл успешно закрыт
-
-
-Файл создан
-ERROR! size > capacity 
-
-ERROR! Value of canary has been changed
-
-ERROR! Value of hash has been changed
-
-Файл успешно закрыт
-
-
-Файл создан
-ERROR! size > capacity 
-
-ERROR! Value of canary has been changed
-
-Файл успешно закрыт
-
-
-Файл создан
-ERROR! size > capacity 
-
-ERROR! Value of canary has been changed
-
-ERROR! Value of hash has been changed
-
-stack_dump from file: stack.cpp line 208 function: print_errors
-
-struct beginning canary = DEADBEEF
-struct end canary = DEADBEEF
-
-size = 5
-capacity = 3
-hash = 46
-
-data beginning canary = BADCAFE
-*[0] = 0
-*[1] = 1
-*[2] = 2
-*[3] = 3
-*[4] = 4
-data end canary = 3
-
-
-Файл успешно закрыт
-
-
-Файл создан
-ERROR! size > capacity 
-
-ERROR! Value of canary has been changed
-
-ERROR! Value of hash has been changed
-
-stack_dump from file: stack.cpp line 208 function: print_errors
-
-struct beginning canary = DEADBEEF
-struct end canary = DEADBEEF
-
-size = 4
-capacity = 3
-hash = 13
-
-data beginning canary = BADCAFE
-*[0] = 0
-*[1] = 1
-*[2] = 2
-*[3] = 3
-data end canary = 3
-
-
-Файл успешно закрыт
-
-
-Файл создан
-ERROR! size > capacity 
-
-ERROR! Value of canary has been changed
 
 
 --------------Файл создан в 19:20:05--------------
@@ -25852,5 +25724,167 @@ capacity = 0
 
 --------------Файл создан в 01:32:44--------------
 --------------Файл успешно закрыт--------------
+
+
+--------------Файл создан в 14:38:34--------------
+--------------Файл успешно закрыт--------------
+
+
+--------------Файл создан в 14:38:34--------------
+--------------Файл успешно закрыт--------------
+
+
+--------------Файл создан в 14:55:31--------------
+--------------Файл успешно закрыт--------------
+
+
+--------------Файл создан в 14:55:31--------------
+--------------Файл успешно закрыт--------------
+
+
+--------------Файл создан в 14:55:31--------------
+--------------Файл успешно закрыт--------------
+
+
+--------------Файл создан в 14:55:31--------------
+--------------Файл успешно закрыт--------------
+
+
+--------------Файл создан в 15:24:19--------------
+--------------Файл успешно закрыт--------------
+
+
+--------------Файл создан в 15:25:56--------------
+ERROR! Value of hash has been changed
+
+stack_dump from file: Stack.cpp line 132 function: stack_realloc stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = BADCAFE
+data end canary = BADCAFE
+
+
+hash = 31
+
+size = 5
+capacity = 10
+*[0] = 1
+*[1] = 1
+*[2] = 2
+*[3] = 3
+*[4] = 4
+[5] = POISONED
+[6] = POISONED
+[7] = POISONED
+[8] = POISONED
+[9] = POISONED
+--------------Файл успешно закрыт--------------
+
+
+--------------Файл создан в 15:26:55--------------
+ERROR! Value of hash has been changed
+
+stack_dump from file: Stack.cpp line 132 function: stack_realloc stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = BADCAFE
+data end canary = BADCAFE
+
+
+hash = 31
+
+size = 5
+capacity = 10
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+*[4] = 4
+[5] = POISONED
+[6] = POISONED
+[7] = POISONED
+[8] = POISONED
+[9] = POISONED
+--------------Файл успешно закрыт--------------
+
+
+--------------Файл создан в 15:26:55--------------
+ERROR! Value of hash has been changed
+
+stack_dump from file: Stack.cpp line 124 function: stack_pop stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = BADCAFE
+data end canary = BADCAFE
+
+
+hash = 24
+
+size = 5
+capacity = 5
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+*[4] = 4
+ERROR! Value of hash has been changed
+
+stack_dump from file: Stack.cpp line 106 function: stack_pop stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = BADCAFE
+data end canary = BADCAFE
+
+
+hash = 24
+
+size = 5
+capacity = 5
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+*[4] = 4
+--------------Файл успешно закрыт--------------
+
+
+--------------Файл создан в 15:26:55--------------
+--------------Файл успешно закрыт--------------
+
+
+--------------Файл создан в 15:26:55--------------
+--------------Файл успешно закрыт--------------
+
+
+--------------Файл создан в 15:26:55--------------
+--------------Файл успешно закрыт--------------
+
+
+--------------Файл создан в 15:26:55------------------
+--------------Файл успешно закрыт--------------
+
+
+--------------Файл создан в 15:26:55--------------
+--------------Файл успешно закрыт-------------------
+
+
+--------------File was opened at 15:26:55--------------
+--------------File was cosed successfully-------------------
+
+
+--------------File was opened at 15:26:55--------------
+--------------File was cosed successfully--------------
+
+
+--------------File was opened at 16:16:17--------------
+--------------File was cosed successfully--------------
 
 

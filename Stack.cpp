@@ -3,9 +3,6 @@
 #include <assert.h>
 
 
-#define CANARY_MODE
-#define HASH_MODE
-
 #define STACK_VERIFY(stk) {int err = stack_verify(stk); \
             if (err > 0) { \
             print_errors(stk, err); \
@@ -25,11 +22,7 @@ int stack_ctor(Stack *stk, int capacity) {
     #ifdef CANARY_MODE
     stk->canary1 = CanaryStack;
     stk->canary2 = CanaryStack;
-    #endif
-
-    #ifdef CANARY_MODE
     stk->data = (elem_t *) calloc(capacity * sizeof(elem_t) + 2 * sizeof(canary_t), sizeof(char));
-
     #endif
 
     #ifndef CANARY_MODE
@@ -65,10 +58,22 @@ int stack_dtor(Stack *stk) {
 
     STACK_VERIFY(stk);
 
+    #ifdef CANARY_MODE
     free((canary_t *)stk->data - 1);
+    stk->canary1 = PoisonValue;
+    stk->canary2 = PoisonValue;
+    #endif
+
+    #ifndef CANARY_MODE
+    free(stk->data);
+    #endif
+
     stk->size = PoisonValue;
     stk->capacity = PoisonValue;
+
+    #ifdef HASH_MODE
     stk->hash = PoisonValue;
+    #endif
 
     return 0;
 
@@ -80,12 +85,15 @@ int stack_push(Stack *stk, elem_t value) {
     STACK_VERIFY(stk);
 
     if (stk->size == stk->capacity) {
-        stack_realloc(stk, Coeff*stk->capacity);
+        stack_realloc(stk, ReallocCoeff*stk->capacity);
     }
 
     stk->data[stk->size] = value;
     stk->size ++;
+
+    #ifdef HASH_MODE
     stk->hash = stack_calculate(stk);
+    #endif
 
     STACK_VERIFY(stk);
 
@@ -93,30 +101,33 @@ int stack_push(Stack *stk, elem_t value) {
 }
 
 
-elem_t stack_pop(Stack *stk) {
+elem_t stack_pop(Stack *stk, elem_t *retvalue) {
 
     STACK_VERIFY(stk);
 
     stk->size --;
-    elem_t ans = stk->data[stk->size];
+    *retvalue = stk->data[stk->size];
     stk->data[stk->size] = PoisonValue;
 
-    stk->hash = stack_calculate(stk);
-
-    if (stk->size == (stk->capacity)/Coeff) {
-        stack_realloc(stk, stk->capacity/Coeff);
+    if (stk->size == (stk->capacity)/ReallocCoeff) {
+        stack_realloc(stk, stk->capacity/ReallocCoeff);
     }
 
+    #ifdef HASH_MODE
     stk->hash = stack_calculate(stk);
+    #endif
 
     STACK_VERIFY(stk);
 
-    return ans;
+    return 0;
 }
 
 
 void stack_realloc(Stack *stk, int newcapacity) {
 
+    #ifdef HASH_MODE
+    stk->hash = stack_calculate(stk);
+    #endif
     STACK_VERIFY(stk);
 
     #ifdef CANARY_MODE
@@ -232,9 +243,11 @@ void print_errors(const struct Stack *stk, int err) {
     if (err & negative_size)     fprintf(LOG_FILE, "ERROR! size < 0\n\n");
     if (err & negative_capacity) fprintf(LOG_FILE, "ERROR! capacity < 0\n\n");
     if (err & small_capacity)    fprintf(LOG_FILE, "ERROR! size > capacity \n\n");
+
     #ifdef CANARY_MODE
     if (err & incorrect_canary)  fprintf(LOG_FILE, "ERROR! Value of canary has been changed\n\n");
     #endif
+
     #ifdef HASH_MODE
     if (err & incorrect_hash)    fprintf(LOG_FILE, "ERROR! Value of hash has been changed\n\n");
     #endif

@@ -19,13 +19,14 @@ int main() {
 
     printf(ELEMF"\n", stk.data[0]);
 
-    stk.data[0] = 1;
+    //stk.data[0] = 1000;
 
     elem_t x = 0;
 
     for (int i = 0; i < 3; i++) {
-        x = stack_pop(&stk);
+        stack_pop(&stk, &x);
         PRINT_STACK(&stk);
+        //printf("x = "ELEMF"\n", x);
     }
 
     //stk.size = 5;
