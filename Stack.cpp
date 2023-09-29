@@ -7,28 +7,21 @@
 #include "Protection.h"
 #include "Logfile.h"
 
-#define STACK_VERIFY(stk) {int err = stack_verify(stk); \
-            if (err > 0) { \
-            print_errors(stk, err); \
-            stack_dump_err((stk), __FILE__, __LINE__, __func__, LOG_FILE); }\
-}
-
 
 int stack_ctor(Stack *stk, int capacity) {
 
     assert(stk != NULL);
-    //assert(capacity > 0);
+    assert(capacity > 0);
+
+    int needed_capacity = capacity * sizeof(elem_t);
 
     #ifdef CANARY_MODE
     stk->canary1 = CanaryStack;
     stk->canary2 = CanaryStack;
-    stk->data = (elem_t *) calloc(capacity * sizeof(elem_t) + 2 * sizeof(canary_t), sizeof(char));
+    needed_capacity += 2 * sizeof(canary_t);
     #endif
 
-    #ifndef CANARY_MODE
-    stk->data = (elem_t *)calloc(capacity, sizeof(elem_t));
-    #endif
-
+    stk->data = (elem_t *)calloc(needed_capacity, sizeof(char));
 
     if (stk->data == NULL) {
         printf("Sorry! Capacity is too big, there's no enough memory");
@@ -39,9 +32,9 @@ int stack_ctor(Stack *stk, int capacity) {
         stk->capacity = capacity;
 
         #ifdef CANARY_MODE
-        *(canary_t *) stk->data = CanaryBuf;
+        *(canary_t *) stk->data = CanaryData;
         stk->data = (elem_t *)((canary_t *)stk->data + 1);
-        *(canary_t *)(stk->data + stk->capacity * sizeof(elem_t)) = CanaryBuf;
+        *(canary_t *)(stk->data + stk->capacity * sizeof(elem_t)) = CanaryData;
         #endif
 
         #ifdef HASH_MODE
@@ -50,7 +43,7 @@ int stack_ctor(Stack *stk, int capacity) {
     }
 
     assert(stk->data != NULL);
-
+    return no_errors;
 }
 
 
@@ -59,14 +52,12 @@ int stack_dtor(Stack *stk) {
     STACK_VERIFY(stk);
 
     #ifdef CANARY_MODE
-    free((canary_t *)stk->data - 1);
+    stk->data = stk->data - sizeof(canary_t);
     stk->canary1 = PoisonCanaryValue;
     stk->canary2 = PoisonCanaryValue;
     #endif
 
-    #ifndef CANARY_MODE
     free(stk->data);
-    #endif
 
     stk->size = PoisonValue;
     stk->capacity = PoisonValue;
@@ -75,7 +66,7 @@ int stack_dtor(Stack *stk) {
     stk->hash = PoisonValue;
     #endif
 
-    return 0;
+    return no_errors;
 
 }
 
@@ -97,68 +88,61 @@ int stack_push(Stack *stk, elem_t value) {
 
     STACK_VERIFY(stk);
 
-    return 0;
+    return no_errors;
 }
 
 
-elem_t stack_pop(Stack *stk, elem_t *retvalue) {
+int stack_pop(Stack *stk, elem_t *retvalue) {
 
     STACK_VERIFY(stk);
+
+    if ((stk->size - 1) == (stk->capacity)/ReallocCoeff) {
+        stack_realloc(stk, stk->capacity/ReallocCoeff);
+    }
 
     stk->size --;
     *retvalue = stk->data[stk->size];
     stk->data[stk->size] = PoisonValue;
 
-    if (stk->size == (stk->capacity)/ReallocCoeff) {
-        stack_realloc(stk, stk->capacity/ReallocCoeff);
-    }
-
     #ifdef HASH_MODE
     stk->hash = stack_calculate(stk);
     #endif
 
     STACK_VERIFY(stk);
 
-    return 0;
+    return no_errors;
 }
 
 
-void stack_realloc(Stack *stk, int newcapacity) {
+int stack_realloc(Stack *stk, int newcapacity) {
 
-    #ifdef HASH_MODE
-    stk->hash = stack_calculate(stk);
-    #endif
     STACK_VERIFY(stk);
 
+    int needed_capacity = newcapacity * sizeof(elem_t);
+
     #ifdef CANARY_MODE
-    canary_t temp_canary = *(canary_t *)(stk->data + stk->capacity * sizeof(elem_t));
+    needed_capacity += 2 * sizeof(canary_t);
     *(elem_t *)(stk->data + stk->capacity * sizeof(elem_t)) = PoisonValue;
-
     stk->data = (elem_t *)((char *)stk->data - sizeof(canary_t));
-    elem_t *temp_data = (elem_t *)realloc(stk->data, newcapacity * sizeof(elem_t) + 2 * sizeof(canary_t));
     #endif
 
-    #ifndef CANARY_MODE
-    elem_t *temp_data = (elem_t *)realloc(stk->data, newcapacity * sizeof(elem_t));
-
-    #endif
+    elem_t *temp_data = (elem_t *)realloc(stk->data, needed_capacity);
 
     if (temp_data != NULL) {
 
         stk->capacity = newcapacity;
+        stk->data = temp_data;
 
         #ifdef CANARY_MODE
-        stk->data = (elem_t *)((char *)temp_data + sizeof(canary_t));
-        *(canary_t *)(stk->data + stk->capacity * sizeof(elem_t)) = temp_canary;
+        stk->data = (elem_t *)((canary_t *)stk->data + 1);
+        *(canary_t *)(stk->data + stk->capacity * sizeof(elem_t)) = CanaryData;
         #endif
 
-        #ifndef CANARY_MODE
-        stk->data = temp_data;
-        #endif
     }
     else {
         printf("Sorry! Capacity is too big, there's no enough memory");
     }
+    return no_errors;
 }
 
 

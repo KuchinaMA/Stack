@@ -9,7 +9,7 @@ hash_t stack_calculate(const struct Stack *stk) {
 
     hash_t sum = 0;
 
-    for (int i = 1; i <= stk->size; i++) {  //because of canary
+    for (int i = 0; i < stk->size; i++) {
         sum += (hash_t)stk->data[i];
     }
 
@@ -36,8 +36,8 @@ int stack_verify (const struct Stack *stk) {
 
     #ifdef CANARY_MODE
     if (stk->canary1 != CanaryStack || stk->canary2 != CanaryStack ||
-        *(canary_t *)(stk->data - 1) != CanaryBuf ||
-        *(canary_t *)(stk->data + stk->capacity * sizeof(elem_t)) != CanaryBuf) {
+        *(canary_t *)(stk->data - 1) != CanaryData ||
+        *(canary_t *)(stk->data + stk->capacity * sizeof(elem_t)) != CanaryData) {
 
                                            ans = ans | incorrect_canary;
     }

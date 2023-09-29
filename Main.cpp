@@ -14,20 +14,22 @@ int main() {
     PRINT_STACK(&stk);
 
     for (elem_t i = 0; i < 6; i++) {
-        stack_push(&stk, i);
+        int x = stack_push(&stk, i);
         PRINT_STACK(&stk);
     }
 
-    printf(ELEMF"\n", stk.data[0]);
+    //printf(ELEMF"\n", stk.data[0]);
 
     //stk.data[0] = 1000;
+
+    //stk.capacity = 3;
+    //stk.size = 4;
 
     elem_t x = 0;
 
     for (int i = 0; i < 3; i++) {
-        stack_pop(&stk, &x);
+        int t = stack_pop(&stk, &x);
         PRINT_STACK(&stk);
-        //printf("x = "ELEMF"\n", x);
     }
 
     stack_dtor(&stk);

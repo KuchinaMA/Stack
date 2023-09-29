@@ -13,6 +13,13 @@ var.name = #var;
 #define CANARY_MODE
 #define HASH_MODE
 
+/**Structure with all information about stack:
+ * array with data
+ * size of space occupied by data
+ * total amount of space in stack
+ * name of stack
+ * protecting values: canaries and value of hash if there is relevant mode
+*/
 struct Stack {
 
     #ifdef CANARY_MODE
@@ -33,22 +40,51 @@ struct Stack {
     #endif
 };
 
-
+/// Capacity that stack will have initially
 const int StackDefaultCapacity = 5;
+/** Number of times in which stack capacity increases or decreases when
+ *  boundary values of size are reached
+*/
 const int ReallocCoeff = 2;
 
+/// Value of canary that protects structure with info about stack
 const canary_t CanaryStack = 0xDEADBEEF;
-const canary_t CanaryBuf = 0xBADCAFE;
+/// Value of canary tat protects stack data
+const canary_t CanaryData = 0xBADCAFE;
 
-
+/** Initialize the stack structure
+ *  \param [in] stk pointer to structure with stack
+ *  \paran [in] capacity original capacity of stack
+*/
 int stack_ctor(Stack *stk, int capacity);
+/** Destructs stack structure before completion of the program
+ *  \param [in] stk pointer to structure with stack
+*/
 int stack_dtor(Stack *stk);
 
+/** Puts an element in stack
+ *  \param [in] stk pointer to structure with stack
+ *  \param [in] value of an element that will be put in stack
+*/
 int stack_push(Stack *stk, elem_t value);
-elem_t stack_pop(Stack *stk, elem_t *retvalue);
+/** Gets an element from stack
+ *  \param [in] stk pointer to structure with stack
+ *  \param [out] retvalue value of an element that will be gotten from stack
+*/
+int stack_pop(Stack *stk, elem_t *retvalue);
 
-void stack_realloc(Stack *stk, int newcapacity);
+/** Finds a new place for stack data if capacity of stack is changed
+ *  \param [in] stk pointer to structure with stack
+ *  \param [in] newcapacity new value of stack capacity
+*/
+int stack_realloc(Stack *stk, int newcapacity);
 
+/** Prints all information about stack
+ * \param [in] stk pointer to structure with stack
+ * \param [in] file name of file from which stack is printed
+ * \param [in] line number of line in code from which stack is printed
+ * \param [in] function name of function from which stack is printed
+*/
 void stack_dump(const struct Stack *stk, const char *file, int line, const char *function);
 
 
