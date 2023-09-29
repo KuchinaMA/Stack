@@ -3,12 +3,13 @@
 #include "Types.h"
 #include "Stack.h"
 #include "Logfile.h"
+#include "Protection.h"
 
 int main() {
 
     open_log("Stackerrors.log", __TIME__);
 
-    STACK_CONSTRUCT(stk, StackCapacity);
+    STACK_CONSTRUCT(stk, StackDefaultCapacity);
 
     PRINT_STACK(&stk);
 
@@ -28,10 +29,6 @@ int main() {
         PRINT_STACK(&stk);
         //printf("x = "ELEMF"\n", x);
     }
-
-    //stk.size = 5;
-    //stk.capacity = 3;
-
 
     stack_dtor(&stk);
 

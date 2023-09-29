@@ -7,7 +7,7 @@
 FILE *LOG_FILE = stderr;
 
 void close_log() {
-    fprintf(LOG_FILE, "--------------File was cosed successfully--------------\n\n\n");
+    fprintf(LOG_FILE, "--------------File was closed successfully-------------\n\n\n");
     fclose(LOG_FILE);
 }
 

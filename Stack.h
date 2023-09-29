@@ -33,17 +33,8 @@ struct Stack {
     #endif
 };
 
-enum Errors {
-    stack_null        = 1,
-    data_null         = 1 << 1,
-    negative_size     = 1 << 2,
-    negative_capacity = 1 << 3,
-    small_capacity    = 1 << 4,
-    incorrect_canary  = 1 << 5,
-    incorrect_hash    = 1 << 6
-};
 
-const int StackCapacity = 5;
+const int StackDefaultCapacity = 5;
 const int ReallocCoeff = 2;
 
 const canary_t CanaryStack = 0xDEADBEEF;
@@ -58,11 +49,7 @@ elem_t stack_pop(Stack *stk, elem_t *retvalue);
 
 void stack_realloc(Stack *stk, int newcapacity);
 
-int stack_verify (const struct Stack *stk);
 void stack_dump(const struct Stack *stk, const char *file, int line, const char *function);
-hash_t stack_calculate(const struct Stack *stk);
-void print_errors(const struct Stack *stk, int err);
-void stack_dump_err(const struct Stack *stk, const char *file, int line, const char *function, FILE* fp);
 
 
 #endif // STACK_H_INCLUDED
