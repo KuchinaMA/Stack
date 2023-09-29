@@ -10,8 +10,28 @@ var.name = #var;
 
 #define PRINT_STACK(stk) stack_dump((stk), __FILE__, __LINE__, __func__);
 
+
 #define CANARY_MODE
+
+#ifdef CANARY_MODE
+#define USE_CANARIES(lines) \
+lines;
+#else
+#define USE_CANARIES(lines) \
+;
+#endif
+
+
 #define HASH_MODE
+
+#ifdef HASH_MODE
+#define USE_HASH(lines) \
+lines;
+#else
+#define USE_HASH(lines) \
+;
+#endif
+
 
 /**Structure with all information about stack:
  * array with data
@@ -22,22 +42,16 @@ var.name = #var;
 */
 struct Stack {
 
-    #ifdef CANARY_MODE
-    canary_t canary1;
-    #endif
+    USE_CANARIES(canary_t canary1;)
 
     elem_t *data;
     int size;
     int capacity;
     const char *name;
 
-    #ifdef HASH_MODE
-    elem_t hash;
-    #endif
+    USE_HASH(elem_t hash;)
 
-    #ifdef CANARY_MODE
-    canary_t canary2;
-    #endif
+    USE_CANARIES(canary_t canary2;)
 };
 
 /// Capacity that stack will have initially

@@ -24,29 +24,25 @@ int stack_verify (const struct Stack *stk) {
 
     int ans = 0;
 
-    if (stk == NULL)                       ans = ans | stack_null;
+    if (stk == NULL)                                ans = ans | stack_null;
 
-    if (stk->data == NULL)                 ans = ans | data_null;
+    if (stk->data == NULL)                          ans = ans | data_null;
 
-    if (stk->size < 0)                     ans = ans | negative_size;
+    if (stk->size < 0)                              ans = ans | negative_size;
 
-    if (stk->capacity < 0)                 ans = ans | negative_capacity;
+    if (stk->capacity < 0)                          ans = ans | negative_capacity;
 
-    if (stk->capacity < stk->size)         ans = ans | small_capacity;
+    if (stk->capacity < stk->size)                  ans = ans | small_capacity;
 
-    #ifdef CANARY_MODE
-    if (stk->canary1 != CanaryStack || stk->canary2 != CanaryStack ||
+
+    USE_CANARIES(if (stk->canary1 != CanaryStack || stk->canary2 != CanaryStack ||
         *(canary_t *)(stk->data - 1) != CanaryData ||
         *(canary_t *)(stk->data + stk->capacity * sizeof(elem_t)) != CanaryData) {
 
-                                           ans = ans | incorrect_canary;
-    }
-    #endif
+                                                    ans = ans | incorrect_canary;
+    })
 
-    #ifdef HASH_MODE
-    if (stk->hash != stack_calculate(stk)) ans = ans | incorrect_hash;
-
-    #endif
+    USE_HASH(if (stk->hash != stack_calculate(stk)) ans = ans | incorrect_hash;)
 
     return ans;
 }
@@ -60,13 +56,11 @@ void print_errors(const struct Stack *stk, int err) {
     if (err & negative_capacity) fprintf(LOG_FILE, "ERROR! capacity < 0\n\n");
     if (err & small_capacity)    fprintf(LOG_FILE, "ERROR! size > capacity \n\n");
 
-    #ifdef CANARY_MODE
-    if (err & incorrect_canary)  fprintf(LOG_FILE, "ERROR! Value of canary has been changed\n\n");
-    #endif
+    USE_CANARIES(if (err & incorrect_canary)  fprintf(LOG_FILE,
+                                                   "ERROR! Value of canary has been changed\n\n");)
 
-    #ifdef HASH_MODE
-    if (err & incorrect_hash)    fprintf(LOG_FILE, "ERROR! Value of hash has been changed\n\n");
-    #endif
+    USE_HASH(if (err & incorrect_hash)    fprintf(LOG_FILE,
+                                                   "ERROR! Value of hash has been changed\n\n");)
 
 }
 
@@ -76,16 +70,14 @@ void stack_dump_err(const struct Stack *stk, const char *file, int line, const c
     fprintf(fp, "stack_dump from file: %s line %d function: %s stack: %s\n\n",
                                              file, line, function, stk->name);
 
-    #ifdef CANARY_MODE
-    fprintf(fp, "struct beginning canary = %X\n", stk->canary1);
+
+    USE_CANARIES(fprintf(fp, "struct beginning canary = %X\n", stk->canary1);
     fprintf(fp, "struct end canary = %X\n\n", stk->canary2);
     fprintf(fp, "data beginning canary = %X\n", *(canary_t *)(stk->data - 1));
-    fprintf(fp, "data end canary = %X\n\n\n", *(canary_t *)(stk->data + stk->capacity * sizeof(elem_t)));
-    #endif
+    fprintf(fp, "data end canary = %X\n\n\n", *(canary_t *)(stk->data +
+                                            stk->capacity * sizeof(elem_t)));)
 
-    #ifdef HASH_MODE
-    fprintf(fp, "hash = " ELEMF "\n\n", stk->hash);
-    #endif
+    USE_HASH(fprintf(fp, "hash = " ELEMF "\n\n", stk->hash);)
 
     fprintf(fp, "size = %d\n", stk->size);
     fprintf(fp, "capacity = %d\n", stk->capacity);

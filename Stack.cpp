@@ -15,11 +15,11 @@ int stack_ctor(Stack *stk, int capacity) {
 
     int needed_capacity = capacity * sizeof(elem_t);
 
-    #ifdef CANARY_MODE
-    stk->canary1 = CanaryStack;
+
+    USE_CANARIES(stk->canary1 = CanaryStack;
     stk->canary2 = CanaryStack;
-    needed_capacity += 2 * sizeof(canary_t);
-    #endif
+    needed_capacity += 2 * sizeof(canary_t);)
+
 
     stk->data = (elem_t *)calloc(needed_capacity, sizeof(char));
 
@@ -31,15 +31,13 @@ int stack_ctor(Stack *stk, int capacity) {
         stk->size = 0;
         stk->capacity = capacity;
 
-        #ifdef CANARY_MODE
-        *(canary_t *) stk->data = CanaryData;
-        stk->data = (elem_t *)((canary_t *)stk->data + 1);
-        *(canary_t *)(stk->data + stk->capacity * sizeof(elem_t)) = CanaryData;
-        #endif
 
-        #ifdef HASH_MODE
-        stk->hash = stack_calculate(stk);
-        #endif
+        USE_CANARIES(*(canary_t *) stk->data = CanaryData;
+        stk->data = (elem_t *)((canary_t *)stk->data + 1);
+        *(canary_t *)(stk->data + stk->capacity * sizeof(elem_t)) = CanaryData;)
+
+
+        USE_HASH(stk->hash = stack_calculate(stk);)
     }
 
     assert(stk->data != NULL);
@@ -51,20 +49,19 @@ int stack_dtor(Stack *stk) {
 
     STACK_VERIFY(stk);
 
-    #ifdef CANARY_MODE
-    stk->data = stk->data - sizeof(canary_t);
+
+    USE_CANARIES(stk->data = stk->data - sizeof(canary_t);
     stk->canary1 = PoisonCanaryValue;
-    stk->canary2 = PoisonCanaryValue;
-    #endif
+    stk->canary2 = PoisonCanaryValue;)
+
 
     free(stk->data);
 
     stk->size = PoisonValue;
     stk->capacity = PoisonValue;
 
-    #ifdef HASH_MODE
-    stk->hash = PoisonValue;
-    #endif
+
+    USE_HASH(stk->hash = PoisonValue;)
 
     return no_errors;
 
@@ -82,9 +79,8 @@ int stack_push(Stack *stk, elem_t value) {
     stk->data[stk->size] = value;
     stk->size ++;
 
-    #ifdef HASH_MODE
-    stk->hash = stack_calculate(stk);
-    #endif
+
+    USE_HASH(stk->hash = stack_calculate(stk);)
 
     STACK_VERIFY(stk);
 
@@ -104,9 +100,8 @@ int stack_pop(Stack *stk, elem_t *retvalue) {
     *retvalue = stk->data[stk->size];
     stk->data[stk->size] = PoisonValue;
 
-    #ifdef HASH_MODE
-    stk->hash = stack_calculate(stk);
-    #endif
+
+    USE_HASH(stk->hash = stack_calculate(stk);)
 
     STACK_VERIFY(stk);
 
@@ -120,11 +115,10 @@ int stack_realloc(Stack *stk, int newcapacity) {
 
     int needed_capacity = newcapacity * sizeof(elem_t);
 
-    #ifdef CANARY_MODE
-    needed_capacity += 2 * sizeof(canary_t);
+
+    USE_CANARIES(needed_capacity += 2 * sizeof(canary_t);
     *(elem_t *)(stk->data + stk->capacity * sizeof(elem_t)) = PoisonValue;
-    stk->data = (elem_t *)((char *)stk->data - sizeof(canary_t));
-    #endif
+    stk->data = (elem_t *)((char *)stk->data - sizeof(canary_t));)
 
     elem_t *temp_data = (elem_t *)realloc(stk->data, needed_capacity);
 
@@ -133,10 +127,9 @@ int stack_realloc(Stack *stk, int newcapacity) {
         stk->capacity = newcapacity;
         stk->data = temp_data;
 
-        #ifdef CANARY_MODE
-        stk->data = (elem_t *)((canary_t *)stk->data + 1);
-        *(canary_t *)(stk->data + stk->capacity * sizeof(elem_t)) = CanaryData;
-        #endif
+
+        USE_CANARIES(stk->data = (elem_t *)((canary_t *)stk->data + 1);
+        *(canary_t *)(stk->data + stk->capacity * sizeof(elem_t)) = CanaryData;)
 
     }
     else {
@@ -151,16 +144,14 @@ void stack_dump(const struct Stack *stk, const char *file, int line, const char 
     printf("stack_dump from file: %s line %d function: %s stack: %s\n\n",
                                         file, line, function, stk->name);
 
-    #ifdef CANARY_MODE
-    printf("struct beginning canary = %X\n", stk->canary1);
+
+    USE_CANARIES(printf("struct beginning canary = %X\n", stk->canary1);
     printf("struct end canary = %X\n\n", stk->canary2);
     printf("data beginning canary = %X\n", *(canary_t *)(stk->data - 1));
-    printf("data end canary = %X\n\n\n", *(canary_t *)(stk->data + stk->capacity * sizeof(elem_t)));
-    #endif
+    printf("data end canary = %X\n\n\n", *(canary_t *)(stk->data + stk->capacity * sizeof(elem_t)));)
 
-    #ifdef HASH_MODE
-    printf("hash = " ELEMF "\n\n", stk->hash);
-    #endif
+
+    USE_HASH(printf("hash = " ELEMF "\n\n", stk->hash);)
 
     printf("size = %d\n", stk->size);
     printf("capacity = %d\n", stk->capacity);
