@@ -27170,3 +27170,299 @@ capacity = 3
 --------------File was closed successfully-------------
 
 
+--------------File was opened at 14:11:27--------------
+--------------File was closed successfully-------------
+
+
+--------------File was opened at 14:11:27--------------
+--------------File was closed successfully-------------
+
+
+--------------File was opened at 14:14:46--------------
+ERROR! size > capacity 
+
+ERROR! Value of canary has been changed
+
+ERROR! Value of hash has been changed
+
+stack_dump from file: Stack.cpp line 93 function: stack_pop stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = BADCAFE
+data end canary = 0
+
+
+hash = 31
+
+size = 4
+capacity = 3
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+ERROR! size > capacity 
+
+ERROR! Value of canary has been changed
+
+ERROR! Value of hash has been changed
+
+stack_dump from file: Stack.cpp line 93 function: stack_pop stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = BADCAFE
+data end canary = 0
+
+
+hash = 31
+
+size = 4
+capacity = 3
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+ERROR! size > capacity 
+
+ERROR! Value of canary has been changed
+
+ERROR! Value of hash has been changed
+
+stack_dump from file: Stack.cpp line 93 function: stack_pop stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = BADCAFE
+data end canary = 0
+
+
+hash = 31
+
+size = 4
+capacity = 3
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+ERROR! size > capacity 
+
+ERROR! Value of canary has been changed
+
+ERROR! Value of hash has been changed
+
+stack_dump from file: Stack.cpp line 50 function: stack_dtor stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = BADCAFE
+data end canary = 0
+
+
+hash = 31
+
+size = 4
+capacity = 3
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+--------------File was closed successfully-------------
+
+
+--------------File was opened at 14:14:46--------------
+ERROR! size > capacity 
+
+ERROR! Value of canary has been changed
+
+ERROR! Value of hash has been changed
+
+stack_dump from file: Stack.cpp line 93 function: stack_pop stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = BADCAFE
+data end canary = 0
+
+
+hash = 31
+
+size = 4
+capacity = 3
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+ERROR! size > capacity 
+
+ERROR! Value of canary has been changed
+
+ERROR! Value of hash has been changed
+
+stack_dump from file: Stack.cpp line 93 function: stack_pop stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = BADCAFE
+data end canary = 0
+
+
+hash = 31
+
+size = 4
+capacity = 3
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+ERROR! size > capacity 
+
+ERROR! Value of canary has been changed
+
+ERROR! Value of hash has been changed
+
+stack_dump from file: Stack.cpp line 93 function: stack_pop stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = BADCAFE
+data end canary = 0
+
+
+hash = 31
+
+size = 4
+capacity = 3
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+ERROR! size > capacity 
+
+ERROR! Value of canary has been changed
+
+ERROR! Value of hash has been changed
+
+stack_dump from file: Stack.cpp line 50 function: stack_dtor stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = BADCAFE
+data end canary = 0
+
+
+hash = 31
+
+size = 4
+capacity = 3
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+--------------File was closed successfully-------------
+
+
+--------------File was opened at 14:14:46--------------
+ERROR! size > capacity 
+
+ERROR! Value of canary has been changed
+
+ERROR! Value of hash has been changed
+
+stack_dump from file: Stack.cpp line 93 function: stack_pop stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = BADCAFE
+data end canary = 0
+
+
+hash = 31
+
+size = 4
+capacity = 3
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+ERROR! size > capacity 
+
+ERROR! Value of canary has been changed
+
+ERROR! Value of hash has been changed
+
+stack_dump from file: Stack.cpp line 93 function: stack_pop stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = BADCAFE
+data end canary = 0
+
+
+hash = 31
+
+size = 4
+capacity = 3
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+ERROR! size > capacity 
+
+ERROR! Value of canary has been changed
+
+ERROR! Value of hash has been changed
+
+stack_dump from file: Stack.cpp line 93 function: stack_pop stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = BADCAFE
+data end canary = 0
+
+
+hash = 31
+
+size = 4
+capacity = 3
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+ERROR! size > capacity 
+
+ERROR! Value of canary has been changed
+
+ERROR! Value of hash has been changed
+
+stack_dump from file: Stack.cpp line 50 function: stack_dtor stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = BADCAFE
+data end canary = 0
+
+
+hash = 31
+
+size = 4
+capacity = 3
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+--------------File was closed successfully-------------
+
+

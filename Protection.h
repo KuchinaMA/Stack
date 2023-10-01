@@ -14,14 +14,14 @@
 
 ///Constants that allow to find errors
 enum Errors {
-    no_errors         = 0,
-    stack_null        = 1,
-    data_null         = 1 << 1,
-    negative_size     = 1 << 2,
-    negative_capacity = 1 << 3,
-    small_capacity    = 1 << 4,
-    incorrect_canary  = 1 << 5,
-    incorrect_hash    = 1 << 6
+    NoErrors         = 0,
+    StackNull        = 1,
+    DataNull         = 1 << 1,
+    NegativeSize     = 1 << 2,
+    NegativeCapacity = 1 << 3,
+    SmallCapacity    = 1 << 4,
+    IncorrectCanary  = 1 << 5,
+    IncorrectHash    = 1 << 6
 };
 
 /** Checks if there are errors in stack

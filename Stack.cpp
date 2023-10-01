@@ -41,7 +41,7 @@ int stack_ctor(Stack *stk, int capacity) {
     }
 
     assert(stk->data != NULL);
-    return no_errors;
+    return NoErrors;
 }
 
 
@@ -63,7 +63,7 @@ int stack_dtor(Stack *stk) {
 
     USE_HASH(stk->hash = PoisonValue;)
 
-    return no_errors;
+    return NoErrors;
 
 }
 
@@ -72,7 +72,7 @@ int stack_push(Stack *stk, elem_t value) {
 
     STACK_VERIFY(stk);
 
-    if (stk->size == stk->capacity) {
+    if (stk->size >= stk->capacity) {
         stack_realloc(stk, ReallocCoeff*stk->capacity);
     }
 
@@ -84,7 +84,7 @@ int stack_push(Stack *stk, elem_t value) {
 
     STACK_VERIFY(stk);
 
-    return no_errors;
+    return NoErrors;
 }
 
 
@@ -92,7 +92,7 @@ int stack_pop(Stack *stk, elem_t *retvalue) {
 
     STACK_VERIFY(stk);
 
-    if ((stk->size - 1) == (stk->capacity)/ReallocCoeff) {
+    if ((stk->size - 1) <= (stk->capacity)/ReallocCoeff) {
         stack_realloc(stk, stk->capacity/ReallocCoeff);
     }
 
@@ -105,7 +105,7 @@ int stack_pop(Stack *stk, elem_t *retvalue) {
 
     STACK_VERIFY(stk);
 
-    return no_errors;
+    return NoErrors;
 }
 
 
@@ -135,7 +135,12 @@ int stack_realloc(Stack *stk, int newcapacity) {
     else {
         printf("Sorry! Capacity is too big, there's no enough memory");
     }
-    return no_errors;
+
+    USE_HASH(stk->hash = stack_calculate(stk);)
+
+    STACK_VERIFY(stk);
+
+    return NoErrors;
 }
 
 void stack_dump(const struct Stack *stk, const char *file, int line, const char *function, FILE* fp) {

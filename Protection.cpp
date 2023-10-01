@@ -24,25 +24,25 @@ int stack_verify (const struct Stack *stk) {
 
     int ans = 0;
 
-    if (stk == NULL)                                ans = ans | stack_null;
+    if (stk == NULL)                                ans = ans | StackNull;
 
-    if (stk->data == NULL)                          ans = ans | data_null;
+    if (stk->data == NULL)                          ans = ans | DataNull;
 
-    if (stk->size < 0)                              ans = ans | negative_size;
+    if (stk->size < 0)                              ans = ans | NegativeSize;
 
-    if (stk->capacity < 0)                          ans = ans | negative_capacity;
+    if (stk->capacity < 0)                          ans = ans | NegativeCapacity;
 
-    if (stk->capacity < stk->size)                  ans = ans | small_capacity;
+    if (stk->capacity < stk->size)                  ans = ans | SmallCapacity;
 
 
     USE_CANARIES(if (stk->canary1 != CanaryStack || stk->canary2 != CanaryStack ||
         *(canary_t *)(stk->data - 1) != CanaryData ||
         *(canary_t *)(stk->data + stk->capacity * sizeof(elem_t)) != CanaryData) {
 
-                                                    ans = ans | incorrect_canary;
+                                                    ans = ans | IncorrectCanary;
     })
 
-    USE_HASH(if (stk->hash != stack_calculate(stk)) ans = ans | incorrect_hash;)
+    USE_HASH(if (stk->hash != stack_calculate(stk)) ans = ans | IncorrectHash;)
 
     return ans;
 }
@@ -50,16 +50,16 @@ int stack_verify (const struct Stack *stk) {
 
 void print_errors(const struct Stack *stk, int err) {
 
-    if (err & stack_null)        fprintf(LOG_FILE, "ERROR! Pointer to stk is NULL\n\n");
-    if (err & data_null)         fprintf(LOG_FILE, "ERROR! Pointer to stk.data is NULL\n\n");
-    if (err & negative_size)     fprintf(LOG_FILE, "ERROR! size < 0\n\n");
-    if (err & negative_capacity) fprintf(LOG_FILE, "ERROR! capacity < 0\n\n");
-    if (err & small_capacity)    fprintf(LOG_FILE, "ERROR! size > capacity \n\n");
+    if (err & StackNull)        fprintf(LOG_FILE, "ERROR! Pointer to stk is NULL\n\n");
+    if (err & DataNull)         fprintf(LOG_FILE, "ERROR! Pointer to stk.data is NULL\n\n");
+    if (err & NegativeSize)     fprintf(LOG_FILE, "ERROR! size < 0\n\n");
+    if (err & NegativeCapacity) fprintf(LOG_FILE, "ERROR! capacity < 0\n\n");
+    if (err & SmallCapacity)    fprintf(LOG_FILE, "ERROR! size > capacity \n\n");
 
-    USE_CANARIES(if (err & incorrect_canary)  fprintf(LOG_FILE,
+    USE_CANARIES(if (err & IncorrectCanary)  fprintf(LOG_FILE,
                                                    "ERROR! Value of canary has been changed\n\n");)
 
-    USE_HASH(if (err & incorrect_hash)    fprintf(LOG_FILE,
+    USE_HASH(if (err & IncorrectHash)    fprintf(LOG_FILE,
                                                    "ERROR! Value of hash has been changed\n\n");)
 
 }
