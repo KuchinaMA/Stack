@@ -5,28 +5,30 @@
 #include "Protection.h"
 #include "Logfile.h"
 
-hash_t struct_hash_calculate(const struct Stack *stk) {
-
-    hash_t sum = 0;
-
-    for (int i = 0; i < stk->size; i++) {
-        sum += (hash_t)stk->data[i];
-    }
-
-    sum += (hash_t)stk->size;
-    sum += (hash_t)stk->capacity;
-
-    return sum;
-}
-
 hash_t data_hash_calculate(const struct Stack *stk) {
 
-    hash_t sum = 0;
+    hash_t hash = 5381;
+
+    for (size_t i = 0; i < stk->size; i++) {
+        hash = hash * 33 + (hash_t)stk->data[i];
+    }
+
+    return hash;
+}
+
+hash_t struct_hash_calculate(const struct Stack *stk) {
+
+    hash_t hash = 5381;
 
     for (int i = 0; i < stk->size; i++) {
-        sum += (hash_t)stk->data[i];
+        hash = hash * 33 + (hash_t)stk->data[i];
     }
-    return sum;
+
+    hash = hash * 33 + (hash_t)stk->size;
+    hash = hash * 33 + (hash_t)stk->capacity;
+    hash = hash * 33 + *(hash_t*)&(stk->name);
+
+    return hash;
 }
 
 

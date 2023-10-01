@@ -27605,3 +27605,803 @@ capacity = 10
 --------------File was closed successfully-------------
 
 
+--------------File was opened at 16:06:20--------------
+ERROR! Value of hash has been changed
+
+stack_dump from file: Stack.cpp line 75 function: stack_push stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = BADCAFE
+data end canary = BADCAFE
+
+
+data hash = 2.96088e+064
+
+struct hash = 5
+
+size = 0
+capacity = 5
+[0] = POISONED
+[1] = POISONED
+[2] = POISONED
+[3] = POISONED
+[4] = POISONED
+ERROR! Value of hash has been changed
+
+stack_dump from file: Stack.cpp line 75 function: stack_push stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = BADCAFE
+data end canary = BADCAFE
+
+
+data hash = 2.96088e+064
+
+struct hash = 5
+
+size = 0
+capacity = 5
+[0] = POISONED
+[1] = POISONED
+[2] = POISONED
+[3] = POISONED
+[4] = POISONED
+ERROR! Value of hash has been changed
+
+stack_dump from file: Stack.cpp line 75 function: stack_push stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = BADCAFE
+data end canary = BADCAFE
+
+
+data hash = 2.96088e+064
+
+struct hash = 5
+
+size = 0
+capacity = 5
+[0] = POISONED
+[1] = POISONED
+[2] = POISONED
+[3] = POISONED
+[4] = POISONED
+ERROR! Value of hash has been changed
+
+stack_dump from file: Stack.cpp line 75 function: stack_push stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = BADCAFE
+data end canary = BADCAFE
+
+
+data hash = 2.96088e+064
+
+struct hash = 5
+
+size = 0
+capacity = 5
+[0] = POISONED
+[1] = POISONED
+[2] = POISONED
+[3] = POISONED
+[4] = POISONED
+ERROR! Value of hash has been changed
+
+stack_dump from file: Stack.cpp line 75 function: stack_push stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = BADCAFE
+data end canary = BADCAFE
+
+
+data hash = 2.96088e+064
+
+struct hash = 5
+
+size = 0
+capacity = 5
+[0] = POISONED
+[1] = POISONED
+[2] = POISONED
+[3] = POISONED
+[4] = POISONED
+ERROR! Value of hash has been changed
+
+stack_dump from file: Stack.cpp line 75 function: stack_push stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = BADCAFE
+data end canary = BADCAFE
+
+
+data hash = 2.96088e+064
+
+struct hash = 5
+
+size = 0
+capacity = 5
+[0] = POISONED
+[1] = POISONED
+[2] = POISONED
+[3] = POISONED
+[4] = POISONED
+ERROR! Value of hash has been changed
+
+stack_dump from file: Stack.cpp line 96 function: stack_pop stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = BADCAFE
+data end canary = BADCAFE
+
+
+data hash = 2.96088e+064
+
+struct hash = 5
+
+size = 0
+capacity = 5
+[0] = POISONED
+[1] = POISONED
+[2] = POISONED
+[3] = POISONED
+[4] = POISONED
+ERROR! Value of hash has been changed
+
+stack_dump from file: Stack.cpp line 96 function: stack_pop stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = BADCAFE
+data end canary = BADCAFE
+
+
+data hash = 2.96088e+064
+
+struct hash = 5
+
+size = 0
+capacity = 5
+[0] = POISONED
+[1] = POISONED
+[2] = POISONED
+[3] = POISONED
+[4] = POISONED
+ERROR! Value of hash has been changed
+
+stack_dump from file: Stack.cpp line 96 function: stack_pop stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = BADCAFE
+data end canary = BADCAFE
+
+
+data hash = 2.96088e+064
+
+struct hash = 5
+
+size = 0
+capacity = 5
+[0] = POISONED
+[1] = POISONED
+[2] = POISONED
+[3] = POISONED
+[4] = POISONED
+ERROR! Value of hash has been changed
+
+stack_dump from file: Stack.cpp line 51 function: stack_dtor stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = BADCAFE
+data end canary = BADCAFE
+
+
+data hash = 2.96088e+064
+
+struct hash = 5
+
+size = 0
+capacity = 5
+[0] = POISONED
+[1] = POISONED
+[2] = POISONED
+[3] = POISONED
+[4] = POISONED
+--------------File was closed successfully-------------
+
+
+--------------File was opened at 16:06:20--------------
+ERROR! size > capacity 
+
+stack_dump from file: Stack.cpp line 146 function: stack_realloc stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = BADCAFE
+data end canary = BADCAFE
+
+
+data hash = 15
+
+struct hash = 26
+
+size = 6
+capacity = 5
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+*[4] = 4
+*[5] = 5
+--------------File was closed successfully-------------
+
+
+--------------File was opened at 16:06:20--------------
+ERROR! Value of hash has been changed
+
+stack_dump from file: Stack.cpp line 122 function: stack_realloc stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = BADCAFE
+data end canary = BADCAFE
+
+
+data hash = 15
+
+struct hash = 31
+
+size = 5
+capacity = 10
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+*[4] = 4
+[5] = POISONED
+[6] = POISONED
+[7] = POISONED
+[8] = POISONED
+[9] = POISONED
+ERROR! Value of hash has been changed
+
+stack_dump from file: Stack.cpp line 122 function: stack_realloc stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = BADCAFE
+data end canary = BADCAFE
+
+
+data hash = 10
+
+struct hash = 25
+
+size = 4
+capacity = 10
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+[4] = POISONED
+[5] = POISONED
+[6] = POISONED
+[7] = POISONED
+[8] = POISONED
+[9] = POISONED
+ERROR! Value of hash has been changed
+
+stack_dump from file: Stack.cpp line 122 function: stack_realloc stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = BADCAFE
+data end canary = BADCAFE
+
+
+data hash = 6
+
+struct hash = 20
+
+size = 3
+capacity = 10
+*[0] = 0
+*[1] = 1
+*[2] = 2
+[3] = POISONED
+[4] = POISONED
+[5] = POISONED
+[6] = POISONED
+[7] = POISONED
+[8] = POISONED
+[9] = POISONED
+--------------File was closed successfully-------------
+
+
+--------------File was opened at 16:06:20--------------
+--------------File was closed successfully-------------
+
+
+--------------File was opened at 16:06:20--------------
+ERROR! Value of hash has been changed
+
+stack_dump from file: Stack.cpp line 75 function: stack_push stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = BADCAFE
+data end canary = BADCAFE
+
+
+data hash = 2.96088e+064
+
+struct hash = 5
+
+size = 0
+capacity = 5
+[0] = POISONED
+[1] = POISONED
+[2] = POISONED
+[3] = POISONED
+[4] = POISONED
+ERROR! Value of hash has been changed
+
+stack_dump from file: Stack.cpp line 75 function: stack_push stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = BADCAFE
+data end canary = BADCAFE
+
+
+data hash = 2.96088e+064
+
+struct hash = 5
+
+size = 0
+capacity = 5
+[0] = POISONED
+[1] = POISONED
+[2] = POISONED
+[3] = POISONED
+[4] = POISONED
+ERROR! Value of hash has been changed
+
+stack_dump from file: Stack.cpp line 75 function: stack_push stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = BADCAFE
+data end canary = BADCAFE
+
+
+data hash = 2.96088e+064
+
+struct hash = 5
+
+size = 0
+capacity = 5
+[0] = POISONED
+[1] = POISONED
+[2] = POISONED
+[3] = POISONED
+[4] = POISONED
+ERROR! Value of hash has been changed
+
+stack_dump from file: Stack.cpp line 75 function: stack_push stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = BADCAFE
+data end canary = BADCAFE
+
+
+data hash = 2.96088e+064
+
+struct hash = 5
+
+size = 0
+capacity = 5
+[0] = POISONED
+[1] = POISONED
+[2] = POISONED
+[3] = POISONED
+[4] = POISONED
+ERROR! Value of hash has been changed
+
+stack_dump from file: Stack.cpp line 75 function: stack_push stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = BADCAFE
+data end canary = BADCAFE
+
+
+data hash = 2.96088e+064
+
+struct hash = 5
+
+size = 0
+capacity = 5
+[0] = POISONED
+[1] = POISONED
+[2] = POISONED
+[3] = POISONED
+[4] = POISONED
+ERROR! Value of hash has been changed
+
+stack_dump from file: Stack.cpp line 75 function: stack_push stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = BADCAFE
+data end canary = BADCAFE
+
+
+data hash = 2.96088e+064
+
+struct hash = 5
+
+size = 0
+capacity = 5
+[0] = POISONED
+[1] = POISONED
+[2] = POISONED
+[3] = POISONED
+[4] = POISONED
+ERROR! Value of hash has been changed
+
+stack_dump from file: Stack.cpp line 96 function: stack_pop stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = BADCAFE
+data end canary = BADCAFE
+
+
+data hash = 2.96088e+064
+
+struct hash = 5
+
+size = 0
+capacity = 5
+[0] = POISONED
+[1] = POISONED
+[2] = POISONED
+[3] = POISONED
+[4] = POISONED
+ERROR! Value of hash has been changed
+
+stack_dump from file: Stack.cpp line 96 function: stack_pop stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = BADCAFE
+data end canary = BADCAFE
+
+
+data hash = 2.96088e+064
+
+struct hash = 5
+
+size = 0
+capacity = 5
+[0] = POISONED
+[1] = POISONED
+[2] = POISONED
+[3] = POISONED
+[4] = POISONED
+ERROR! Value of hash has been changed
+
+stack_dump from file: Stack.cpp line 96 function: stack_pop stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = BADCAFE
+data end canary = BADCAFE
+
+
+data hash = 2.96088e+064
+
+struct hash = 5
+
+size = 0
+capacity = 5
+[0] = POISONED
+[1] = POISONED
+[2] = POISONED
+[3] = POISONED
+[4] = POISONED
+ERROR! Value of hash has been changed
+
+stack_dump from file: Stack.cpp line 51 function: stack_dtor stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = BADCAFE
+data end canary = BADCAFE
+
+
+data hash = 2.96088e+064
+
+struct hash = 5
+
+size = 0
+capacity = 5
+[0] = POISONED
+[1] = POISONED
+[2] = POISONED
+[3] = POISONED
+[4] = POISONED
+--------------File was closed successfully-------------
+
+
+--------------File was opened at 16:06:20--------------
+--------------File was closed successfully-------------
+
+
+--------------File was opened at 16:06:20--------------
+--------------File was closed successfully-------------
+
+
+--------------File was opened at 16:27:06--------------
+ERROR! Value of hash has been changed
+
+stack_dump from file: Stack.cpp line 96 function: stack_pop stack: aboba
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = BADCAFE
+data end canary = BADCAFE
+
+
+data hash = 6.94939e+012
+
+struct hash = -8.17113e+043
+
+size = 6
+capacity = 10
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+*[4] = 4
+*[5] = 5
+[6] = POISONED
+[7] = POISONED
+[8] = POISONED
+[9] = POISONED
+ERROR! Value of hash has been changed
+
+stack_dump from file: Stack.cpp line 96 function: stack_pop stack: aboba
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = BADCAFE
+data end canary = BADCAFE
+
+
+data hash = 6.94939e+012
+
+struct hash = -8.17113e+043
+
+size = 6
+capacity = 10
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+*[4] = 4
+*[5] = 5
+[6] = POISONED
+[7] = POISONED
+[8] = POISONED
+[9] = POISONED
+ERROR! Value of hash has been changed
+
+stack_dump from file: Stack.cpp line 96 function: stack_pop stack: aboba
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = BADCAFE
+data end canary = BADCAFE
+
+
+data hash = 6.94939e+012
+
+struct hash = -8.17113e+043
+
+size = 6
+capacity = 10
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+*[4] = 4
+*[5] = 5
+[6] = POISONED
+[7] = POISONED
+[8] = POISONED
+[9] = POISONED
+ERROR! Value of hash has been changed
+
+stack_dump from file: Stack.cpp line 51 function: stack_dtor stack: aboba
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = BADCAFE
+data end canary = BADCAFE
+
+
+data hash = 6.94939e+012
+
+struct hash = -8.17113e+043
+
+size = 6
+capacity = 10
+*[0] = 0
+*[1] = 1
+*[2] = 2
+*[3] = 3
+*[4] = 4
+*[5] = 5
+[6] = POISONED
+[7] = POISONED
+[8] = POISONED
+[9] = POISONED
+--------------File was closed successfully-------------
+
+
+--------------File was opened at 16:27:36--------------
+ERROR! Value of hash has been changed
+
+stack_dump from file: Stack.cpp line 96 function: stack_pop stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = BADCAFE
+data end canary = BADCAFE
+
+
+data hash = 6.94939e+012
+
+struct hash = -8.17113e+043
+
+size = 6
+capacity = 10
+*[0] = 1000
+*[1] = 1
+*[2] = 2
+*[3] = 3
+*[4] = 4
+*[5] = 5
+[6] = POISONED
+[7] = POISONED
+[8] = POISONED
+[9] = POISONED
+ERROR! Value of hash has been changed
+
+stack_dump from file: Stack.cpp line 96 function: stack_pop stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = BADCAFE
+data end canary = BADCAFE
+
+
+data hash = 6.94939e+012
+
+struct hash = -8.17113e+043
+
+size = 6
+capacity = 10
+*[0] = 1000
+*[1] = 1
+*[2] = 2
+*[3] = 3
+*[4] = 4
+*[5] = 5
+[6] = POISONED
+[7] = POISONED
+[8] = POISONED
+[9] = POISONED
+ERROR! Value of hash has been changed
+
+stack_dump from file: Stack.cpp line 96 function: stack_pop stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = BADCAFE
+data end canary = BADCAFE
+
+
+data hash = 6.94939e+012
+
+struct hash = -8.17113e+043
+
+size = 6
+capacity = 10
+*[0] = 1000
+*[1] = 1
+*[2] = 2
+*[3] = 3
+*[4] = 4
+*[5] = 5
+[6] = POISONED
+[7] = POISONED
+[8] = POISONED
+[9] = POISONED
+ERROR! Value of hash has been changed
+
+stack_dump from file: Stack.cpp line 51 function: stack_dtor stack: stk
+
+struct beginning canary = DEADBEEF
+struct end canary = DEADBEEF
+
+data beginning canary = BADCAFE
+data end canary = BADCAFE
+
+
+data hash = 6.94939e+012
+
+struct hash = -8.17113e+043
+
+size = 6
+capacity = 10
+*[0] = 1000
+*[1] = 1
+*[2] = 2
+*[3] = 3
+*[4] = 4
+*[5] = 5
+[6] = POISONED
+[7] = POISONED
+[8] = POISONED
+[9] = POISONED
+--------------File was closed successfully-------------
+
+
+--------------File was opened at 16:29:08--------------
+--------------File was closed successfully-------------
+
+

@@ -95,7 +95,7 @@ int stack_pop(Stack *stk, elem_t *retvalue) {
 
     STACK_VERIFY(stk);
 
-    if ((stk->size - 1) <= (stk->capacity)/ReallocCoeff) {
+    if ((stk->size - 1) < (stk->capacity)/ReallocCoeff) {
         stack_realloc(stk, stk->capacity/ReallocCoeff);
     }
 

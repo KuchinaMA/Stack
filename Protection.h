@@ -30,12 +30,16 @@ enum Errors {
 */
 int stack_verify (const struct Stack *stk);
 
-/** Hash function for stack
+/** Hash function for stack structure
  * \param [in] stk pointer to structure with stack
  * \returns hash value
 */
 hash_t struct_hash_calculate(const struct Stack *stk);
 
+/** Hash function for stack data
+ * \param [in] stk pointer to structure with stack
+ * \returns hash value
+*/
 hash_t data_hash_calculate(const struct Stack *stk);
 
 /** Prints messages about errors in stack if there are any

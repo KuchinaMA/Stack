@@ -25,6 +25,8 @@ int main() {
     //stk.capacity = 3;
     //stk.size = 4;
 
+    //stk.name = "aboba";
+
     elem_t x = 0;
 
     for (int i = 0; i < 3; i++) {
