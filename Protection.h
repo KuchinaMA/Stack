@@ -34,7 +34,9 @@ int stack_verify (const struct Stack *stk);
  * \param [in] stk pointer to structure with stack
  * \returns hash value
 */
-hash_t stack_calculate(const struct Stack *stk);
+hash_t struct_hash_calculate(const struct Stack *stk);
+
+hash_t data_hash_calculate(const struct Stack *stk);
 
 /** Prints messages about errors in stack if there are any
  * \param [in] stk pointer to structure with stack

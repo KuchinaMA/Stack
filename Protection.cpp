@@ -5,7 +5,7 @@
 #include "Protection.h"
 #include "Logfile.h"
 
-hash_t stack_calculate(const struct Stack *stk) {
+hash_t struct_hash_calculate(const struct Stack *stk) {
 
     hash_t sum = 0;
 
@@ -16,6 +16,16 @@ hash_t stack_calculate(const struct Stack *stk) {
     sum += (hash_t)stk->size;
     sum += (hash_t)stk->capacity;
 
+    return sum;
+}
+
+hash_t data_hash_calculate(const struct Stack *stk) {
+
+    hash_t sum = 0;
+
+    for (int i = 0; i < stk->size; i++) {
+        sum += (hash_t)stk->data[i];
+    }
     return sum;
 }
 
@@ -42,7 +52,8 @@ int stack_verify (const struct Stack *stk) {
                                                     ans = ans | IncorrectCanary;
     })
 
-    USE_HASH(if (stk->hash != stack_calculate(stk)) ans = ans | IncorrectHash;)
+    USE_HASH(if (stk->data_hash != data_hash_calculate(stk)) ans = ans | IncorrectHash;
+             if (stk->struct_hash != struct_hash_calculate(stk)) ans = ans | IncorrectHash;)
 
     return ans;
 }

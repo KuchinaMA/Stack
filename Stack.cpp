@@ -37,7 +37,8 @@ int stack_ctor(Stack *stk, int capacity) {
         *(canary_t *)(stk->data + stk->capacity * sizeof(elem_t)) = CanaryData;)
 
 
-        USE_HASH(stk->hash = stack_calculate(stk);)
+        USE_HASH(stk->data_hash = data_hash_calculate(stk);
+                 stk->struct_hash = struct_hash_calculate(stk);)
     }
 
     assert(stk->data != NULL);
@@ -61,7 +62,8 @@ int stack_dtor(Stack *stk) {
     stk->capacity = PoisonValue;
 
 
-    USE_HASH(stk->hash = PoisonValue;)
+    USE_HASH(stk->data_hash = PoisonValue;
+             stk->struct_hash = PoisonValue;)
 
     return NoErrors;
 
@@ -80,7 +82,8 @@ int stack_push(Stack *stk, elem_t value) {
     stk->size ++;
 
 
-    USE_HASH(stk->hash = stack_calculate(stk);)
+    USE_HASH(stk->data_hash = data_hash_calculate(stk);
+             stk->struct_hash = struct_hash_calculate(stk);)
 
     STACK_VERIFY(stk);
 
@@ -101,7 +104,8 @@ int stack_pop(Stack *stk, elem_t *retvalue) {
     stk->data[stk->size] = PoisonValue;
 
 
-    USE_HASH(stk->hash = stack_calculate(stk);)
+    USE_HASH(stk->data_hash = data_hash_calculate(stk);
+             stk->struct_hash = struct_hash_calculate(stk);)
 
     STACK_VERIFY(stk);
 
@@ -136,7 +140,8 @@ int stack_realloc(Stack *stk, int newcapacity) {
         printf("Sorry! Capacity is too big, there's no enough memory");
     }
 
-    USE_HASH(stk->hash = stack_calculate(stk);)
+    USE_HASH(stk->data_hash = data_hash_calculate(stk);
+             stk->struct_hash = struct_hash_calculate(stk);)
 
     STACK_VERIFY(stk);
 
@@ -155,7 +160,8 @@ void stack_dump(const struct Stack *stk, const char *file, int line, const char 
     fprintf(fp, "data end canary = %X\n\n\n", *(canary_t *)(stk->data +
                                             stk->capacity * sizeof(elem_t)));)
 
-    USE_HASH(fprintf(fp, "hash = " ELEMF "\n\n", stk->hash);)
+    USE_HASH(fprintf(fp, "data hash = " ELEMF "\n\n", stk->data_hash);
+             fprintf(fp, "struct hash = " ELEMF "\n\n", stk->struct_hash);)
 
     fprintf(fp, "size = %d\n", stk->size);
     fprintf(fp, "capacity = %d\n", stk->capacity);

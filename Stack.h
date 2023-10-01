@@ -49,7 +49,8 @@ struct Stack {
     int capacity;
     const char *name;
 
-    USE_HASH(elem_t hash;)
+    USE_HASH(elem_t data_hash;
+             elem_t struct_hash;)
 
     USE_CANARIES(canary_t canary2;)
 };
