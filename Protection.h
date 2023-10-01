@@ -3,11 +3,12 @@
 
 #include <stdio.h>
 #include "Types.h"
+#include "Stack.h"
 
 #define STACK_VERIFY(stk) {int err = stack_verify(stk); \
             if (err > 0) { \
                 print_errors(stk, err); \
-                stack_dump_err((stk), __FILE__, __LINE__, __func__, LOG_FILE);  \
+                stack_dump((stk), __FILE__, __LINE__, __func__, LOG_FILE);  \
             return err; } \
 }
 
@@ -40,16 +41,6 @@ hash_t stack_calculate(const struct Stack *stk);
  * \param [in] err a number that allows to identify all errors
 */
 void print_errors(const struct Stack *stk, int err);
-
-/** Prints all information about stack to logfile if there are any errors
- * \param [in] stk pointer to structure with stack
- * \param [in] file name of file in which there is an error
- * \param [in] line number of line with error in code
- * \param [in] function name of function with error
- * \param [in] fp a file where errors will be recorded
-*/
-void stack_dump_err(const struct Stack *stk, const char *file, int line,
-                                         const char *function, FILE* fp);
 
 
 #endif // PROTECTION_H_INCLUDED

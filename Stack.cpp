@@ -138,30 +138,29 @@ int stack_realloc(Stack *stk, int newcapacity) {
     return no_errors;
 }
 
+void stack_dump(const struct Stack *stk, const char *file, int line, const char *function, FILE* fp) {
 
-void stack_dump(const struct Stack *stk, const char *file, int line, const char *function) {
-
-    printf("stack_dump from file: %s line %d function: %s stack: %s\n\n",
-                                        file, line, function, stk->name);
-
-
-    USE_CANARIES(printf("struct beginning canary = %X\n", stk->canary1);
-    printf("struct end canary = %X\n\n", stk->canary2);
-    printf("data beginning canary = %X\n", *(canary_t *)(stk->data - 1));
-    printf("data end canary = %X\n\n\n", *(canary_t *)(stk->data + stk->capacity * sizeof(elem_t)));)
+    fprintf(fp, "stack_dump from file: %s line %d function: %s stack: %s\n\n",
+                                             file, line, function, stk->name);
 
 
-    USE_HASH(printf("hash = " ELEMF "\n\n", stk->hash);)
+    USE_CANARIES(fprintf(fp, "struct beginning canary = %X\n", stk->canary1);
+    fprintf(fp, "struct end canary = %X\n\n", stk->canary2);
+    fprintf(fp, "data beginning canary = %X\n", *(canary_t *)(stk->data - 1));
+    fprintf(fp, "data end canary = %X\n\n\n", *(canary_t *)(stk->data +
+                                            stk->capacity * sizeof(elem_t)));)
 
-    printf("size = %d\n", stk->size);
-    printf("capacity = %d\n", stk->capacity);
+    USE_HASH(fprintf(fp, "hash = " ELEMF "\n\n", stk->hash);)
+
+    fprintf(fp, "size = %d\n", stk->size);
+    fprintf(fp, "capacity = %d\n", stk->capacity);
 
     for (int i = 0; i < stk->size; i++) {
-        printf("*[%d] = " ELEMF "\n", i, stk->data[i]);
+        fprintf(fp, "*[%d] = " ELEMF "\n", i, stk->data[i]);
     }
 
     for (int i = stk->size; i < stk->capacity; i++) {
-        printf("[%d] = POISONED\n", i);
+        fprintf(fp, "[%d] = POISONED\n", i);
     }
 
 }

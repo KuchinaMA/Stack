@@ -8,7 +8,7 @@ struct Stack var = {};                          \
 stack_ctor(&var, elements_quantity);            \
 var.name = #var;
 
-#define PRINT_STACK(stk) stack_dump((stk), __FILE__, __LINE__, __func__);
+#define PRINT_STACK(stk) stack_dump((stk), __FILE__, __LINE__, __func__, stdout);
 
 
 #define CANARY_MODE
@@ -98,8 +98,9 @@ int stack_realloc(Stack *stk, int newcapacity);
  * \param [in] file name of file from which stack is printed
  * \param [in] line number of line in code from which stack is printed
  * \param [in] function name of function from which stack is printed
+ * \param [in] fp a file where errors will be recorded
 */
-void stack_dump(const struct Stack *stk, const char *file, int line, const char *function);
+void stack_dump(const struct Stack *stk, const char *file, int line, const char *function, FILE* fp);
 
 
 #endif // STACK_H_INCLUDED

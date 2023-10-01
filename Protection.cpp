@@ -64,30 +64,3 @@ void print_errors(const struct Stack *stk, int err) {
 
 }
 
-
-void stack_dump_err(const struct Stack *stk, const char *file, int line, const char *function, FILE* fp) {
-
-    fprintf(fp, "stack_dump from file: %s line %d function: %s stack: %s\n\n",
-                                             file, line, function, stk->name);
-
-
-    USE_CANARIES(fprintf(fp, "struct beginning canary = %X\n", stk->canary1);
-    fprintf(fp, "struct end canary = %X\n\n", stk->canary2);
-    fprintf(fp, "data beginning canary = %X\n", *(canary_t *)(stk->data - 1));
-    fprintf(fp, "data end canary = %X\n\n\n", *(canary_t *)(stk->data +
-                                            stk->capacity * sizeof(elem_t)));)
-
-    USE_HASH(fprintf(fp, "hash = " ELEMF "\n\n", stk->hash);)
-
-    fprintf(fp, "size = %d\n", stk->size);
-    fprintf(fp, "capacity = %d\n", stk->capacity);
-
-    for (int i = 0; i < stk->size; i++) {
-        fprintf(fp, "*[%d] = " ELEMF "\n", i, stk->data[i]);
-    }
-
-    for (int i = stk->size; i < stk->capacity; i++) {
-        fprintf(fp, "[%d] = POISONED\n", i);
-    }
-
-}
