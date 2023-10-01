@@ -9,7 +9,7 @@
             if (err > 0) { \
                 print_errors(stk, err); \
                 stack_dump((stk), __FILE__, __LINE__, __func__, LOG_FILE);  \
-            return err; } \
+                return err; } \
 }
 
 ///Constants that allow to find errors

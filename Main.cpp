@@ -13,7 +13,7 @@ int main() {
 
     PRINT_STACK(&stk);
 
-    for (elem_t i = 0; i < 6; i++) {
+    for (elem_t i = 0; i < 3; i++) {
         int x = stack_push(&stk, i);
         PRINT_STACK(&stk);
     }
@@ -27,12 +27,12 @@ int main() {
 
     //stk.name = "aboba";
 
-    elem_t x = 0;
+    /*elem_t x = 0;
 
     for (int i = 0; i < 3; i++) {
         int t = stack_pop(&stk, &x);
         PRINT_STACK(&stk);
-    }
+    } */
 
     stack_dtor(&stk);
 

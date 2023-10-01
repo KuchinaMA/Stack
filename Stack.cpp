@@ -25,6 +25,9 @@ int stack_ctor(Stack *stk, int capacity) {
 
     if (stk->data == NULL) {
         printf("Sorry! Capacity is too big, there's no enough memory");
+        fprintf(LOG_FILE, "In function: %s ERROR! Pointer to stk.data is NULL\n\n", __func__);
+
+        return DataNull;
     }
     else {
 
@@ -41,7 +44,6 @@ int stack_ctor(Stack *stk, int capacity) {
                  stk->struct_hash = struct_hash_calculate(stk);)
     }
 
-    assert(stk->data != NULL);
     return NoErrors;
 }
 
@@ -138,6 +140,9 @@ int stack_realloc(Stack *stk, int newcapacity) {
     }
     else {
         printf("Sorry! Capacity is too big, there's no enough memory");
+        fprintf(LOG_FILE, "In function: %s ERROR! Pointer to stk.data is NULL\n\n", __func__);
+
+        return DataNull;
     }
 
     USE_HASH(stk->data_hash = data_hash_calculate(stk);

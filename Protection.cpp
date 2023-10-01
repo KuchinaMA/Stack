@@ -9,8 +9,11 @@ hash_t data_hash_calculate(const struct Stack *stk) {
 
     hash_t hash = 5381;
 
-    for (size_t i = 0; i < stk->size; i++) {
-        hash = hash * 33 + (hash_t)stk->data[i];
+    char *data_byte_ptr = (char *) stk->data;
+    size_t data_byte_size = (size_t) stk->size * sizeof(elem_t);
+
+    for(size_t i = 0; i < data_byte_size; ++i) {
+        hash = ((hash << 5) + hash) ^ data_byte_ptr[i];
     }
 
     return hash;
@@ -20,13 +23,11 @@ hash_t struct_hash_calculate(const struct Stack *stk) {
 
     hash_t hash = 5381;
 
-    for (int i = 0; i < stk->size; i++) {
-        hash = hash * 33 + (hash_t)stk->data[i];
-    }
+    hash = data_hash_calculate(stk);
 
-    hash = hash * 33 + (hash_t)stk->size;
-    hash = hash * 33 + (hash_t)stk->capacity;
-    hash = hash * 33 + *(hash_t*)&(stk->name);
+    hash = ((hash << 5) + hash) ^ (char)stk->size;
+    hash = ((hash << 5) + hash) ^ (char)stk->capacity;
+    hash = ((hash << 5) + hash) ^ (hash_t)&stk->name;
 
     return hash;
 }

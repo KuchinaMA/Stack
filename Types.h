@@ -6,14 +6,14 @@
 //#define ELEMF "%lld"
 //typedef long long int elem_t;
 
-#define ELEMF "%lg"
+#define ELEMF "%lld"
 ///Type of elements in stack data
-typedef double elem_t;
+typedef long long int elem_t;
 ///Value that elem_t elements will have after destruction
 const elem_t PoisonValue = -1;
 
 ///Type of hash value
-typedef double hash_t;
+typedef long long int hash_t;
 
 ///Type of canaries
 typedef unsigned long long canary_t;
