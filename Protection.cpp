@@ -12,7 +12,7 @@ hash_t data_hash_calculate(const struct Stack *stk) {
     char *data_byte_ptr = (char *) stk->data;
     size_t data_byte_size = (size_t) stk->size * sizeof(elem_t);
 
-    for(size_t i = 0; i < data_byte_size; ++i) {
+    for(size_t i = 1; i <= data_byte_size; ++i) {
         hash = ((hash << 5) + hash) ^ data_byte_ptr[i];
     }
 

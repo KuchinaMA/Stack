@@ -11,7 +11,6 @@
 int stack_ctor(Stack *stk, int capacity) {
 
     assert(stk != NULL);
-    assert(capacity > 0);
 
     int needed_capacity = capacity * sizeof(elem_t);
 
